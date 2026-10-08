@@ -1,0 +1,311 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "f7bdb655826f4d6e659500132136771745bf7c52fb1d5760b1f8ad2ad82fd77e",
+  "predictions_file": "first-row-extended-predictions.json",
+  "all_predictions_precede_reference": true,
+  "cases": [
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3472,
+        4640
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "e484b8fbb62752236cc155f516797c94bad05f54ec1b267059b789d8e2d7dbec",
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "tested_row": 0,
+      "sample_count": 4640,
+      "reference_row_sha256_le_u16": "9932866a941b5e7bdf5630f4a794477bb84658bdbf8a61f70a3e9d946a5f4d88",
+      "reference_first_values": [
+        876,
+        1624,
+        902,
+        1640,
+        882,
+        1621,
+        885,
+        1628,
+        911,
+        1658,
+        893,
+        1612,
+        892,
+        1640,
+        882,
+        1615
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 219,
+          "first_mismatch_xy": [
+            4421,
+            0
+          ],
+          "first_candidate_value": 462,
+          "first_reference_value": 734
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914",
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "9dc4cc8de049bdc5ec8c3778567e89caf846daabaa49e9f2ed2a035deaa44f7d",
+      "reference_first_values": [
+        656,
+        1521,
+        683,
+        1550,
+        679,
+        1595,
+        675,
+        1566,
+        688,
+        1557,
+        690,
+        1545,
+        668,
+        1528,
+        669,
+        1499
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 4134,
+          "first_mismatch_xy": [
+            1105,
+            0
+          ],
+          "first_candidate_value": 2061,
+          "first_reference_value": 2257
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "0efe1a38586eda1162abd534b78ec3ed00a147cdcc9dacae76a43d4b9a238f9c",
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "d6b24fa541e274b6f80ec8538e19644876217b15e11b554816e809821f0726d0",
+      "reference_first_values": [
+        263,
+        267,
+        262,
+        265,
+        261,
+        266,
+        261,
+        265,
+        265,
+        265,
+        264,
+        264,
+        264,
+        264,
+        263,
+        265
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "09630ade7c0b48dccb11bfb4c092580eac4d9423c380b975129ef700dcadf419",
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "682e77ff5a556ef5188eec509ce7a287007e9c6d56ee42105543fc92fa1ca3bf",
+      "reference_first_values": [
+        314,
+        328,
+        319,
+        328,
+        314,
+        320,
+        308,
+        320,
+        314,
+        326,
+        317,
+        312,
+        308,
+        328,
+        323,
+        331
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "f7bdb655826f4d6e659500132136771745bf7c52fb1d5760b1f8ad2ad82fd77e",
+  "predictions_file": "first-row-escape-predictions.json",
+  "all_predictions_precede_reference": true,
+  "cases": [
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+      "reference_first_values": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3904,
+        5200
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5200,
+          3904
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5200,
+          3904
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "71113597675b824f75f14285008ae2a3e249560b11cf9501e9547faf6e5e91bb",
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "tested_row": 0,
+      "sample_count": 5200,
+      "reference_row_sha256_le_u16": "cca9b9a449df22cedf0ecb17c0f9451e5f88c35b4488c516f1df5b42ab94aaef",
+      "reference_first_values": [
+        1163,
+        1566,
+        1173,
+        1605,
+        1150,
+        1642,
+        1213,
+        1686,
+        1209,
+        1707,
+        1284,
+        1683,
+        1222,
+        1591,
+        1160,
+        1543
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "different_samples": 4861,
+          "first_mismatch_xy": [
+            339,
+            0
+          ],
+          "first_candidate_value": 1493,
+          "first_reference_value": 1341
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3016,
+        4040
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          4040,
+          3016
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4014,
+          3016
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2",
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "tested_row": 0,
+      "sample_count": 4040,
+      "reference_row_sha256_le_u16": "d2fc4d78b9c9197f77a88b259d467439a8c6e01d154fa441bacf845736f99296",
+      "reference_first_values": [
+        738,
+        499,
+        839,
+        490,
+        691,
+        617,
+        804,
+        744,
+        1108,
+        832,
+        1558,
+        869,
+        1616,
+        802,
+        1747,
+        617
+      ],
+      "comparisons": [
+        {
+          "model_id": "E00",
+          "candidate_error": true
+        },
+        {
+          "model_id": "E01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "E02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    }
+  ]
+}

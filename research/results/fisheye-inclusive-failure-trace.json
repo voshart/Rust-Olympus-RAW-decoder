@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+  "model": {
+    "id": "R01",
+    "bias": {
+      "a": 3,
+      "b": 1,
+      "shift": 5,
+      "rounding": 0
+    },
+    "width": {
+      "decay_shift": null,
+      "small_threshold_log2": 4,
+      "required_small_count": 3,
+      "stable_base": 2,
+      "stable_shift": 0,
+      "inclusive_small_threshold": true
+    }
+  },
+  "predictor_method_sha256": "bd7cd7d925164e0ab3d5b36a411d83825369adf88ded93d8530ef4501febcfd2",
+  "interpretation": "candidate-trace-only",
+  "tokens": [
+    {
+      "x": 738,
+      "start_bit": 6005,
+      "end_bit_exclusive": 6011,
+      "k": 2,
+      "flags": 0,
+      "zeros": 0,
+      "q": 2,
+      "signed_high": 2,
+      "difference": 1,
+      "sample": 302,
+      "state_before": [
+        0,
+        6,
+        -1,
+        298
+      ],
+      "state_after": [
+        2,
+        7,
+        0,
+        302
+      ]
+    },
+    {
+      "x": 739,
+      "start_bit": 6011,
+      "end_bit_exclusive": 6018,
+      "k": 2,
+      "flags": 2,
+      "zeros": 1,
+      "q": 5,
+      "signed_high": 5,
+      "difference": 4,
+      "sample": 361,
+      "state_before": [
+        1,
+        3,
+        -1,
+        343
+      ],
+      "state_after": [
+        5,
+        4,
+        0,
+        361
+      ]
+    },
+    {
+      "x": 740,
+      "start_bit": 6018,
+      "end_bit_exclusive": 6025,
+      "k": 2,
+      "flags": 1,
+      "zeros": 1,
+      "q": 4,
+      "signed_high": 4,
+      "difference": 4,
+      "sample": 319,
+      "state_before": [
+        2,
+        7,
+        0,
+        302
+      ],
+      "state_after": [
+        4,
+        8,
+        0,
+        319
+      ]
+    },
+    {
+      "x": 741,
+      "start_bit": 6025,
+      "end_bit_exclusive": 6032,
+      "k": 3,
+      "flags": 2,
+      "zeros": 0,
+      "q": 0,
+      "signed_high": 0,
+      "difference": 0,
+      "sample": 363,
+      "state_before": [
+        5,
+        4,
+        0,
+        361
+      ],
+      "state_after": [
+        0,
+        5,
+        0,
+        363
+      ]
+    },
+    {
+      "x": 742,
+      "start_bit": 6032,
+      "end_bit_exclusive": 6039,
+      "k": 3,
+      "flags": 3,
+      "zeros": 0,
+      "q": 3,
+      "signed_high": 3,
+      "difference": 3,
+      "sample": 334,
+      "state_before": [
+        4,
+        8,
+        0,
+        319
+      ],
+      "state_after": [
+        3,
+        9,
+        0,
+        334
+      ]
+    },
+    {
+      "x": 743,
+      "start_bit": 6039,
+      "end_bit_exclusive": 6051,
+      "k": 2,
+      "flags": 1,
+      "zeros": 6,
+      "q": 25,
+      "signed_high": 25,
+      "difference": 25,
+      "sample": 464,
+      "state_before": [
+        0,
+        5,
+        0,
+        363
+      ],
+      "state_after": [
+        25,
+        0,
+        2,
+        464
+      ]
+    },
+    {
+      "x": 744,
+      "start_bit": 6051,
+      "end_bit_exclusive": 6080,
+      "k": 2,
+      "flags": 1,
+      "zeros": 12,
+      "q": 15,
+      "signed_high": 15,
+      "difference": 15,
+      "sample": 395,
+      "state_before": [
+        3,
+        9,
+        0,
+        334
+      ],
+      "state_after": [
+        15,
+        10,
+        1,
+        395
+      ]
+    },
+    {
+      "x": 745,
+      "start_bit": 6080,
+      "end_bit_exclusive": 6088,
+      "k": 4,
+      "flags": 0,
+      "zeros": 0,
+      "q": 0,
+      "signed_high": 0,
+      "difference": 2,
+      "sample": 472,
+      "state_before": [
+        25,
+        0,
+        2,
+        464
+      ],
+      "state_after": [
+        0,
+        1,
+        0,
+        472
+      ]
+    },
+    {
+      "x": 746,
+      "start_bit": 6088,
+      "end_bit_exclusive": 6100,
+      "k": 4,
+      "flags": 1,
+      "zeros": 4,
+      "q": 64,
+      "signed_high": 64,
+      "difference": 65,
+      "sample": 656,
+      "state_before": [
+        15,
+        10,
+        1,
+        395
+      ],
+      "state_after": [
+        64,
+        0,
+        6,
+        656
+      ]
+    },
+    {
+      "x": 747,
+      "start_bit": 6100,
+      "end_bit_exclusive": 6110,
+      "k": 4,
+      "flags": 6,
+      "zeros": 2,
+      "q": 44,
+      "signed_high": -45,
+      "difference": -45,
+      "sample": 294,
+      "state_before": [
+        0,
+        1,
+        0,
+        472
+      ],
+      "state_after": [
+        44,
+        0,
+        -5,
+        294
+      ]
+    }
+  ]
+}

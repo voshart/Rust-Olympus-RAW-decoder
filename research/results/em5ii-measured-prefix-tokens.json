@@ -1,0 +1,663 @@
+{
+  "schema": 1,
+  "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+  "source_reports": [
+    {
+      "file": "em5ii-bit-influence-7-14.json",
+      "sha256": "1634a63e416a4dae11782360387029695a593aaafb308816055c97d48542dd07"
+    },
+    {
+      "file": "em5ii-bit-influence-15-22.json",
+      "sha256": "f44ba396cb4cf1febe9b68d7ff99fe2ca45f0a54a01a47dcdbb0eab1dd7e41da"
+    },
+    {
+      "file": "em5ii-bit-influence-23-30.json",
+      "sha256": "f8fb7b0dd84636fa560006452751c7385cc8a938e080eb597e7dee8e63eeeadf"
+    },
+    {
+      "file": "em5ii-bit-influence-32-39.json",
+      "sha256": "cb51fb2a6c139b56974838cd6a56ffd04d918c4b63f598c962c8b41ab283248f"
+    }
+  ],
+  "method_sha256": "2051adc232d6f81d16cefe1ddced24038f0f2d0f4152d78046234054ebf99724",
+  "interpretation": "measured-first-row-token-boundaries-only",
+  "tokens": [
+    {
+      "x": 0,
+      "start_bit": 56,
+      "end_bit_exclusive": 87,
+      "flags": 0,
+      "zeros": 12,
+      "quotient": 13,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 11,
+      "unsigned_high": 219,
+      "sign_mutation_inferred_high": 219,
+      "high_matches_mutation": true,
+      "signed_high": 219,
+      "raw_signed_code": 876,
+      "sample": 876,
+      "predictor_corrections": {
+        "zero": 0
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 1,
+      "start_bit": 87,
+      "end_bit_exclusive": 118,
+      "flags": 0,
+      "zeros": 12,
+      "quotient": 25,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 6,
+      "unsigned_high": 406,
+      "sign_mutation_inferred_high": 406,
+      "high_matches_mutation": true,
+      "signed_high": 406,
+      "raw_signed_code": 1624,
+      "sample": 1624,
+      "predictor_corrections": {
+        "zero": 0,
+        "previous_sample": -876
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 2,
+      "start_bit": 118,
+      "end_bit_exclusive": 128,
+      "flags": 6,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 6,
+      "remainder": 13,
+      "unsigned_high": 13,
+      "sign_mutation_inferred_high": 13,
+      "high_matches_mutation": true,
+      "signed_high": -14,
+      "raw_signed_code": -54,
+      "sample": 902,
+      "predictor_corrections": {
+        "zero": 956,
+        "previous_sample": -668,
+        "same_colour_left": 80
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 3,
+      "start_bit": 128,
+      "end_bit_exclusive": 139,
+      "flags": 4,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 7,
+      "remainder": 33,
+      "unsigned_high": 33,
+      "sign_mutation_inferred_high": 33,
+      "high_matches_mutation": true,
+      "signed_high": -34,
+      "raw_signed_code": -136,
+      "sample": 1640,
+      "predictor_corrections": {
+        "zero": 1776,
+        "previous_sample": 874,
+        "same_colour_left": 152
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 4,
+      "start_bit": 139,
+      "end_bit_exclusive": 147,
+      "flags": 4,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 5,
+      "unsigned_high": 5,
+      "sign_mutation_inferred_high": 5,
+      "high_matches_mutation": true,
+      "signed_high": -6,
+      "raw_signed_code": -24,
+      "sample": 882,
+      "predictor_corrections": {
+        "zero": 906,
+        "previous_sample": -734,
+        "same_colour_left": 4,
+        "same_colour_linear": -22
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 5,
+      "start_bit": 147,
+      "end_bit_exclusive": 155,
+      "flags": 5,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 5,
+      "unsigned_high": 5,
+      "sign_mutation_inferred_high": 5,
+      "high_matches_mutation": true,
+      "signed_high": -6,
+      "raw_signed_code": -23,
+      "sample": 1621,
+      "predictor_corrections": {
+        "zero": 1644,
+        "previous_sample": 762,
+        "same_colour_left": 4,
+        "same_colour_linear": -12
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 6,
+      "start_bit": 155,
+      "end_bit_exclusive": 163,
+      "flags": 3,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 1,
+      "unsigned_high": 1,
+      "sign_mutation_inferred_high": 1,
+      "high_matches_mutation": true,
+      "signed_high": 1,
+      "raw_signed_code": 7,
+      "sample": 885,
+      "predictor_corrections": {
+        "zero": 878,
+        "previous_sample": -743,
+        "same_colour_left": -4,
+        "same_colour_linear": 16
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 7,
+      "start_bit": 163,
+      "end_bit_exclusive": 171,
+      "flags": 3,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 2,
+      "unsigned_high": 2,
+      "sign_mutation_inferred_high": 2,
+      "high_matches_mutation": true,
+      "signed_high": 2,
+      "raw_signed_code": 11,
+      "sample": 1628,
+      "predictor_corrections": {
+        "zero": 1617,
+        "previous_sample": 732,
+        "same_colour_left": -4,
+        "same_colour_linear": 15
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 8,
+      "start_bit": 171,
+      "end_bit_exclusive": 178,
+      "flags": 2,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 3,
+      "unsigned_high": 7,
+      "sign_mutation_inferred_high": 7,
+      "high_matches_mutation": true,
+      "signed_high": 7,
+      "raw_signed_code": 30,
+      "sample": 911,
+      "predictor_corrections": {
+        "zero": 881,
+        "previous_sample": -747,
+        "same_colour_left": -4,
+        "same_colour_linear": -7
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 9,
+      "start_bit": 178,
+      "end_bit_exclusive": 186,
+      "flags": 2,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 7,
+      "unsigned_high": 7,
+      "sign_mutation_inferred_high": 7,
+      "high_matches_mutation": true,
+      "signed_high": 7,
+      "raw_signed_code": 30,
+      "sample": 1658,
+      "predictor_corrections": {
+        "zero": 1628,
+        "previous_sample": 717,
+        "same_colour_left": 0,
+        "same_colour_linear": -7
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 10,
+      "start_bit": 186,
+      "end_bit_exclusive": 193,
+      "flags": 6,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 4,
+      "unsigned_high": 4,
+      "sign_mutation_inferred_high": 4,
+      "high_matches_mutation": true,
+      "signed_high": -5,
+      "raw_signed_code": -18,
+      "sample": 893,
+      "predictor_corrections": {
+        "zero": 911,
+        "previous_sample": -747,
+        "same_colour_left": 0,
+        "same_colour_linear": -26
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 11,
+      "start_bit": 193,
+      "end_bit_exclusive": 201,
+      "flags": 6,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 3,
+      "unsigned_high": 11,
+      "sign_mutation_inferred_high": 11,
+      "high_matches_mutation": true,
+      "signed_high": -12,
+      "raw_signed_code": -46,
+      "sample": 1612,
+      "predictor_corrections": {
+        "zero": 1658,
+        "previous_sample": 765,
+        "same_colour_left": 0,
+        "same_colour_linear": -30
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 12,
+      "start_bit": 201,
+      "end_bit_exclusive": 208,
+      "flags": 3,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 0,
+      "unsigned_high": 0,
+      "sign_mutation_inferred_high": 0,
+      "high_matches_mutation": true,
+      "signed_high": 0,
+      "raw_signed_code": 3,
+      "sample": 892,
+      "predictor_corrections": {
+        "zero": 889,
+        "previous_sample": -723,
+        "same_colour_left": -4,
+        "same_colour_linear": 14
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 13,
+      "start_bit": 208,
+      "end_bit_exclusive": 216,
+      "flags": 0,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 9,
+      "unsigned_high": 9,
+      "sign_mutation_inferred_high": 9,
+      "high_matches_mutation": true,
+      "signed_high": 9,
+      "raw_signed_code": 36,
+      "sample": 1640,
+      "predictor_corrections": {
+        "zero": 1604,
+        "previous_sample": 712,
+        "same_colour_left": -8,
+        "same_colour_linear": 38
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 14,
+      "start_bit": 216,
+      "end_bit_exclusive": 222,
+      "flags": 6,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 1,
+      "unsigned_high": 1,
+      "sign_mutation_inferred_high": 1,
+      "high_matches_mutation": true,
+      "signed_high": -2,
+      "raw_signed_code": -6,
+      "sample": 882,
+      "predictor_corrections": {
+        "zero": 888,
+        "previous_sample": -752,
+        "same_colour_left": -4,
+        "same_colour_linear": -3
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 15,
+      "start_bit": 222,
+      "end_bit_exclusive": 230,
+      "flags": 7,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 4,
+      "remainder": 6,
+      "unsigned_high": 6,
+      "sign_mutation_inferred_high": 6,
+      "high_matches_mutation": true,
+      "signed_high": -7,
+      "raw_signed_code": -25,
+      "sample": 1615,
+      "predictor_corrections": {
+        "zero": 1640,
+        "previous_sample": 758,
+        "same_colour_left": 0,
+        "same_colour_linear": -28
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 16,
+      "start_bit": 230,
+      "end_bit_exclusive": 236,
+      "flags": 0,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 1,
+      "unsigned_high": 1,
+      "sign_mutation_inferred_high": 1,
+      "high_matches_mutation": true,
+      "signed_high": 1,
+      "raw_signed_code": 4,
+      "sample": 882,
+      "predictor_corrections": {
+        "zero": 878,
+        "previous_sample": -737,
+        "same_colour_left": -4,
+        "same_colour_linear": 6
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 17,
+      "start_bit": 236,
+      "end_bit_exclusive": 244,
+      "flags": 0,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 1,
+      "unsigned_high": 9,
+      "sign_mutation_inferred_high": 9,
+      "high_matches_mutation": true,
+      "signed_high": 9,
+      "raw_signed_code": 36,
+      "sample": 1647,
+      "predictor_corrections": {
+        "zero": 1611,
+        "previous_sample": 729,
+        "same_colour_left": -4,
+        "same_colour_linear": 21
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 18,
+      "boundary_candidates": [
+        {
+          "bit": 244,
+          "sign_delta": -20
+        }
+      ],
+      "status": "missing or ambiguous next boundary"
+    },
+    {
+      "x": 20,
+      "start_bit": 258,
+      "end_bit_exclusive": 265,
+      "flags": 2,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 1,
+      "unsigned_high": 5,
+      "sign_mutation_inferred_high": 5,
+      "high_matches_mutation": true,
+      "signed_high": 5,
+      "raw_signed_code": 22,
+      "sample": 908,
+      "predictor_corrections": {
+        "zero": 886,
+        "previous_sample": -766,
+        "same_colour_left": 0,
+        "same_colour_linear": -4
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 21,
+      "start_bit": 265,
+      "end_bit_exclusive": 272,
+      "flags": 2,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 0,
+      "unsigned_high": 4,
+      "sign_mutation_inferred_high": 4,
+      "high_matches_mutation": true,
+      "signed_high": 4,
+      "raw_signed_code": 18,
+      "sample": 1670,
+      "predictor_corrections": {
+        "zero": 1652,
+        "previous_sample": 744,
+        "same_colour_left": 0,
+        "same_colour_linear": -5
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 22,
+      "start_bit": 272,
+      "end_bit_exclusive": 279,
+      "flags": 6,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 5,
+      "unsigned_high": 5,
+      "sign_mutation_inferred_high": 5,
+      "high_matches_mutation": true,
+      "signed_high": -6,
+      "raw_signed_code": -22,
+      "sample": 886,
+      "predictor_corrections": {
+        "zero": 908,
+        "previous_sample": -762,
+        "same_colour_left": 0,
+        "same_colour_linear": -22
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 23,
+      "start_bit": 279,
+      "end_bit_exclusive": 286,
+      "flags": 5,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 7,
+      "unsigned_high": 7,
+      "sign_mutation_inferred_high": 7,
+      "high_matches_mutation": true,
+      "signed_high": -8,
+      "raw_signed_code": -31,
+      "sample": 1639,
+      "predictor_corrections": {
+        "zero": 1670,
+        "previous_sample": 784,
+        "same_colour_left": 0,
+        "same_colour_linear": -18
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 24,
+      "start_bit": 286,
+      "end_bit_exclusive": 293,
+      "flags": 0,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 4,
+      "unsigned_high": 4,
+      "sign_mutation_inferred_high": 4,
+      "high_matches_mutation": true,
+      "signed_high": 4,
+      "raw_signed_code": 16,
+      "sample": 898,
+      "predictor_corrections": {
+        "zero": 882,
+        "previous_sample": -757,
+        "same_colour_left": -4,
+        "same_colour_linear": 18
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 25,
+      "start_bit": 293,
+      "end_bit_exclusive": 300,
+      "flags": 7,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 1,
+      "unsigned_high": 1,
+      "sign_mutation_inferred_high": 1,
+      "high_matches_mutation": true,
+      "signed_high": -2,
+      "raw_signed_code": -5,
+      "sample": 1630,
+      "predictor_corrections": {
+        "zero": 1635,
+        "previous_sample": 737,
+        "same_colour_left": -4,
+        "same_colour_linear": 27
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 26,
+      "start_bit": 300,
+      "end_bit_exclusive": 307,
+      "flags": 5,
+      "zeros": 0,
+      "quotient": 0,
+      "extra_or_stop": 1,
+      "remainder_width": 3,
+      "remainder": 2,
+      "unsigned_high": 2,
+      "sign_mutation_inferred_high": 2,
+      "high_matches_mutation": true,
+      "signed_high": -3,
+      "raw_signed_code": -11,
+      "sample": 887,
+      "predictor_corrections": {
+        "zero": 898,
+        "previous_sample": -732,
+        "same_colour_left": 0,
+        "same_colour_linear": -12
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 27,
+      "start_bit": 307,
+      "end_bit_exclusive": 314,
+      "flags": 3,
+      "zeros": 1,
+      "quotient": 1,
+      "extra_or_stop": 1,
+      "remainder_width": 2,
+      "remainder": 2,
+      "unsigned_high": 6,
+      "sign_mutation_inferred_high": 6,
+      "high_matches_mutation": true,
+      "signed_high": 6,
+      "raw_signed_code": 27,
+      "sample": 1653,
+      "predictor_corrections": {
+        "zero": 1626,
+        "previous_sample": 739,
+        "same_colour_left": -4,
+        "same_colour_linear": 5
+      },
+      "status": "measured trace"
+    },
+    {
+      "x": 28,
+      "boundary_candidates": [
+        {
+          "bit": 314,
+          "sign_delta": -44
+        }
+      ],
+      "status": "missing or ambiguous next boundary"
+    }
+  ]
+}

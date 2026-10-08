@@ -1,0 +1,7045 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "7c5eebd14ff6c6ee4cb4d6600f87e7d537d31af8af59464f165ec4fa63236fa4",
+  "predictions_file": "first-row-prospective-predictions.json",
+  "all_predictions_precede_reference": true,
+  "cases": [
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+      "reference_first_values": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "comparisons": [
+        {
+          "model_id": "B00-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B00-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B00-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B00-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B00-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B00-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B00-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B00-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B00-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B01-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B01-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B01-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B01-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B01-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B01-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B01-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B01-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B02-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B02-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B02-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B02-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B02-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B02-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B02-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B02-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W00",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W01",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W03",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W04",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W06",
+          "different_samples": 5185,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W07",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W08",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W09",
+          "different_samples": 5183,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W10",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W12",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W13",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W14",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W15",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W16",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W18",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W19",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W21",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W22",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W24",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W25",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B03-W27",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W28",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B03-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W00",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W01",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W03",
+          "different_samples": 5226,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W04",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W06",
+          "different_samples": 5185,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W07",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W08",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W09",
+          "different_samples": 5185,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W10",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W12",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W13",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W14",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W15",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W16",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W18",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W19",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W21",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W22",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W24",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W25",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B04-W27",
+          "different_samples": 5113,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W28",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B04-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W00",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W01",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W03",
+          "different_samples": 5226,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W04",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W06",
+          "different_samples": 5184,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W07",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W08",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W09",
+          "different_samples": 5182,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W10",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W12",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W13",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W14",
+          "different_samples": 5233,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W15",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W16",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W18",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W19",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W21",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W22",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W24",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W25",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B05-W27",
+          "different_samples": 5115,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W28",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            5,
+            0
+          ],
+          "first_candidate_value": 941,
+          "first_reference_value": 945
+        },
+        {
+          "model_id": "B05-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B06-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B06-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B06-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B06-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B06-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B06-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B06-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B06-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B07-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B07-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B07-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B07-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B07-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B07-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B07-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B07-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B08-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B08-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B08-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B08-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B08-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B08-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B08-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B08-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "B09-W04",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W06",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B09-W07",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B09-W09",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "B09-W10",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W13",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B09-W15",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W21",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W24",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B09-W27",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "B09-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            20,
+            0
+          ],
+          "first_candidate_value": 724,
+          "first_reference_value": 764
+        },
+        {
+          "model_id": "B09-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W00",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W01",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W03",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W04",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W06",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W07",
+          "different_samples": 5228,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 973,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W09",
+          "different_samples": 5225,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W10",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W12",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W13",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 973,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W15",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W16",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W18",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W19",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W21",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W22",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W24",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W25",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B10-W27",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W28",
+          "different_samples": 5227,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B10-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W00",
+          "different_samples": 5161,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W01",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W03",
+          "different_samples": 5221,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W04",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W06",
+          "different_samples": 5176,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W07",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 973,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W09",
+          "different_samples": 5176,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W10",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W12",
+          "different_samples": 5162,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W13",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 973,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W15",
+          "different_samples": 5162,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W16",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W18",
+          "different_samples": 5161,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W19",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W21",
+          "different_samples": 5161,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W22",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W24",
+          "different_samples": 5161,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W25",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B11-W27",
+          "different_samples": 5161,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W28",
+          "different_samples": 5224,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 813,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B11-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W00",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W01",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W03",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W04",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W06",
+          "different_samples": 5155,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W07",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B12-W09",
+          "different_samples": 5155,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W10",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W12",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W13",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B12-W15",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W16",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W18",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W19",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W21",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W22",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W24",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W25",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B12-W27",
+          "different_samples": 5142,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W28",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B12-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W00",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W01",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W03",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W04",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W06",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W07",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B13-W09",
+          "different_samples": 5141,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W10",
+          "different_samples": 5221,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W12",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W13",
+          "different_samples": 5221,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B13-W15",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W16",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W18",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W19",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W21",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W22",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W24",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W25",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B13-W27",
+          "different_samples": 5032,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W28",
+          "different_samples": 5220,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B13-W29",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W00",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W01",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W02",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W03",
+          "different_samples": 5219,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W04",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W05",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W06",
+          "different_samples": 5179,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W07",
+          "different_samples": 5221,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W08",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B14-W09",
+          "different_samples": 5176,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W10",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W11",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W12",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W13",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W14",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            9,
+            0
+          ],
+          "first_candidate_value": 977,
+          "first_reference_value": 817
+        },
+        {
+          "model_id": "B14-W15",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W16",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W17",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W18",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W19",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W20",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W21",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W22",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W23",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W24",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W25",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W26",
+          "candidate_error": true
+        },
+        {
+          "model_id": "B14-W27",
+          "different_samples": 5139,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W28",
+          "different_samples": 5222,
+          "first_mismatch_xy": [
+            17,
+            0
+          ],
+          "first_candidate_value": 1235,
+          "first_reference_value": 1231
+        },
+        {
+          "model_id": "B14-W29",
+          "candidate_error": true
+        }
+      ]
+    },
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "0efe1a38586eda1162abd534b78ec3ed00a147cdcc9dacae76a43d4b9a238f9c",
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "d6b24fa541e274b6f80ec8538e19644876217b15e11b554816e809821f0726d0",
+      "reference_first_values": [
+        263,
+        267,
+        262,
+        265,
+        261,
+        266,
+        261,
+        265,
+        265,
+        265,
+        264,
+        264,
+        264,
+        264,
+        263,
+        265
+      ],
+      "comparisons": [
+        {
+          "model_id": "B00-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B00-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B01-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B02-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B03-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B04-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B05-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B06-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B07-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B08-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B09-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B10-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B11-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B12-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B13-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W00",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W01",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W02",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W03",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W04",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W05",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W06",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W07",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W08",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W09",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W10",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W11",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W12",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W13",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W14",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W15",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W16",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W17",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W18",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W19",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W20",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W21",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W22",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W23",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W24",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W25",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W26",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W27",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W28",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        },
+        {
+          "model_id": "B14-W29",
+          "different_samples": 0,
+          "first_mismatch_xy": null,
+          "first_candidate_value": null,
+          "first_reference_value": null
+        }
+      ]
+    }
+  ]
+}

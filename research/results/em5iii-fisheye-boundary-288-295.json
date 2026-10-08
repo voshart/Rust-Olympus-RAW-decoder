@@ -1,0 +1,5305 @@
+{
+  "schema": 1,
+  "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+  "interpretation": "reference-behaviour-only",
+  "protocol": "research/compressed-next-experiment.md",
+  "experiments": [
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7496982,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 355,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7453262,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 347,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7501917,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 331,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20497738,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 65519,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7242628,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 395,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3691067,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 364,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3577873,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 365,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 288,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3670857,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 495,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3793785,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 531,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3915344,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 507,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3922243,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 555,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 8635981,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 479,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4015822,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 522,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3791774,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 521,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4078614,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 607,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 289,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7475511,
+      "first_changed_index_row_major": 242,
+      "first_changed_xy": [
+        242,
+        0
+      ],
+      "first_changed_before": 363,
+      "first_changed_after": 359,
+      "bounds_xyxy_inclusive": [
+        242,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3643786,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 329,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20493885,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 353,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7526640,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 305,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 8683829,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 213,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3691063,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 338,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3640914,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 335,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3691755,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 373,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 290,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3784379,
+      "first_changed_index_row_major": 243,
+      "first_changed_xy": [
+        243,
+        0
+      ],
+      "first_changed_before": 523,
+      "first_changed_after": 519,
+      "bounds_xyxy_inclusive": [
+        243,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3589933,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 418,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3794505,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 434,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20495878,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 354,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7461075,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 458,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4015808,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 401,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3785470,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 400,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4078109,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 630,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 291,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3628493,
+      "first_changed_index_row_major": 244,
+      "first_changed_xy": [
+        244,
+        0
+      ],
+      "first_changed_before": 337,
+      "first_changed_after": 333,
+      "bounds_xyxy_inclusive": [
+        244,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3628661,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 367,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 8740390,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 399,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20494155,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 359,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3691061,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 384,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3640911,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 381,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3726844,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 283,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3919192,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 398,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 292,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3685405,
+      "first_changed_index_row_major": 245,
+      "first_changed_xy": [
+        245,
+        0
+      ],
+      "first_changed_before": 402,
+      "first_changed_after": 394,
+      "bounds_xyxy_inclusive": [
+        245,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4032312,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 424,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3657000,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 408,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 7862324,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 488,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3682279,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 441,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3791440,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 438,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3793262,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 340,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3665929,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 387,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 293,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3677364,
+      "first_changed_index_row_major": 246,
+      "first_changed_xy": [
+        246,
+        0
+      ],
+      "first_changed_before": 383,
+      "first_changed_after": 391,
+      "bounds_xyxy_inclusive": [
+        246,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3670400,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 461,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 8362865,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 533,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20495801,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 441,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3691053,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 494,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3637498,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 491,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4417704,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 281,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3824800,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 444,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 294,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3789469,
+      "first_changed_index_row_major": 247,
+      "first_changed_xy": [
+        247,
+        0
+      ],
+      "first_changed_before": 440,
+      "first_changed_after": 448,
+      "bounds_xyxy_inclusive": [
+        247,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 0,
+      "xor_mask": 1,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20496282,
+      "first_changed_index_row_major": 249,
+      "first_changed_xy": [
+        249,
+        0
+      ],
+      "first_changed_before": 662,
+      "first_changed_after": 526,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 1,
+      "xor_mask": 2,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 20497181,
+      "first_changed_index_row_major": 249,
+      "first_changed_xy": [
+        249,
+        0
+      ],
+      "first_changed_before": 662,
+      "first_changed_after": 450,
+      "bounds_xyxy_inclusive": [
+        0,
+        0,
+        5239,
+        3911
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 2,
+      "xor_mask": 4,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3682272,
+      "first_changed_index_row_major": 249,
+      "first_changed_xy": [
+        249,
+        0
+      ],
+      "first_changed_before": 662,
+      "first_changed_after": 663,
+      "bounds_xyxy_inclusive": [
+        249,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 3,
+      "xor_mask": 8,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3791433,
+      "first_changed_index_row_major": 249,
+      "first_changed_xy": [
+        249,
+        0
+      ],
+      "first_changed_before": 662,
+      "first_changed_after": 660,
+      "bounds_xyxy_inclusive": [
+        249,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 4,
+      "xor_mask": 16,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 4743729,
+      "first_changed_index_row_major": 249,
+      "first_changed_xy": [
+        249,
+        0
+      ],
+      "first_changed_before": 662,
+      "first_changed_after": 218,
+      "bounds_xyxy_inclusive": [
+        249,
+        0,
+        5239,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 5,
+      "xor_mask": 32,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3668581,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 497,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 6,
+      "xor_mask": 64,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3643776,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 485,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    },
+    {
+      "strip_byte": 295,
+      "bit_lsb_index": 7,
+      "xor_mask": 128,
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "changed_samples": 3628410,
+      "first_changed_index_row_major": 248,
+      "first_changed_xy": [
+        248,
+        0
+      ],
+      "first_changed_before": 493,
+      "first_changed_after": 509,
+      "bounds_xyxy_inclusive": [
+        248,
+        0,
+        5238,
+        3910
+      ],
+      "first_row_before": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "first_row_after": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ]
+    }
+  ],
+  "summary": {
+    "successful": 64,
+    "errors": 0,
+    "strict_high_bit_first_pairs": 72,
+    "strict_low_bit_first_pairs": 0,
+    "tied_pairs": 152,
+    "bytes": [
+      {
+        "strip_byte": 288,
+        "first_changed_indices_bits_7_to_0": [
+          242,
+          242,
+          242,
+          242,
+          242,
+          242,
+          242,
+          242
+        ]
+      },
+      {
+        "strip_byte": 289,
+        "first_changed_indices_bits_7_to_0": [
+          242,
+          243,
+          243,
+          243,
+          243,
+          243,
+          243,
+          243
+        ]
+      },
+      {
+        "strip_byte": 290,
+        "first_changed_indices_bits_7_to_0": [
+          243,
+          244,
+          244,
+          244,
+          244,
+          244,
+          244,
+          244
+        ]
+      },
+      {
+        "strip_byte": 291,
+        "first_changed_indices_bits_7_to_0": [
+          244,
+          245,
+          245,
+          245,
+          245,
+          245,
+          245,
+          245
+        ]
+      },
+      {
+        "strip_byte": 292,
+        "first_changed_indices_bits_7_to_0": [
+          245,
+          245,
+          246,
+          246,
+          246,
+          246,
+          246,
+          246
+        ]
+      },
+      {
+        "strip_byte": 293,
+        "first_changed_indices_bits_7_to_0": [
+          246,
+          246,
+          247,
+          247,
+          247,
+          247,
+          247,
+          247
+        ]
+      },
+      {
+        "strip_byte": 294,
+        "first_changed_indices_bits_7_to_0": [
+          247,
+          247,
+          248,
+          248,
+          248,
+          248,
+          248,
+          248
+        ]
+      },
+      {
+        "strip_byte": 295,
+        "first_changed_indices_bits_7_to_0": [
+          248,
+          248,
+          248,
+          249,
+          249,
+          249,
+          249,
+          249
+        ]
+      }
+    ]
+  }
+}

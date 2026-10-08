@@ -1,0 +1,672 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "f7bdb655826f4d6e659500132136771745bf7c52fb1d5760b1f8ad2ad82fd77e",
+  "fit_report_sha256": "1f220bd12f890944a506c0bff23226355b354a4482c46cab7b05cb7d652839ef",
+  "all_predictions_precede_reference": true,
+  "reference_acquired": false,
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "tested_row": 0,
+      "sample_count": 4640,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 33461,
+          "width_histogram": {
+            "4": 1128,
+            "6": 13,
+            "7": 4,
+            "2": 2405,
+            "3": 1041,
+            "5": 44,
+            "8": 1,
+            "13": 1,
+            "10": 1,
+            "9": 2
+          },
+          "escape_count": 10,
+          "row_sha256_le_u16": "41872f5b9ffd2901fbafd5f12971a5c13a832eb1ed413737cfad79a6d9e7cd9b",
+          "first_values": [
+            876,
+            1624,
+            902,
+            1640,
+            882,
+            1621,
+            885,
+            1628,
+            911,
+            1658,
+            893,
+            1612,
+            892,
+            1640,
+            882,
+            1615
+          ],
+          "above_declared_12bit_count": 87
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 33056,
+          "width_histogram": {
+            "4": 1032,
+            "6": 6,
+            "7": 7,
+            "2": 2503,
+            "3": 1055,
+            "5": 36,
+            "8": 1
+          },
+          "escape_count": 9,
+          "row_sha256_le_u16": "9932866a941b5e7bdf5630f4a794477bb84658bdbf8a61f70a3e9d946a5f4d88",
+          "first_values": [
+            876,
+            1624,
+            902,
+            1640,
+            882,
+            1621,
+            885,
+            1628,
+            911,
+            1658,
+            893,
+            1612,
+            892,
+            1640,
+            882,
+            1615
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 33056,
+          "width_histogram": {
+            "4": 1032,
+            "6": 6,
+            "7": 7,
+            "2": 2503,
+            "3": 1055,
+            "5": 36,
+            "8": 1
+          },
+          "escape_count": 9,
+          "row_sha256_le_u16": "9932866a941b5e7bdf5630f4a794477bb84658bdbf8a61f70a3e9d946a5f4d88",
+          "first_values": [
+            876,
+            1624,
+            902,
+            1640,
+            882,
+            1621,
+            885,
+            1628,
+            911,
+            1658,
+            893,
+            1612,
+            892,
+            1640,
+            882,
+            1615
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 41371,
+          "width_histogram": {
+            "4": 2484,
+            "6": 10,
+            "7": 1,
+            "2": 1764,
+            "3": 853,
+            "5": 125,
+            "13": 1,
+            "10": 1,
+            "8": 1
+          },
+          "escape_count": 10,
+          "row_sha256_le_u16": "170203065d6fc04398e8654d45f51b4472432b469095128c65632d6790305e22",
+          "first_values": [
+            656,
+            1521,
+            683,
+            1550,
+            679,
+            1595,
+            675,
+            1566,
+            688,
+            1557,
+            690,
+            1545,
+            668,
+            1528,
+            669,
+            1499
+          ],
+          "above_declared_12bit_count": 2209
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 40813,
+          "width_histogram": {
+            "4": 2352,
+            "6": 5,
+            "7": 1,
+            "2": 1886,
+            "3": 894,
+            "5": 102
+          },
+          "escape_count": 8,
+          "row_sha256_le_u16": "9dc4cc8de049bdc5ec8c3778567e89caf846daabaa49e9f2ed2a035deaa44f7d",
+          "first_values": [
+            656,
+            1521,
+            683,
+            1550,
+            679,
+            1595,
+            675,
+            1566,
+            688,
+            1557,
+            690,
+            1545,
+            668,
+            1528,
+            669,
+            1499
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 40813,
+          "width_histogram": {
+            "4": 2352,
+            "6": 5,
+            "7": 1,
+            "2": 1886,
+            "3": 894,
+            "5": 102
+          },
+          "escape_count": 8,
+          "row_sha256_le_u16": "9dc4cc8de049bdc5ec8c3778567e89caf846daabaa49e9f2ed2a035deaa44f7d",
+          "first_values": [
+            656,
+            1521,
+            683,
+            1550,
+            679,
+            1595,
+            675,
+            1566,
+            688,
+            1557,
+            690,
+            1545,
+            668,
+            1528,
+            669,
+            1499
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 31522,
+          "width_histogram": {
+            "4": 6,
+            "5": 2,
+            "2": 5232
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "d6b24fa541e274b6f80ec8538e19644876217b15e11b554816e809821f0726d0",
+          "first_values": [
+            263,
+            267,
+            262,
+            265,
+            261,
+            266,
+            261,
+            265,
+            265,
+            265,
+            264,
+            264,
+            264,
+            264,
+            263,
+            265
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 31522,
+          "width_histogram": {
+            "4": 6,
+            "5": 2,
+            "2": 5232
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "d6b24fa541e274b6f80ec8538e19644876217b15e11b554816e809821f0726d0",
+          "first_values": [
+            263,
+            267,
+            262,
+            265,
+            261,
+            266,
+            261,
+            265,
+            265,
+            265,
+            264,
+            264,
+            264,
+            264,
+            263,
+            265
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 31522,
+          "width_histogram": {
+            "4": 6,
+            "5": 2,
+            "2": 5232
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "d6b24fa541e274b6f80ec8538e19644876217b15e11b554816e809821f0726d0",
+          "first_values": [
+            263,
+            267,
+            262,
+            265,
+            261,
+            266,
+            261,
+            265,
+            265,
+            265,
+            264,
+            264,
+            264,
+            264,
+            263,
+            265
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 32167,
+          "width_histogram": {
+            "4": 7,
+            "5": 2,
+            "2": 4888,
+            "3": 343
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "682e77ff5a556ef5188eec509ce7a287007e9c6d56ee42105543fc92fa1ca3bf",
+          "first_values": [
+            314,
+            328,
+            319,
+            328,
+            314,
+            320,
+            308,
+            320,
+            314,
+            326,
+            317,
+            312,
+            308,
+            328,
+            323,
+            331
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 32167,
+          "width_histogram": {
+            "4": 7,
+            "5": 2,
+            "2": 4888,
+            "3": 343
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "682e77ff5a556ef5188eec509ce7a287007e9c6d56ee42105543fc92fa1ca3bf",
+          "first_values": [
+            314,
+            328,
+            319,
+            328,
+            314,
+            320,
+            308,
+            320,
+            314,
+            326,
+            317,
+            312,
+            308,
+            328,
+            323,
+            331
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 32167,
+          "width_histogram": {
+            "4": 7,
+            "5": 2,
+            "2": 4888,
+            "3": 343
+          },
+          "escape_count": 0,
+          "row_sha256_le_u16": "682e77ff5a556ef5188eec509ce7a287007e9c6d56ee42105543fc92fa1ca3bf",
+          "first_values": [
+            314,
+            328,
+            319,
+            328,
+            314,
+            320,
+            308,
+            320,
+            314,
+            326,
+            317,
+            312,
+            308,
+            328,
+            323,
+            331
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    }
+  ]
+}

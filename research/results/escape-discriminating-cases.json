@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+  "interpretation": "post-measurement-comparison-of-registered-grammars",
+  "cases": [
+    {
+      "strip_byte": 758,
+      "bit_lsb_index": 5,
+      "model_predictions": [
+        {
+          "model_id": "E01",
+          "first_changed_x": 746,
+          "before": 395,
+          "after": 54003,
+          "tested_first_row_prefix": 750
+        },
+        {
+          "model_id": "E02",
+          "first_changed_x": 744,
+          "before": 543,
+          "after": 527,
+          "tested_first_row_prefix": 750
+        }
+      ],
+      "reference_first_changed_xy": [
+        746,
+        0
+      ],
+      "reference_before": 395,
+      "reference_after": 54003,
+      "reference_changed_samples": 20496819
+    },
+    {
+      "strip_byte": 759,
+      "bit_lsb_index": 0,
+      "model_predictions": [
+        {
+          "model_id": "E01",
+          "first_changed_x": null,
+          "before": null,
+          "after": null,
+          "tested_first_row_prefix": 750
+        },
+        {
+          "model_id": "E02",
+          "first_changed_x": null,
+          "before": null,
+          "after": null,
+          "tested_first_row_prefix": 750
+        }
+      ],
+      "reference_first_changed_xy": null,
+      "reference_before": null,
+      "reference_after": null,
+      "reference_changed_samples": 0
+    }
+  ]
+}

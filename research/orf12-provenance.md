@@ -49,6 +49,7 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
 | S2 | Synthetic maker-note crop at u64::MAX | Old unchecked crop addition overflows; checked coordinates fall back to the sensor area | Non-conforming numeric tag type |
 | X1 | Isolated compressed-strip byte perturbations | Reproducible reference failures/difference extents | Does not establish compressed coding rules |
 | X2 | Prospectively apply the existing initial-pair hypothesis to two additional E-M5 III originals | All four candidate values match the binary reference; geometry, margins, differences and sensor hashes recorded | Only two coordinates per image tested; no full compressed decode |
+| X3 | Additional 384 single-bit cases, measured token boundaries, explicit finite state fitting and prospective first-row comparisons | Candidate matches 34,840 first-row values on seven originals; escape/counter alternatives rejected by discriminating observations | Later-row prediction, resets and termination remain unspecified; see compressed-first-row.md |
 
 Published artifacts are in [research/results](results/): container observations,
 user and public packed comparisons, C-5050 comparisons and the original

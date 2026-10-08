@@ -82,3 +82,13 @@ New initial-pair reports also preserve reference sensor/visible geometry, the
 full reference sensor hash, tested coordinates and signed candidate differences.
 Reference margins and the maker-note active crop are recorded separately: the
 initial pair is measured at the raw sensor origin, without applying a crop.
+
+`infer_prefix_tokens.py` extracts mutation-supported boundaries and compares
+several simple predictors. `fit_prefix_state.py` searches the explicitly recorded
+small bias/width families on continuous measured prefixes. No missing token is
+silently supplied. `measure_first_row_models.py` calculates all fitted candidate
+rows before requesting reference rows and keeps failed models and exact mismatch
+counts. `trace_first_row_model.py` reads a bounded window of a candidate trace
+without a reference. The original methods used before refinements are archived
+under `research/methods`; keep `tools` on `PYTHONPATH` when running an archived
+method directly. All remain numerical research tools, not product dependencies.

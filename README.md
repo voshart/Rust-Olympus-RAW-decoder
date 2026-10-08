@@ -74,6 +74,13 @@ models, including two previously unmeasured cameras and two additional E-M5 III
 originals. Later prediction, changing coding parameters and
 full-frame decoding remain unspecified; these results are not a finished decoder.
 
+The independently measured [first-row hypothesis](research/compressed-first-row.md)
+now covers changing widths, a two-parity bias state, the inclusive small-code
+threshold and a discriminated escape grammar. It matches every first-row sample
+on seven originals across five camera models (34,840 values), including
+prospective PEN-F/TG-7 rows. Failed fits and refinements are preserved. Prediction
+across later rows, reset rules and termination remain open.
+
 The related LightCraft changes are on local branch `orf/independent-evidence`,
 commit `6ccba8f`, based on upstream
 `629e39380e296f588c64cd9c0053a8edc3528f36`. They are not yet an upstream PR.

@@ -137,6 +137,11 @@ by this compressed hypothesis.
 
 ## Next research gate
 
+The subsequent [first-row measurements](compressed-first-row.md) now establish a
+candidate adaptive width/bias description on complete first rows. Their evidence
+and failed hypotheses extend the initial-pair work here; they do not establish
+full-frame decoding.
+
 Measure how the remainder width changes after the initial pair and how signed
 differences relate to neighbouring pixels. Preserve competing predictor/state
 models and failed traces. Then establish row/field resets and termination,

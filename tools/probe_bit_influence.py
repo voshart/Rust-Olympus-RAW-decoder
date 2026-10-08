@@ -12,11 +12,12 @@ from pathlib import Path
 from inspect_orf import MAX_FILE, inspect
 
 
-def worker(path, runtime, byte, bit, xor_mask=None):
+def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16):
     record = inspect(path)
     strips = record['strips']
     if (len(strips) != 1 or not 0 <= byte < strips[0]['size_bytes']
-            or not 0 <= bit < 8 or record['sensor'][0]*record['sensor'][1] > 32_000_000):
+            or not 0 <= bit < 8 or not 1 <= row_prefix_count <= 8192
+            or record['sensor'][0]*record['sensor'][1] > 32_000_000):
         raise ValueError('requires one strip, an in-range bit, and at most 32 million samples')
     sys.path.insert(0,str(runtime.resolve()))
     import numpy as np
@@ -55,7 +56,7 @@ def worker(path, runtime, byte, bit, xor_mask=None):
             first_changed_before=int(original.flat[first]) if first is not None else None,
             first_changed_after=int(changed.flat[first]) if first is not None else None,
             bounds_xyxy_inclusive=[int(cols[0]),int(rows[0]),int(cols[-1]),int(rows[-1])] if count else None,
-            first_row_before=original[0,:16].tolist(),first_row_after=changed[0,:16].tolist())
+            first_row_before=original[0,:row_prefix_count].tolist(),first_row_after=changed[0,:row_prefix_count].tolist())
 
 
 def run_case(args, byte, bit):
@@ -100,9 +101,10 @@ def main():
     parser.add_argument('--jobs',type=int,default=2)
     parser.add_argument('--worker',type=int,nargs=2,metavar=('BYTE','BIT'))
     parser.add_argument('--xor-mask',type=int,help=argparse.SUPPRESS)
+    parser.add_argument('--row-prefix-count',type=int,default=16,help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args.worker is not None:
-        print(json.dumps(worker(args.input,args.reference_runtime,*args.worker,args.xor_mask)))
+        print(json.dumps(worker(args.input,args.reference_runtime,*args.worker,args.xor_mask,args.row_prefix_count)))
         return 0
     if args.output is None or args.output.exists():
         raise ValueError('choose a new --output path')

@@ -1,0 +1,1128 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "8d8922b573ff60f4000e1c9c3d4dc88f509cbf165933eba29f26fb87e9dd3706",
+  "fit_report_sha256": "ec70be99d7cd6b69564ed77ea0274e3f74babf6c42ae367feee29c0a857049b1",
+  "all_predictions_precede_reference": true,
+  "reference_acquired": false,
+  "cases": [
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "models": [
+        {
+          "model": {
+            "id": "R00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50144,
+          "width_histogram": {
+            "4": 3669,
+            "6": 233,
+            "5": 571,
+            "2": 497,
+            "3": 232,
+            "7": 19,
+            "13": 5,
+            "9": 4,
+            "10": 2,
+            "12": 1,
+            "8": 5,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf8f321fb83960b9f53f68391831dce45c939ddd486cd02314ad534177dc0a30",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1503
+        },
+        {
+          "model": {
+            "id": "R01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        },
+        {
+          "model": {
+            "id": "R02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 4,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50571,
+          "width_histogram": {
+            "4": 3622,
+            "6": 268,
+            "5": 614,
+            "2": 444,
+            "3": 211,
+            "7": 43,
+            "13": 5,
+            "11": 7,
+            "12": 3,
+            "8": 11,
+            "9": 7,
+            "10": 5
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "d1a72aa94b64a44c2e2f044198765b3f0371959c21dacb2278d52d7691842697",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 3278
+        },
+        {
+          "model": {
+            "id": "R03",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 4,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 50597,
+          "width_histogram": {
+            "4": 3544,
+            "6": 271,
+            "5": 643,
+            "2": 482,
+            "3": 217,
+            "7": 44,
+            "13": 5,
+            "11": 6,
+            "12": 3,
+            "8": 10,
+            "9": 8,
+            "10": 7
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "f24195012262b4348203057a378827eff71ee88cbcb8450cc59d1e7c0c359ad3",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 3423
+        },
+        {
+          "model": {
+            "id": "R04",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 5,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50307,
+          "width_histogram": {
+            "4": 3669,
+            "6": 235,
+            "5": 585,
+            "2": 470,
+            "3": 222,
+            "7": 31,
+            "8": 8,
+            "9": 6,
+            "13": 5,
+            "10": 4,
+            "12": 1,
+            "14": 2,
+            "11": 2
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "7eedde4c5b6a5f6f5e28892873b770538a930674f9c6ff6045b837c4f098d8a1",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 3105
+        },
+        {
+          "model": {
+            "id": "R05",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 5,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49518,
+          "width_histogram": {
+            "4": 3365,
+            "6": 233,
+            "5": 596,
+            "2": 738,
+            "3": 255,
+            "7": 28,
+            "8": 7,
+            "9": 5,
+            "13": 5,
+            "10": 4,
+            "12": 1,
+            "14": 2,
+            "11": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "e413e522a8ba09b2ae3edd8615ce46f25130d8ab73501f70524ac99cb8f2c534",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 2304
+        },
+        {
+          "model": {
+            "id": "R06",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 6,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50228,
+          "width_histogram": {
+            "4": 3663,
+            "6": 235,
+            "5": 567,
+            "2": 494,
+            "3": 229,
+            "7": 23,
+            "8": 10,
+            "13": 5,
+            "9": 7,
+            "10": 3,
+            "12": 1,
+            "14": 2,
+            "11": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf62b7a2f992e21865dd5ca05c0341e4f28d23e78ae1375c16f4de78ae7f3163",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 2877
+        },
+        {
+          "model": {
+            "id": "R07",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 6,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49443,
+          "width_histogram": {
+            "4": 3367,
+            "6": 233,
+            "5": 582,
+            "2": 754,
+            "3": 262,
+            "7": 19,
+            "8": 7,
+            "13": 5,
+            "9": 5,
+            "10": 3,
+            "12": 1,
+            "14": 2
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "b92aae6624850640a2f582867ed2350bcb961bbb7d91686ff86002e7f2979a66",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 2612
+        },
+        {
+          "model": {
+            "id": "R08",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 7,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50188,
+          "width_histogram": {
+            "4": 3679,
+            "6": 230,
+            "5": 570,
+            "2": 492,
+            "3": 225,
+            "7": 20,
+            "13": 7,
+            "9": 4,
+            "10": 3,
+            "12": 2,
+            "8": 6,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "a7c3ee8b42cf616b6175e0afbb93b2c273eb4637566dba897a2667fd448dd98e",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 2013
+        },
+        {
+          "model": {
+            "id": "R09",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 7,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49412,
+          "width_histogram": {
+            "4": 3372,
+            "6": 227,
+            "5": 595,
+            "2": 754,
+            "3": 257,
+            "7": 16,
+            "13": 7,
+            "9": 2,
+            "10": 3,
+            "12": 2,
+            "8": 4,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "ede2d9d6bfc5bc35f3d505990c4a4827449b3f6fd146d21042986b500c4ef0de",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1058
+        },
+        {
+          "model": {
+            "id": "R10",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 8,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50174,
+          "width_histogram": {
+            "4": 3665,
+            "6": 231,
+            "5": 572,
+            "2": 497,
+            "3": 231,
+            "7": 20,
+            "13": 7,
+            "9": 4,
+            "10": 3,
+            "12": 2,
+            "8": 6,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "3eb9bf16129d2ba4b9bbe2bda1855b233c911666027a9b4fe488f7addfd4d897",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1502
+        },
+        {
+          "model": {
+            "id": "R11",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 8,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49403,
+          "width_histogram": {
+            "4": 3358,
+            "6": 228,
+            "5": 597,
+            "2": 759,
+            "3": 263,
+            "7": 16,
+            "13": 7,
+            "9": 2,
+            "10": 3,
+            "12": 2,
+            "8": 4,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "05477c83e2de35b2d2667e80f6afbf6b958677e3dc150c9e4b49f1877b51c1d2",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1119
+        },
+        {
+          "model": {
+            "id": "R12",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 9,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50144,
+          "width_histogram": {
+            "4": 3669,
+            "6": 233,
+            "5": 571,
+            "2": 497,
+            "3": 232,
+            "7": 19,
+            "13": 5,
+            "9": 4,
+            "10": 2,
+            "12": 1,
+            "8": 5,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf8f321fb83960b9f53f68391831dce45c939ddd486cd02314ad534177dc0a30",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1503
+        },
+        {
+          "model": {
+            "id": "R13",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 9,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        },
+        {
+          "model": {
+            "id": "R14",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 10,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50144,
+          "width_histogram": {
+            "4": 3669,
+            "6": 233,
+            "5": 571,
+            "2": 497,
+            "3": 232,
+            "7": 19,
+            "13": 5,
+            "9": 4,
+            "10": 2,
+            "12": 1,
+            "8": 5,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf8f321fb83960b9f53f68391831dce45c939ddd486cd02314ad534177dc0a30",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1503
+        },
+        {
+          "model": {
+            "id": "R15",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 10,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        },
+        {
+          "model": {
+            "id": "R16",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 11,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50144,
+          "width_histogram": {
+            "4": 3669,
+            "6": 233,
+            "5": 571,
+            "2": 497,
+            "3": 232,
+            "7": 19,
+            "13": 5,
+            "9": 4,
+            "10": 2,
+            "12": 1,
+            "8": 5,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf8f321fb83960b9f53f68391831dce45c939ddd486cd02314ad534177dc0a30",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1503
+        },
+        {
+          "model": {
+            "id": "R17",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 11,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        },
+        {
+          "model": {
+            "id": "R18",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 12,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": false
+            }
+          },
+          "end_bit_exclusive": 50144,
+          "width_histogram": {
+            "4": 3669,
+            "6": 233,
+            "5": 571,
+            "2": 497,
+            "3": 232,
+            "7": 19,
+            "13": 5,
+            "9": 4,
+            "10": 2,
+            "12": 1,
+            "8": 5,
+            "11": 1,
+            "14": 1
+          },
+          "escape_count": 43,
+          "row_sha256_le_u16": "bf8f321fb83960b9f53f68391831dce45c939ddd486cd02314ad534177dc0a30",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1503
+        },
+        {
+          "model": {
+            "id": "R19",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": 12,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        }
+      ]
+    }
+  ]
+}

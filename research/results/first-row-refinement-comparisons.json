@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "8d8922b573ff60f4000e1c9c3d4dc88f509cbf165933eba29f26fb87e9dd3706",
+  "predictions_file": "first-row-refinement-predictions.json",
+  "all_predictions_precede_reference": true,
+  "cases": [
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "reference_row_sha256_le_u16": "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+      "reference_first_values": [
+        573,
+        995,
+        541,
+        1010,
+        518,
+        945,
+        566,
+        780,
+        699,
+        817,
+        729,
+        1248,
+        692,
+        1564,
+        736,
+        1170
+      ],
+      "comparisons": [
+        {
+          "model_id": "R00",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R01",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R02",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "R03",
+          "different_samples": 5217,
+          "first_mismatch_xy": [
+            23,
+            0
+          ],
+          "first_candidate_value": 1451,
+          "first_reference_value": 1531
+        },
+        {
+          "model_id": "R04",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "R05",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "R06",
+          "different_samples": 5133,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "R07",
+          "different_samples": 5135,
+          "first_mismatch_xy": [
+            105,
+            0
+          ],
+          "first_candidate_value": 1548,
+          "first_reference_value": 1688
+        },
+        {
+          "model_id": "R08",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R09",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R10",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R11",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R12",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R13",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R14",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R15",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R16",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R17",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        },
+        {
+          "model_id": "R18",
+          "different_samples": 4994,
+          "first_mismatch_xy": [
+            246,
+            0
+          ],
+          "first_candidate_value": 431,
+          "first_reference_value": 383
+        },
+        {
+          "model_id": "R19",
+          "different_samples": 4496,
+          "first_mismatch_xy": [
+            744,
+            0
+          ],
+          "first_candidate_value": 395,
+          "first_reference_value": 543
+        }
+      ]
+    }
+  ]
+}

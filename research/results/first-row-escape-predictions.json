@@ -1,0 +1,488 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "f7bdb655826f4d6e659500132136771745bf7c52fb1d5760b1f8ad2ad82fd77e",
+  "fit_report_sha256": "1f220bd12f890944a506c0bff23226355b354a4482c46cab7b05cb7d652839ef",
+  "all_predictions_precede_reference": true,
+  "reference_acquired": false,
+  "cases": [
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_row": 0,
+      "sample_count": 5240,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 49377,
+          "width_histogram": {
+            "4": 3360,
+            "6": 229,
+            "5": 595,
+            "2": 761,
+            "3": 264,
+            "7": 16,
+            "13": 5,
+            "9": 2,
+            "10": 3,
+            "12": 1,
+            "8": 3,
+            "14": 1
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "8add7f4c7d62a4fd0bd9d505b1d26b06219214bc60290dfd516dfd3a39fbadeb",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 1199
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 49412,
+          "width_histogram": {
+            "4": 3321,
+            "6": 225,
+            "5": 639,
+            "2": 772,
+            "3": 268,
+            "7": 15
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 49412,
+          "width_histogram": {
+            "4": 3321,
+            "6": 225,
+            "5": 639,
+            "2": 772,
+            "3": 268,
+            "7": 15
+          },
+          "escape_count": 42,
+          "row_sha256_le_u16": "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+          "first_values": [
+            573,
+            995,
+            541,
+            1010,
+            518,
+            945,
+            566,
+            780,
+            699,
+            817,
+            729,
+            1248,
+            692,
+            1564,
+            736,
+            1170
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "tested_row": 0,
+      "sample_count": 5200,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 45773,
+          "width_histogram": {
+            "4": 4548,
+            "7": 2,
+            "2": 297,
+            "3": 250,
+            "5": 102,
+            "6": 1
+          },
+          "escape_count": 12,
+          "row_sha256_le_u16": "3106b9350993e7e05157e0be7aa44ea7703e32ef0ee72ace7ef38ccb81e52e21",
+          "first_values": [
+            1163,
+            1566,
+            1173,
+            1605,
+            1150,
+            1642,
+            1213,
+            1686,
+            1209,
+            1707,
+            1284,
+            1683,
+            1222,
+            1591,
+            1160,
+            1543
+          ],
+          "above_declared_12bit_count": 295
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 45860,
+          "width_histogram": {
+            "4": 4567,
+            "7": 2,
+            "2": 282,
+            "3": 246,
+            "5": 103
+          },
+          "escape_count": 12,
+          "row_sha256_le_u16": "cca9b9a449df22cedf0ecb17c0f9451e5f88c35b4488c516f1df5b42ab94aaef",
+          "first_values": [
+            1163,
+            1566,
+            1173,
+            1605,
+            1150,
+            1642,
+            1213,
+            1686,
+            1209,
+            1707,
+            1284,
+            1683,
+            1222,
+            1591,
+            1160,
+            1543
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 45860,
+          "width_histogram": {
+            "4": 4567,
+            "7": 2,
+            "2": 282,
+            "3": 246,
+            "5": 103
+          },
+          "escape_count": 12,
+          "row_sha256_le_u16": "cca9b9a449df22cedf0ecb17c0f9451e5f88c35b4488c516f1df5b42ab94aaef",
+          "first_values": [
+            1163,
+            1566,
+            1173,
+            1605,
+            1150,
+            1642,
+            1213,
+            1686,
+            1209,
+            1707,
+            1284,
+            1683,
+            1222,
+            1591,
+            1160,
+            1543
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "tested_row": 0,
+      "sample_count": 4040,
+      "models": [
+        {
+          "model": {
+            "id": "E00",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "11"
+            }
+          },
+          "candidate_error": "candidate width outside bounded scope"
+        },
+        {
+          "model": {
+            "id": "E01",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "fixed-12",
+              "payload_bits": "15-minus-k"
+            }
+          },
+          "end_bit_exclusive": 40613,
+          "width_histogram": {
+            "4": 2728,
+            "6": 184,
+            "5": 355,
+            "2": 336,
+            "3": 238,
+            "7": 140,
+            "8": 59
+          },
+          "escape_count": 124,
+          "row_sha256_le_u16": "d2fc4d78b9c9197f77a88b259d467439a8c6e01d154fa441bacf845736f99296",
+          "first_values": [
+            738,
+            499,
+            839,
+            490,
+            691,
+            617,
+            804,
+            744,
+            1108,
+            832,
+            1558,
+            869,
+            1616,
+            802,
+            1747,
+            617
+          ],
+          "above_declared_12bit_count": 0
+        },
+        {
+          "model": {
+            "id": "E02",
+            "bias": {
+              "a": 3,
+              "b": 1,
+              "shift": 5,
+              "rounding": 0
+            },
+            "width": {
+              "decay_shift": null,
+              "small_threshold_log2": 4,
+              "required_small_count": 3,
+              "stable_base": 2,
+              "stable_shift": 0,
+              "inclusive_small_threshold": true
+            },
+            "escape": {
+              "zero_limit": "16-minus-k",
+              "payload_bits": "11"
+            }
+          },
+          "end_bit_exclusive": 40613,
+          "width_histogram": {
+            "4": 2728,
+            "6": 184,
+            "5": 355,
+            "2": 336,
+            "3": 238,
+            "7": 140,
+            "8": 59
+          },
+          "escape_count": 124,
+          "row_sha256_le_u16": "d2fc4d78b9c9197f77a88b259d467439a8c6e01d154fa441bacf845736f99296",
+          "first_values": [
+            738,
+            499,
+            839,
+            490,
+            691,
+            617,
+            804,
+            744,
+            1108,
+            832,
+            1558,
+            869,
+            1616,
+            802,
+            1747,
+            617
+          ],
+          "above_declared_12bit_count": 0
+        }
+      ]
+    }
+  ]
+}
