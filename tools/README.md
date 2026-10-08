@@ -92,8 +92,11 @@ silently supplied. `measure_first_row_models.py` calculates all fitted candidate
 rows before requesting reference rows and keeps failed models and exact mismatch
 counts. `trace_first_row_model.py` reads a bounded window of a candidate trace
 without a reference. The original methods used before refinements are archived
-under `research/methods`; keep `tools` on `PYTHONPATH` when running an archived
-method directly. All remain numerical research tools, not product dependencies.
+under `research/methods`. Archived scripts expect their original `tools/` layout
+for imports, sibling workers and repository paths. To replay one, restore its
+exact bytes under a distinct filename in `tools/` of an isolated scratch checkout,
+then run its original CLI with local corpus/runtime paths and fresh outputs.
+All remain numerical research tools, not product dependencies.
 
 ## Full-raster measurements
 
