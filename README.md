@@ -1,18 +1,40 @@
 # Rust Olympus RAW decoder
 
-An openly licensed Olympus/OM System sample corpus and independently documented
-ORF research, working toward a pure-Rust decoder suitable for permissive projects.
+An openly licensed Olympus/OM System sample corpus, measured format specification,
+and reproducible validation package for a safe pure-Rust ORF decoder.
 **The measured compressed 12-bit profile now has a safe pure-Rust implementation
 in LightCraft. It matches seventeen complete reference rasters: 434,555,200 samples,
 including both 81 MP files and every stored sensor margin.** This repository keeps
 the unchanged CC0 corpus, measurements, provenance and replay tools; product code
 lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
 
+**Upstream submission:** [LightCraft draft PR #360](https://github.com/storytold/lightcraft/pull/360).
+It awaits provenance/scope review and reconciliation with the overlapping CFA/probe
+work in #277. This repository is a reusable research and validation hub; it does
+not currently publish a standalone Cargo crate or end-user RAW converter.
+
+## Start here
+
+| Goal | Entry point |
+|---|---|
+| Understand the supported compressed format | [Measured 12-bit specification](research/compressed-12bit-measured.md) and [pre-implementation review](research/compressed-12bit-review.md) |
+| Read or integrate the Rust decoder | [Pinned codec source](https://github.com/voshart/lightcraft/blob/b0654b36ae5e4c84c874faded78d5c31164e6f81/crates/raw/src/vendor/olympus12.rs), [ORF container integration](https://github.com/voshart/lightcraft/blob/b0654b36ae5e4c84c874faded78d5c31164e6f81/crates/raw/src/vendor/orf.rs), and [implementation scope](research/rust-implementation.md) |
+| Reproduce the 17 complete sensor comparisons | [Build and replay instructions](tools/README.md#reproduce-the-published-rust-validation) and [recorded results](research/results/rust-compressed-full-frame.json) |
+| Reuse openly licensed photographs | [Download instructions below](#get-and-verify-the-photographs), [creator manifest](corpus/user-images.json), and [external manifest](corpus/external-sources.json) |
+| Review origin and performance evidence | [Exposure/provenance history](research/orf12-provenance.md) and [release timings/method](research/rust-implementation.md#release-decoding-comparison) |
+
+The decoder currently lives inside `lightcraft-raw` and uses that crate's error,
+metadata and image types. The source links above are implementation references,
+not drop-in standalone modules. A future standalone crate should have a stable
+public API and reuse the same validation corpus. Keeping one product implementation
+while upstream review is in progress avoids diverging copies.
+
 The working path is independent measurements on original files, explicit
 competing hypotheses, review of the resulting format description, and a safe
 pure-Rust implementation. Vendor replies or a licence grant are not dependencies
-of that plan. The next experiment is recorded in the
-[compressed research protocol](research/compressed-next-experiment.md).
+of that plan. The [compressed research protocol](research/compressed-next-experiment.md)
+preserves the earlier experiments; the implementation account above describes the
+current result.
 
 The creator-contributed corpus includes ten original ORFs and two companion JPEGs
 from voshart's Olympus E-M5 II and E-M5 III, released by their creator under CC0.
@@ -94,15 +116,28 @@ Python inspector missed. Field-role claims from the supplied prose are not adopt
 The [implementation and validation account](research/rust-implementation.md) records
 the exact scope, rejection policy, safety tests, full-array replay and application checks.
 
-The related LightCraft changes are on local branch `orf/independent-evidence`,
-commits `6ccba8f` and `480985b`, based on upstream
-`629e39380e296f588c64cd9c0053a8edc3528f36`. They are not yet an upstream PR.
-That branch passed `cargo xtask ci`, including WASM, and the packed file was
-visually checked through LightCraft's headless and desktop control interfaces.
-The subsequent compressed implementation is on `orf/compressed-12bit`, commit
-[b0654b3](https://github.com/voshart/lightcraft/commit/b0654b36ae5e4c84c874faded78d5c31164e6f81). The fixes, specification and compressed implementation
-remain separate commits/branches for review. This is a contribution in voshart's
-fork, not a merged upstream release or maintainer approval of the provenance.
+The LightCraft contribution is published as [draft PR #360](https://github.com/storytold/lightcraft/pull/360),
+with independent CFA/packed/header fixes, the measured specification and compressed
+implementation retained as separate commits. Product code is pinned at
+[b0654b3](https://github.com/voshart/lightcraft/commit/b0654b36ae5e4c84c874faded78d5c31164e6f81);
+the submitted head [06221ee](https://github.com/voshart/lightcraft/commit/06221eec37c78f66e9d0c257f25053b52bc78050)
+adds documentation cleanup and passed all seven `cargo xtask ci` gates, including
+WASM. Native/headless application imports were inspected. Submission does not mean
+an upstream release or maintainer approval of the provenance.
+
+## Contributing
+
+Useful follow-ups include additional licensed camera/mode samples, reproducible
+unsupported-file reports, independent review of the measured specification, and
+measured optimization experiments that preserve every sensor value. For a report,
+include camera/mode, input SHA-256, tested commit, command and observed result;
+share the original only when you have permission and an explicit suitable licence.
+See [contributor instructions](AGENTS.md) before adding source or research.
+
+Use [this repository's issues](https://github.com/voshart/Rust-Olympus-RAW-decoder/issues)
+for corpus/research/replay questions and the linked LightCraft PR for product
+integration review. Unknown compressed fingerprints, generalized 14-bit, camera
+colour calibration and lens correction remain separate follow-up work.
 
 ## Licences and provenance
 

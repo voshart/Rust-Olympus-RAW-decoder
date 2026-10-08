@@ -4,13 +4,14 @@ This document covers container metadata and the independently established packed
 layout, which is implemented in the related LightCraft branch. The separate
 [measured compressed 12-bit profile](compressed-12bit-measured.md) now documents
 entropy coding, prediction, state/reset and completion observations with full
-sample comparisons. Compressed ORF remains unsupported in the product pending
-separate specification review and implementation.
+sample comparisons. The measured profile has since received a separate review
+and a safe Rust implementation; see the [implementation account](rust-implementation.md).
+Other compressed fingerprints and generalized 14-bit remain unsupported.
 See [provenance and acceptance gates](orf12-provenance.md).
 
 ## Scope and evidence
 
-The creator-contributed set has eight original ORFs from an Olympus E-M5 II and
+The initial creator-contributed set had eight original ORFs from an Olympus E-M5 II and
 E-M5 III, and two companion JPEGs. The creator has released the unchanged
 originals as CC0 in [the Git LFS corpus](../corpus/user-images.json). Derived
 sensor arrays and binary instruments remain unbundled. Repeatable tools are in
@@ -30,8 +31,8 @@ This is verified sample coverage, not a guarantee for every camera or mode.
 All eight files declare `BitsPerSample=16`, `Compression=1`, one strip covering
 the full sensor, and Olympus ImageProcessing `ValidBits=[12, 0]`. Those standard
 TIFF tags therefore do **not** distinguish packed samples from the vendor's
-compressed samples. Seven shorter strips are compressed candidates; their
-compressed coding rules have not been established. A camera-model lookup cannot
+compressed samples. The seven shorter strips were the initial compressed
+candidates, now covered by the separate measured profile. A camera-model lookup cannot
 replace the per-file CFA tag: the E-M5 II's ordinary and high-resolution files
 declare different layouts.
 
@@ -127,7 +128,8 @@ adaptive state or several mechanisms together. These experiments do not select
 one explanation, establish bit order, or justify a decoder implementation.
 
 The subsequent experiments distinguish competing bit-order, code-length,
-predictor and reset hypotheses. The resulting evidence account is ready for
-separate review before a product decoder and its test vectors are written.
+predictor and reset hypotheses. The subsequent specification review, product
+implementation and validation are linked above; these initial observations alone
+were not used to justify the compressed reader.
 The rejected compressed encoder/decoder
 from PR #240 is not an input to this document or implementation.

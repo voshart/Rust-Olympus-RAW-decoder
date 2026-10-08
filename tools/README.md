@@ -18,6 +18,39 @@ excludes GPS, serials, embedded names and timestamps, but contains filenames and
 raw strip prefixes. The published corpus contains the unchanged camera originals,
 including their own metadata.
 
+## Reproduce the published Rust validation
+
+Prerequisites: Python 3.10+, Git LFS for the creator photographs, Rust/Cargo
+1.90+ and a native linker. Start in this corpus checkout after the README's
+clone/LFS instructions. Download and verify the external originals:
+
+```sh
+python tools/verify_corpus.py --require-media
+python tools/fetch_corpus.py
+```
+
+Create a new sibling checkout for the pinned product code and build its audit
+example. These commands use `lightcraft-orf` as an unused directory name:
+
+```sh
+git clone --branch orf/compressed-12bit https://github.com/voshart/lightcraft.git ../lightcraft-orf
+git -C ../lightcraft-orf checkout --detach b0654b36ae5e4c84c874faded78d5c31164e6f81
+cargo build --release --manifest-path ../lightcraft-orf/Cargo.toml -p lightcraft-raw --example orf_audit --target-dir ../lightcraft-orf/target
+python tools/validate_rust.py --binary ../lightcraft-orf/target/release/examples/orf_audit --lightcraft ../lightcraft-orf --creators corpus/voshart-olympus --external corpus/external --sensor-dir .work/rust-replay-1 --output .work/rust-replay-1.json
+```
+
+On Windows use `orf_audit.exe` for the `--binary` path. Cargo may download Rust
+dependencies during the build; corpus downloads also require network access.
+Once built and downloaded, the comparison itself works offline and does not
+require installing a reference decoder. It compares against recorded complete
+reference hashes, rather than generating a new independent reference result.
+
+Expected result: seventeen successful cases, 434,555,200 samples, zero differences
+and no excluded sensor margins. See [the published report](../research/results/rust-compressed-full-frame.json).
+The sensor dumps alone occupy about 0.87 GB, in addition to photographs and build
+artifacts. Outputs are create-new; use a fresh sensor directory and report name
+for every repeat. The audit also checks header/full metadata equality.
+
 ## Optional binary reference
 
 Download binary wheels only into the ignored research area. Do not build or
@@ -51,8 +84,9 @@ It checks header/full metadata agreement and optionally writes full-sensor
 little-endian u16 dumps. That Rust implementation is not duplicated here.
 This repository specifies container metadata, observed packed layouts and the
 [measured compressed 12-bit profile](../research/compressed-12bit-measured.md).
-The product compressed Rust implementation still requires separate review and
-implementation/safety gates.
+The [product implementation account](../research/rust-implementation.md) records
+the completed specification review, implementation and safety/CI checks. Upstream
+maintainer review remains pending in [draft PR #360](https://github.com/storytold/lightcraft/pull/360).
 
 For the preregistered bit-influence experiment, use the binary instrument above:
 
