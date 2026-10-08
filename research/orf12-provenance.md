@@ -10,6 +10,11 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
   Later inputs include the individually verified CC0 corpus records and media
   listed in [external-sources.json](../corpus/external-sources.json), plus corpus
   licence/readme metadata. Third-party decoder source was not read.
+- After the initial compressed-prefix results at commit `6ac6d66`, LightCraft's
+  documented clean-room NEF, PEF, Panasonic RW2, lossless-JPEG and unpacking
+  implementations were read to assess reusable infrastructure. This exposure
+  supplied no new Olympus coding rules. The same initial-pair hypothesis was
+  subsequently tested prospectively on the two additional E-M5 III files.
 - Not used as inputs: PR #240's `orfc.rs`, its compressed encoder, other ORF
   decoder source, camera coefficient tables, Adobe profiles or lens profiles.
 - The research tools and initial notes were authored with Codex. No assertion is made that an AI model's training contains
@@ -24,6 +29,10 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
   sensor arrays or instrument binaries are committed to LightCraft. The public
   E-M5 II held-out comparison now passes; it covers one additional specimen in
   the same camera mode, not all packed-camera variants.
+- The creator explicitly added P5070002 and P2153108 to the CC0 contribution on
+  the same date. The current corpus contains twelve unchanged originals: ten
+  ORFs and two JPEGs. Both new input hashes were recorded before reference
+  measurements, and copied media matches the source files exactly.
 
 ## Evidence trail
 
@@ -39,6 +48,7 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
 | S1 | Independently generated packed and Exif fixtures | Four Bayer layouts/two byte orders, boundary values, truncations and mutations | Round trips are supporting evidence, not independent correctness |
 | S2 | Synthetic maker-note crop at u64::MAX | Old unchecked crop addition overflows; checked coordinates fall back to the sensor area | Non-conforming numeric tag type |
 | X1 | Isolated compressed-strip byte perturbations | Reproducible reference failures/difference extents | Does not establish compressed coding rules |
+| X2 | Prospectively apply the existing initial-pair hypothesis to two additional E-M5 III originals | All four candidate values match the binary reference; geometry, margins, differences and sensor hashes recorded | Only two coordinates per image tested; no full compressed decode |
 
 Published artifacts are in [research/results](results/): container observations,
 user and public packed comparisons, C-5050 comparisons and the original

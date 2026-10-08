@@ -27,6 +27,10 @@ def worker(path, runtime, byte, bit, xor_mask=None):
         raise ValueError('file grew beyond observation budget')
     with rawpy.imread(io.BytesIO(data)) as reference:
         original = reference.raw_image.copy()
+        sizes = reference.sizes
+        geometry = dict(sensor_wh=[sizes.raw_width,sizes.raw_height],
+                        visible_origin_xy=[sizes.left_margin,sizes.top_margin],
+                        visible_wh=[sizes.width,sizes.height])
     altered = bytearray(data)
     mutation = 1 << bit if xor_mask is None else xor_mask
     if not 0 <= mutation <= 255:
@@ -45,7 +49,7 @@ def worker(path, runtime, byte, bit, xor_mask=None):
         return dict(strip_byte=byte,bit_lsb_index=bit if xor_mask is None else None,xor_mask=mutation,
             rawpy=rawpy.__version__,libraw=list(rawpy.libraw_version),numpy=np.__version__,
             baseline_sensor_sha256_le_u16=hashlib.sha256(original.astype('<u2',copy=False).tobytes()).hexdigest(),
-            sensor_shape=list(original.shape),changed_samples=count,
+            sensor_shape=list(original.shape),reference_geometry=geometry,changed_samples=count,
             first_changed_index_row_major=first,
             first_changed_xy=[first%width,first//width] if first is not None else None,
             first_changed_before=int(original.flat[first]) if first is not None else None,

@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "tool": "container-observations-only",
+  "files": [
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "size_bytes": 16994452,
+      "sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "kind": "orf",
+      "magic": "IIRO",
+      "byte_order": "<",
+      "make": "OLYMPUS CORPORATION    ",
+      "model": "E-M5MarkIII     ",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "compression": 1,
+      "rows_per_strip": 3912,
+      "cfa_bytes": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "cfa": "RGGB",
+      "lens_model": "OLYMPUS M.17mm F1.2",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "strips": [
+        {
+          "offset": 1523712,
+          "size_bytes": 15470740,
+          "sha256": "d80728a0f126daec2aca0715b632f88bc329cf7776fd4269194ddc453222bc35",
+          "prefix_32_hex": "00000000010000611612f369bc0c047c0617c70515c34514570571c34550535c",
+          "first_mib_byte_entropy": 5.800466
+        }
+      ],
+      "stored_bits_per_sensor_sample": 6.037692
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "size_bytes": 22429952,
+      "sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "kind": "orf",
+      "magic": "IIRO",
+      "byte_order": "<",
+      "make": "OLYMPUS CORPORATION    ",
+      "model": "E-M5MarkIII     ",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "compression": 1,
+      "rows_per_strip": 3912,
+      "cfa_bytes": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "cfa": "RGGB",
+      "lens_model": "LUMIX G FISHEYE 8/F3.5 ",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          254,
+          253,
+          253,
+          254
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "strips": [
+        {
+          "offset": 1523712,
+          "size_bytes": 20906240,
+          "sha256": "c4fe5dc3ac9f86109290919103e7fb564f248ca1feced62dafbca98c8480e39e",
+          "prefix_32_hex": "00000000010000201f600003f12a7a769d11de5c903d54606fe4128e614f89e4",
+          "first_mib_byte_entropy": 7.9636
+        }
+      ],
+      "stored_bits_per_sensor_sample": 8.158978
+    }
+  ]
+}

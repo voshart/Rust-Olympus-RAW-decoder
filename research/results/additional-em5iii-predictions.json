@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "all_candidates_precede_reference": true,
+  "cases": [
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 72,
+          "flags": 1,
+          "zero_count": 8,
+          "quotient": 8,
+          "terminator_or_extra_bit": 1,
+          "remainder": 15,
+          "high_part": 143,
+          "candidate_value": 573
+        },
+        {
+          "start_bit": 72,
+          "end_bit_exclusive": 103,
+          "flags": 3,
+          "zero_count": 12,
+          "quotient": 15,
+          "terminator_or_extra_bit": 1,
+          "remainder": 8,
+          "high_part": 248,
+          "candidate_value": 995
+        }
+      ],
+      "interpretation": "initial-two-values-only"
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 68,
+          "flags": 3,
+          "zero_count": 4,
+          "quotient": 4,
+          "terminator_or_extra_bit": 1,
+          "remainder": 1,
+          "high_part": 65,
+          "candidate_value": 263
+        },
+        {
+          "start_bit": 68,
+          "end_bit_exclusive": 80,
+          "flags": 3,
+          "zero_count": 4,
+          "quotient": 4,
+          "terminator_or_extra_bit": 1,
+          "remainder": 2,
+          "high_part": 66,
+          "candidate_value": 267
+        }
+      ],
+      "interpretation": "initial-two-values-only"
+    }
+  ],
+  "candidate_tool_commit": "6ac6d661e1525acd9b5c6749d851f2a26596749a",
+  "reference_acquired": false,
+  "scope": "Two additional creator-contributed files; candidate values saved before any reference pixels were inspected."
+}

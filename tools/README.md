@@ -77,3 +77,8 @@ The reference check remains in a bounded child process. These are small numerica
 hypothesis tools; they do not reconstruct a full sensor image, specify later
 prediction/state or make unsupported variants decode in LightCraft. See
 [findings and remaining questions](../research/compressed-findings.md).
+
+New initial-pair reports also preserve reference sensor/visible geometry, the
+full reference sensor hash, tested coordinates and signed candidate differences.
+Reference margins and the maker-note active crop are recorded separately: the
+initial pair is measured at the raw sensor origin, without applying a crop.

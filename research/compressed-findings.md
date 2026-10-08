@@ -104,6 +104,37 @@ variants. The original one-off measurement is archived byte-for-byte in
 report. Use [measure_initial_tokens.py](../tools/measure_initial_tokens.py) for
 portable reproduction and isolated reference workers.
 
+## Additional E-M5 III prospective validation
+
+The creator contributed two further CC0 originals on 2026-10-08. Both declare a
+5240 x 3912 RGGB sensor with 12 valid bits and one strip. Their maker-note active
+crop is 5184 x 3888 at (12, 12), while the reference exposes the entire declared
+sensor with no margins. The first-pair comparison uses sensor coordinates (0, 0)
+and (1, 0), without applying the active crop.
+
+| File / lens | Stored strip bits per sample | Candidate pair | Reference pair | Differences |
+|---|---:|---|---|---|
+| P5070002 / Lumix G Fisheye 8mm F3.5 | 8.158978 | 573, 995 | 573, 995 | 0, 0 |
+| P2153108 / Olympus M.17mm F1.2 | 6.037692 | 263, 267 | 263, 267 | 0, 0 |
+
+Both predictions were saved using the unchanged hypothesis from commit
+`6ac6d661e1525acd9b5c6749d851f2a26596749a` before any reference sensor values
+from these files were inspected. The hypothesis now matches fourteen initial
+values on seven files across five camera models. These originals add different
+strip budgets, initial values, lens metadata and black levels within the same
+camera geometry, providing useful specimens for later full-frame validation.
+Two lens combinations alone cannot establish whether an encoding difference is
+caused by a lens.
+
+Reports: [container observations](results/additional-em5iii-container.json),
+[predictions recorded first](results/additional-em5iii-predictions.json), and
+[reference comparison](results/additional-em5iii-initial-tokens.json). The latter
+records rawpy 0.27.1, LibRaw 0.22.1, NumPy 2.4.3, sensor/visible geometry, the
+full reference sensor hash and the two tested coordinates and differences.
+The full hash identifies the reference output; it does not claim an independent
+full-image decode. All samples beyond the tested initial pair remain unverified
+by this compressed hypothesis.
+
 ## Next research gate
 
 Measure how the remainder width changes after the initial pair and how signed
@@ -115,5 +146,5 @@ variants and camera colour remain separate coverage/quality work.
 
 No additional photographs, purchases or vendor replies are required for the
 next experiments. Full sensor arrays and native instrument binaries remain
-unbundled. LightCraft's seven compressed creator-contributed files still use
+unbundled. LightCraft's nine compressed creator-contributed files still use
 embedded previews; its existing packed-reader fixes remain unchanged.

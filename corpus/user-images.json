@@ -3,6 +3,44 @@
   "contributed_date": "2026-10-08",
   "files": [
     {
+      "path": "corpus/voshart-olympus/P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "size_bytes": 16994452,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "contributed_date": "2026-10-08",
+      "kind": "orf",
+      "model": "E-M5MarkIII",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "lens_model": "OLYMPUS M.17mm F1.2",
+      "modifications": "none"
+    },
+    {
+      "path": "corpus/voshart-olympus/P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "size_bytes": 22429952,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "contributed_date": "2026-10-08",
+      "kind": "orf",
+      "model": "E-M5MarkIII",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "lens_model": "LUMIX G FISHEYE 8/F3.5",
+      "modifications": "none"
+    },
+    {
       "path": "corpus/voshart-olympus/P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
       "sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
       "size_bytes": 22419547,

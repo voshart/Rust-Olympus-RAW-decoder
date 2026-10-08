@@ -11,7 +11,7 @@ pure-Rust implementation. Vendor replies or a licence grant are not dependencies
 of that plan. The next experiment is recorded in the
 [compressed research protocol](research/compressed-next-experiment.md).
 
-The initial contribution includes eight original ORFs and two companion JPEGs
+The creator-contributed corpus includes ten original ORFs and two companion JPEGs
 from voshart's Olympus E-M5 II and E-M5 III, released by their creator under CC0.
 The originals are unchanged and stored using Git LFS. Their filenames retain
 camera/lens descriptions; SHA-256 hashes and byte counts identify every file.
@@ -69,8 +69,9 @@ camera colour calibration, lens corrections or Lightroom rendering parity.
 
 The [compressed-prefix findings](research/compressed-findings.md) now include
 256 single-bit cases, 24 first-pixel flag/control cases, and an initial-codeword
-hypothesis that matches the first two values on five files, including two
-previously unmeasured cameras. Later prediction, changing coding parameters and
+hypothesis that matches the first two values on seven files across five camera
+models, including two previously unmeasured cameras and two additional E-M5 III
+originals. Later prediction, changing coding parameters and
 full-frame decoding remain unspecified; these results are not a finished decoder.
 
 The related LightCraft changes are on local branch `orf/independent-evidence`,

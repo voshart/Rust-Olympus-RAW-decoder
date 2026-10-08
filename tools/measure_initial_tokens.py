@@ -75,6 +75,12 @@ def main():
                 values = reference['first_row_before'][:2]
                 matches = [f['candidate_value']==v for f,v in zip(result['fields'],values)]
                 result.update(rawpy=reference['rawpy'],libraw=reference['libraw'],
+                              numpy=reference['numpy'],
+                              baseline_sensor_sha256_le_u16=reference['baseline_sensor_sha256_le_u16'],
+                              sensor_shape=reference['sensor_shape'],
+                              reference_geometry=reference['reference_geometry'],
+                              tested_sensor_xy=[[0,0],[1,0]],
+                              differences_candidate_minus_reference=[f['candidate_value']-v for f,v in zip(result['fields'],values)],
                               reference_first_two_values=values,matches=matches)
                 failed |= len(matches) != 2 or not all(matches)
                 print('reference:',result['file'],values,matches,flush=True)
