@@ -1,0 +1,55 @@
+{
+  "input_sha256": "922ee554fa21f21f0598131dae1fc95adfcda61f090c3991e0f6a0997a55a2c2",
+  "sensor": [
+    9280,
+    6932
+  ],
+  "padding_count": 6432896,
+  "nonzero_padding": 0,
+  "masked_column_candidates": {
+    "low_nibble": {
+      "count": 1792,
+      "mean": 350.71261160714283,
+      "stdev": 32.33942987864716,
+      "min": 261,
+      "max": 431
+    },
+    "high_nibble": {
+      "count": 1792,
+      "mean": 903.5027901785714,
+      "stdev": 723.5949115177343,
+      "min": 81,
+      "max": 2815
+    }
+  },
+  "reference": {
+    "rawpy": "0.27.1",
+    "numpy": "2.4.3",
+    "libraw": [
+      0,
+      22,
+      1
+    ],
+    "sensor_sha256_le_u16": "aea032c10a27ff82918a465b4cc0bdb701f65ce119a3d134ad8ebd60ff5d61d3",
+    "geometry": {
+      "raw_height": 6932,
+      "raw_width": 9280,
+      "height": 6926,
+      "width": 9274,
+      "top_margin": 0,
+      "left_margin": 0,
+      "iheight": 6926,
+      "iwidth": 9274,
+      "pixel_aspect": 1.0,
+      "flip": 5,
+      "crop_left_margin": 10,
+      "crop_top_margin": 10,
+      "crop_width": 9216,
+      "crop_height": 6912
+    },
+    "compared_samples": 64328960,
+    "mismatches": 0,
+    "maximum_difference": 0,
+    "candidate_sha256_le_u16": "aea032c10a27ff82918a465b4cc0bdb701f65ce119a3d134ad8ebd60ff5d61d3"
+  }
+}

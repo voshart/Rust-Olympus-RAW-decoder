@@ -1,0 +1,55 @@
+{
+  "input_sha256": "5c42fa75d6b549514b722e2c50726c03e34fac4909ec3640e147ea7fa825fc8d",
+  "sensor": [
+    9280,
+    6932
+  ],
+  "padding_count": 6432896,
+  "nonzero_padding": 0,
+  "masked_column_candidates": {
+    "low_nibble": {
+      "count": 1792,
+      "mean": 300.60379464285717,
+      "stdev": 33.8053175481204,
+      "min": 259,
+      "max": 493
+    },
+    "high_nibble": {
+      "count": 1792,
+      "mean": 472.16629464285717,
+      "stdev": 425.5250541113283,
+      "min": 61,
+      "max": 3501
+    }
+  },
+  "reference": {
+    "rawpy": "0.27.1",
+    "numpy": "2.4.3",
+    "libraw": [
+      0,
+      22,
+      1
+    ],
+    "sensor_sha256_le_u16": "79aa165b0c74e88ff6c3e3e027e86aad30a6957d9b7d3d8990668aafbb393ef4",
+    "geometry": {
+      "raw_height": 6932,
+      "raw_width": 9280,
+      "height": 6926,
+      "width": 9274,
+      "top_margin": 0,
+      "left_margin": 0,
+      "iheight": 6926,
+      "iwidth": 9274,
+      "pixel_aspect": 1.0,
+      "flip": 0,
+      "crop_left_margin": 10,
+      "crop_top_margin": 10,
+      "crop_width": 9216,
+      "crop_height": 6912
+    },
+    "compared_samples": 64328960,
+    "mismatches": 0,
+    "maximum_difference": 0,
+    "candidate_sha256_le_u16": "79aa165b0c74e88ff6c3e3e027e86aad30a6957d9b7d3d8990668aafbb393ef4"
+  }
+}

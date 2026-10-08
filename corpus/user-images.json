@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "contributed_date": "2026-10-08",
+  "files": [
+    {
+      "path": "corpus/voshart-olympus/P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "size_bytes": 22419547,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkIII",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/P5131023.JPG",
+      "sha256": "0432c07526e51effef804c5251f81361b937b3fffcf02eba4725fc319fbee7fe",
+      "size_bytes": 22878193,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "jpeg",
+      "model": "",
+      "sensor": null,
+      "cfa": null
+    },
+    {
+      "path": "corpus/voshart-olympus/P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "size_bytes": 68859604,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkIII",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "size_bytes": 14223017,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "size_bytes": 13650196,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "size_bytes": 15221511,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "size_bytes": 15465431,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB"
+    },
+    {
+      "path": "corpus/voshart-olympus/PA280725.JPG",
+      "sha256": "fc7d950a907027ace4fcf4cb7399452055a43f06f4ff1fed878cbd5e39775e82",
+      "size_bytes": 18202416,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "jpeg",
+      "model": "",
+      "sensor": null,
+      "cfa": null
+    },
+    {
+      "path": "corpus/voshart-olympus/PA280725_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "sha256": "922ee554fa21f21f0598131dae1fc95adfcda61f090c3991e0f6a0997a55a2c2",
+      "size_bytes": 104427520,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        9280,
+        6932
+      ],
+      "cfa": "GRBG"
+    },
+    {
+      "path": "corpus/voshart-olympus/PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "size_bytes": 16145391,
+      "creator": "voshart",
+      "license": "CC0-1.0",
+      "license_path": "corpus/voshart-olympus/LICENSE-CC0.txt",
+      "source": "creator-contributed original work",
+      "kind": "orf",
+      "model": "E-M5MarkII",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB"
+    }
+  ]
+}

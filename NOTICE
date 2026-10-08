@@ -1,0 +1,18 @@
+Rust-Olympus-RAW-decoder research and corpus
+
+Creator-contributed photographs: voshart, released under CC0-1.0 with explicit
+permission on 2026-10-08. See corpus/voshart-olympus/README.md and LICENSE-CC0.txt.
+The CC0 dedication covers those photographs, not all software in this repository.
+
+Initial research tools and documents were created with Codex for the Olympus ORF
+investigation in LightCraft, commit 6ccba8f, and extended for this repository.
+LightCraft: https://github.com/storytold/lightcraft
+Copyright (c) 2026 ArtCraft Team and the LightCraft contributors.
+Copyright (c) 2026 Rust-Olympus-RAW-decoder contributors.
+Code and research documentation: MIT OR Apache-2.0.
+
+External specimen sources and individual licences are in
+corpus/external-sources.json. The manifest contains identities and metadata;
+external media and measuring-instrument binaries are not bundled.
+
+Generated with Codex.

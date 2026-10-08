@@ -1,0 +1,17 @@
+{
+  "samples": 64328960,
+  "shape": [
+    6932,
+    9280
+  ],
+  "differences": 0,
+  "sensor_sha256": "79aa165b0c74e88ff6c3e3e027e86aad30a6957d9b7d3d8990668aafbb393ef4",
+  "sizes": "ImageSizes(raw_height=6932, raw_width=9280, height=6926, width=9274, top_margin=0, left_margin=0, iheight=6926, iwidth=9274, pixel_aspect=1.0, flip=0, crop_left_margin=10, crop_top_margin=10, crop_width=9216, crop_height=6912)",
+  "input_sha256": "5c42fa75d6b549514b722e2c50726c03e34fac4909ec3640e147ea7fa825fc8d",
+  "reference_instrument": {
+    "rawpy": "0.27.1",
+    "libraw": "0.22.1",
+    "numpy": "2.4.3"
+  },
+  "scope": "all declared sensor samples including borders"
+}

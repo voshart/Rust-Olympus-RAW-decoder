@@ -1,0 +1,120 @@
+{
+  "reference_instrument": {
+    "rawpy": "0.27.1",
+    "libraw": "0.22.1",
+    "numpy": "2.4.3"
+  },
+  "scope": "Declared 2576x1925 rows only; additional reference row excluded",
+  "files": [
+    {
+      "file": "c5050-PB180002.ORF",
+      "reference_shape": [
+        1926,
+        2576
+      ],
+      "declared_shape": [
+        1925,
+        2576
+      ],
+      "identity_differences": 4933159,
+      "field_map_differences": 0,
+      "sensor_sha256": "b2a6749f57a879dbeda1a2d42eeeb271c5b9440d172d0c3aff2898bea50b09cf",
+      "reference_extra_bottom_row_nonzero": 2531,
+      "sizes": "ImageSizes(raw_height=1926, raw_width=2576, height=1926, width=2576, top_margin=0, left_margin=0, iheight=1926, iwidth=2576, pixel_aspect=1.0, flip=0, crop_left_margin=0, crop_top_margin=0, crop_width=0, crop_height=0)",
+      "strip_lengths": {
+        "61824": 120,
+        "11592": 1,
+        "7728": 1
+      },
+      "input_sha256": "62709a41d866780811c99ce2d076944edcbc86619152873015ad1d69b7e7ddc9"
+    },
+    {
+      "file": "c5050-PB180009.ORF",
+      "reference_shape": [
+        1926,
+        2576
+      ],
+      "declared_shape": [
+        1925,
+        2576
+      ],
+      "identity_differences": 4938149,
+      "field_map_differences": 0,
+      "sensor_sha256": "4aec229e3d84db23f0cef1354cdcbb850e2af20f7a300a1e0da7601b23ebc78e",
+      "reference_extra_bottom_row_nonzero": 2304,
+      "sizes": "ImageSizes(raw_height=1926, raw_width=2576, height=1926, width=2576, top_margin=0, left_margin=0, iheight=1926, iwidth=2576, pixel_aspect=1.0, flip=0, crop_left_margin=0, crop_top_margin=0, crop_width=0, crop_height=0)",
+      "strip_lengths": {
+        "61824": 120,
+        "11592": 1,
+        "7728": 1
+      },
+      "input_sha256": "93ca2bff4366ae5556cd84af02263c45d308cc00b69675aed195c0e0b9312c23"
+    },
+    {
+      "file": "c5050-PB180010.ORF",
+      "reference_shape": [
+        1926,
+        2576
+      ],
+      "declared_shape": [
+        1925,
+        2576
+      ],
+      "identity_differences": 4931425,
+      "field_map_differences": 0,
+      "sensor_sha256": "6b5a5a0fbc55ab059e4cd4d2dcb9669140b4ec1841b0279f81201adb380f5fb1",
+      "reference_extra_bottom_row_nonzero": 2548,
+      "sizes": "ImageSizes(raw_height=1926, raw_width=2576, height=1926, width=2576, top_margin=0, left_margin=0, iheight=1926, iwidth=2576, pixel_aspect=1.0, flip=0, crop_left_margin=0, crop_top_margin=0, crop_width=0, crop_height=0)",
+      "strip_lengths": {
+        "61824": 120,
+        "11592": 1,
+        "7728": 1
+      },
+      "input_sha256": "68127fc215b20410b61e2eabdfb52698f1ef272518c7764127c3cd20c4a7984f"
+    },
+    {
+      "file": "c5050-PB180011.ORF",
+      "reference_shape": [
+        1926,
+        2576
+      ],
+      "declared_shape": [
+        1925,
+        2576
+      ],
+      "identity_differences": 4935663,
+      "field_map_differences": 0,
+      "sensor_sha256": "28e4ca467b18e65753ce6ab3e7dbbb15b5379282628e9cb1b0dcb20844bbdcec",
+      "reference_extra_bottom_row_nonzero": 2576,
+      "sizes": "ImageSizes(raw_height=1926, raw_width=2576, height=1926, width=2576, top_margin=0, left_margin=0, iheight=1926, iwidth=2576, pixel_aspect=1.0, flip=0, crop_left_margin=0, crop_top_margin=0, crop_width=0, crop_height=0)",
+      "strip_lengths": {
+        "61824": 120,
+        "11592": 1,
+        "7728": 1
+      },
+      "input_sha256": "227da2ebd742fdde0a3e53d811702696f98141f5b0c1b332a1ec27cb282a6397"
+    },
+    {
+      "file": "c5050-PB180013.ORF",
+      "reference_shape": [
+        1926,
+        2576
+      ],
+      "declared_shape": [
+        1925,
+        2576
+      ],
+      "identity_differences": 4929454,
+      "field_map_differences": 0,
+      "sensor_sha256": "f6608101875df37d7ffcffb2ad2e0ddff6603c86e3936ce33f322299743982af",
+      "reference_extra_bottom_row_nonzero": 2576,
+      "sizes": "ImageSizes(raw_height=1926, raw_width=2576, height=1926, width=2576, top_margin=0, left_margin=0, iheight=1926, iwidth=2576, pixel_aspect=1.0, flip=0, crop_left_margin=0, crop_top_margin=0, crop_width=0, crop_height=0)",
+      "strip_lengths": {
+        "61824": 120,
+        "11592": 1,
+        "7728": 1
+      },
+      "input_sha256": "16a994a13633afaf6dc0e7f3250adae92905de0fea8977ab10b510494e4831c9"
+    }
+  ]
+}
