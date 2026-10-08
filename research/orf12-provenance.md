@@ -104,6 +104,35 @@ Binary-distribution sources: [rawpy on PyPI](https://pypi.org/project/rawpy/0.27
 [NumPy on PyPI](https://pypi.org/project/numpy/2.4.3/).
 The optional instrument is not needed to build, test or run LightCraft.
 
+## Post-implementation performance-prose exposure
+
+On 2026-10-08, after product implementation, full-frame validation and release
+benchmarks were published, the user supplied a third prose document titled
+"How Olympus RAW decoders are optimized for speed". Its original attachment
+SHA-256 is `7f4f1c46ef97f8264cb890bafc83b65a0dd575c1e7e08d8c370d125d2e159aad`.
+It describes implementation-specific techniques attributed to RawSpeed and LibRaw,
+as well as general optimization ideas. The attachment was read; its source links,
+decoder code and other web pages were not opened. Those upstream implementation
+and speedup claims were not independently verified. The prose is not republished.
+
+The pre-exposure product source remains pinned at
+[`b0654b3`](https://github.com/voshart/lightcraft/commit/b0654b36ae5e4c84c874faded78d5c31164e6f81);
+documentation-only cleanup was already published at
+[`06221ee`](https://github.com/voshart/lightcraft/commit/06221eec37c78f66e9d0c257f25053b52bc78050).
+The research/benchmark repository was at `497365c6dcce0d167c31a8b8606802548da7d577`
+before this disclosure. No product implementation or measured coding rule changed
+in response to this document.
+
+Inspection of our existing Rust source confirms it already uses an in-memory bit
+reservoir, `leading_zeros()` for adaptive bit width, and direct reconstruction into
+the sensor buffer without a full-frame residual buffer. Prefix decoding currently
+uses repeated one-bit reads; this is a candidate for a separately measured future
+experiment, not an established bottleneck or promised speedup. Potential follow-up
+would compare our original implementation against an independently written change,
+preserving strict EOF/tail handling, all seventeen full-sensor hashes and hostile-input
+checks. Generalized 14-bit remains outside scope. Performance work is deferred from
+the initial submission so the already verified implementation stays reviewable.
+
 ## Before a compressed decoder is acceptable
 
 The working path is independent measurement. Vendor/specification requests are
