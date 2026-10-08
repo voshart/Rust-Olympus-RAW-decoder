@@ -67,6 +67,12 @@ The optional instrument is not needed to build, test or run LightCraft.
 
 ## Before a compressed decoder is acceptable
 
+The working path is independent measurement. Vendor/specification requests are
+optional historical drafts and do not hold up this work. Subsequent bit-level
+protocols, failed hypotheses and initial-codeword comparisons are recorded in
+[compressed findings](compressed-findings.md). The first-two-value hypothesis is
+a research measurement, not a complete specification or product implementation.
+
 1. Independently derive the bitstream description. For each non-obvious rule,
    record specimen hash, operation, competing hypotheses and discriminating
    observations. Preserve failed hypotheses rather than retrofitting a story.

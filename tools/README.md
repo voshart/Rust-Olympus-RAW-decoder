@@ -51,3 +51,29 @@ It checks header/full metadata agreement and optionally writes full-sensor
 little-endian u16 dumps. That Rust implementation is not duplicated here.
 This repository currently specifies container metadata and observed packed
 layouts; an independently established compressed specification is still needed.
+
+For the preregistered bit-influence experiment, use the binary instrument above:
+
+```sh
+python tools/probe_bit_influence.py "corpus/voshart-olympus/P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF" --reference-runtime .work/runtime --output .work/em5ii-bits.json
+```
+
+It tests 64 single-bit mutations, uses isolated workers with 20-second timeouts,
+and compares the first changed sensor indices. `--bytes 32 33 34 35 36 37 38 39`
+selects the registered later region. It bounds inputs to 32 million declared
+samples and at most four workers. Tied influence indices, invisible mutations and
+contradictions remain in the report; they do not become assumed format rules.
+
+`probe_prefix_flags.py` tests all eight combinations of the first three proposed
+flag bits against two preregistered numeric transforms. `measure_initial_tokens.py`
+computes two candidate values from file bytes before requesting reference pixels:
+
+```sh
+python tools/measure_initial_tokens.py corpus/external/pixls-2978.ORF corpus/external/pixls-6946.ORF --reference-runtime .work/runtime --output .work/initial-pairs.json
+```
+
+Omit `--reference-runtime` for standard-library-only candidate measurements.
+The reference check remains in a bounded child process. These are small numerical
+hypothesis tools; they do not reconstruct a full sensor image, specify later
+prediction/state or make unsupported variants decode in LightCraft. See
+[findings and remaining questions](../research/compressed-findings.md).

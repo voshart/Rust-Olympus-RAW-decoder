@@ -1,6 +1,8 @@
 # Draft requests for an ORF specification or permissive implementation grant
 
-Prepared for the maintainer to review and send. No outreach has been sent.
+Optional historical drafts, retained for reference. No outreach has been sent.
+The working research plan proceeds through independent file measurements and
+does not depend on a vendor response or licence grant.
 The user photographs are not attachments to either request.
 
 ## To the LibRaw maintainers

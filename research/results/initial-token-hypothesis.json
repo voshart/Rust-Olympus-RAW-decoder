@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 87,
+          "flags": 0,
+          "zero_count": 12,
+          "quotient": 13,
+          "terminator_or_extra_bit": 1,
+          "remainder": 11,
+          "high_part": 219,
+          "candidate_value": 876
+        },
+        {
+          "start_bit": 87,
+          "end_bit_exclusive": 118,
+          "flags": 0,
+          "zero_count": 12,
+          "quotient": 25,
+          "terminator_or_extra_bit": 1,
+          "remainder": 6,
+          "high_part": 406,
+          "candidate_value": 1624
+        }
+      ],
+      "interpretation": "initial-two-values-only",
+      "script_sha256": "07588766935f09d1f4b300ca73e2a469a89b4828e90e62580ba5de1d90cebb08",
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "reference_first_two_values": [
+        876,
+        1624
+      ],
+      "matches": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 74,
+          "flags": 0,
+          "zero_count": 10,
+          "quotient": 10,
+          "terminator_or_extra_bit": 1,
+          "remainder": 4,
+          "high_part": 164,
+          "candidate_value": 656
+        },
+        {
+          "start_bit": 74,
+          "end_bit_exclusive": 105,
+          "flags": 1,
+          "zero_count": 12,
+          "quotient": 23,
+          "terminator_or_extra_bit": 1,
+          "remainder": 12,
+          "high_part": 380,
+          "candidate_value": 1521
+        }
+      ],
+      "interpretation": "initial-two-values-only",
+      "script_sha256": "07588766935f09d1f4b300ca73e2a469a89b4828e90e62580ba5de1d90cebb08",
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "reference_first_two_values": [
+        656,
+        1521
+      ],
+      "matches": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 68,
+          "flags": 2,
+          "zero_count": 4,
+          "quotient": 4,
+          "terminator_or_extra_bit": 1,
+          "remainder": 14,
+          "high_part": 78,
+          "candidate_value": 314
+        },
+        {
+          "start_bit": 68,
+          "end_bit_exclusive": 81,
+          "flags": 0,
+          "zero_count": 5,
+          "quotient": 5,
+          "terminator_or_extra_bit": 1,
+          "remainder": 2,
+          "high_part": 82,
+          "candidate_value": 328
+        }
+      ],
+      "interpretation": "initial-two-values-only",
+      "script_sha256": "07588766935f09d1f4b300ca73e2a469a89b4828e90e62580ba5de1d90cebb08",
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "reference_first_two_values": [
+        314,
+        328
+      ],
+      "matches": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 87,
+          "flags": 3,
+          "zero_count": 12,
+          "quotient": 18,
+          "terminator_or_extra_bit": 1,
+          "remainder": 2,
+          "high_part": 290,
+          "candidate_value": 1163
+        },
+        {
+          "start_bit": 87,
+          "end_bit_exclusive": 118,
+          "flags": 2,
+          "zero_count": 12,
+          "quotient": 24,
+          "terminator_or_extra_bit": 1,
+          "remainder": 7,
+          "high_part": 391,
+          "candidate_value": 1566
+        }
+      ],
+      "interpretation": "initial-two-values-only",
+      "script_sha256": "07588766935f09d1f4b300ca73e2a469a89b4828e90e62580ba5de1d90cebb08",
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "reference_first_two_values": [
+        1163,
+        1566
+      ],
+      "matches": [
+        true,
+        true
+      ]
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "fields": [
+        {
+          "start_bit": 56,
+          "end_bit_exclusive": 75,
+          "flags": 2,
+          "zero_count": 11,
+          "quotient": 11,
+          "terminator_or_extra_bit": 1,
+          "remainder": 8,
+          "high_part": 184,
+          "candidate_value": 738
+        },
+        {
+          "start_bit": 75,
+          "end_bit_exclusive": 90,
+          "flags": 3,
+          "zero_count": 7,
+          "quotient": 7,
+          "terminator_or_extra_bit": 1,
+          "remainder": 12,
+          "high_part": 124,
+          "candidate_value": 499
+        }
+      ],
+      "interpretation": "initial-two-values-only",
+      "script_sha256": "07588766935f09d1f4b300ca73e2a469a89b4828e90e62580ba5de1d90cebb08",
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "reference_first_two_values": [
+        738,
+        499
+      ],
+      "matches": [
+        true,
+        true
+      ]
+    }
+  ]
+}

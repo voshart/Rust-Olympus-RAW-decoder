@@ -2,8 +2,14 @@
 
 An openly licensed Olympus/OM System sample corpus and independently documented
 ORF research, working toward a pure-Rust decoder suitable for permissive projects.
-**This repository is currently a research and corpus project. Compressed ORF
+**This repository is currently a research and corpus project. Full compressed ORF
 decoding has not been implemented.**
+
+The working path is independent measurements on original files, explicit
+competing hypotheses, review of the resulting format description, and a safe
+pure-Rust implementation. Vendor replies or a licence grant are not dependencies
+of that plan. The next experiment is recorded in the
+[compressed research protocol](research/compressed-next-experiment.md).
 
 The initial contribution includes eight original ORFs and two companion JPEGs
 from voshart's Olympus E-M5 II and E-M5 III, released by their creator under CC0.
@@ -60,6 +66,12 @@ Read the [partial format description](research/orf12-format.md),
 [provenance and acceptance gates](research/orf12-provenance.md), and
 [research tool instructions](tools/README.md). A sensor match does not establish
 camera colour calibration, lens corrections or Lightroom rendering parity.
+
+The [compressed-prefix findings](research/compressed-findings.md) now include
+256 single-bit cases, 24 first-pixel flag/control cases, and an initial-codeword
+hypothesis that matches the first two values on five files, including two
+previously unmeasured cameras. Later prediction, changing coding parameters and
+full-frame decoding remain unspecified; these results are not a finished decoder.
 
 The related LightCraft changes are on local branch `orf/independent-evidence`,
 commit `6ccba8f`, based on upstream
