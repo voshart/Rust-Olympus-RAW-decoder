@@ -86,7 +86,7 @@ This repository specifies container metadata, observed packed layouts and the
 [measured compressed 12-bit profile](../research/compressed-12bit-measured.md).
 The [product implementation account](../research/rust-implementation.md) records
 the completed specification review, implementation and safety/CI checks. Upstream
-maintainer review remains pending in [draft PR #360](https://github.com/storytold/lightcraft/pull/360).
+maintainer review remains pending in [PR #360](https://github.com/storytold/lightcraft/pull/360).
 
 For the preregistered bit-influence experiment, use the binary instrument above:
 

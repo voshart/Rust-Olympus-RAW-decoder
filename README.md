@@ -8,7 +8,7 @@ including both 81 MP files and every stored sensor margin.** This repository kee
 the unchanged CC0 corpus, measurements, provenance and replay tools; product code
 lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
 
-**Upstream submission:** [LightCraft draft PR #360](https://github.com/storytold/lightcraft/pull/360).
+**Upstream submission:** [LightCraft PR #360, ready for review](https://github.com/storytold/lightcraft/pull/360).
 It awaits provenance/scope review and reconciliation with the overlapping CFA/probe
 work in #277. This repository is a reusable research and validation hub; it does
 not currently publish a standalone Cargo crate or end-user RAW converter.
@@ -116,7 +116,7 @@ Python inspector missed. Field-role claims from the supplied prose are not adopt
 The [implementation and validation account](research/rust-implementation.md) records
 the exact scope, rejection policy, safety tests, full-array replay and application checks.
 
-The LightCraft contribution is published as [draft PR #360](https://github.com/storytold/lightcraft/pull/360),
+The LightCraft contribution is published as [PR #360](https://github.com/storytold/lightcraft/pull/360),
 with independent CFA/packed/header fixes, the measured specification and compressed
 implementation retained as separate commits. Product code is pinned at
 [b0654b3](https://github.com/voshart/lightcraft/commit/b0654b36ae5e4c84c874faded78d5c31164e6f81);
