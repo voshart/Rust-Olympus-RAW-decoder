@@ -1,0 +1,340 @@
+{
+  "schema": 1,
+  "method": "tools/validate_rust.py",
+  "method_sha256": "317d3259804bad2f9408315fc1e03fb210282808719813366cf9146b12cd776b",
+  "reference_summary_sha256": "1ff4d3717316f159003bbe0d6b72f23a850df64b0dfedda5d9a7f0abc20c8381",
+  "rust_source_sha256": {
+    "crates/raw/src/vendor/olympus12.rs": "f4f6733b421029e5f7015049d229b13b9ce98e41ccf93f3f34393b18f500a16f",
+    "crates/raw/src/vendor/orf.rs": "2721f1031774fb0fba87f3c9b9901912a3407a12a70e54bd8d592601bb1ad13f",
+    "crates/raw/src/vendor/mod.rs": "86d4b40ca50e965fa8329fe686000ac8271d471756ee48d4d9eef6fb8d5b798f"
+  },
+  "verified_rasters": 17,
+  "verified_samples": 434555200,
+  "differing_samples": 0,
+  "comparison": "Full uncorrected LE-u16 sensor array SHA-256 equality to the pinned binary-reference outputs; no crops or margins excluded.",
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "e484b8fbb62752236cc155f516797c94bad05f54ec1b267059b789d8e2d7dbec",
+      "reference_sensor_sha256_le_u16": "e484b8fbb62752236cc155f516797c94bad05f54ec1b267059b789d8e2d7dbec",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.51,
+      "decode_ms": 484.62
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "sample_count": 20498880,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "reference_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.51,
+      "decode_ms": 625.79
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "sample_count": 20498880,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "0efe1a38586eda1162abd534b78ec3ed00a147cdcc9dacae76a43d4b9a238f9c",
+      "reference_sensor_sha256_le_u16": "0efe1a38586eda1162abd534b78ec3ed00a147cdcc9dacae76a43d4b9a238f9c",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.45,
+      "decode_ms": 408.98
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "sample_count": 20498880,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914",
+      "reference_sensor_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.47,
+      "decode_ms": 607.29
+    },
+    {
+      "file": "P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "input_sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "fa787b33f44893326ee0b2fd8234ae58105d74f45083446cd65b2c1548a8c10b",
+      "reference_sensor_sha256_le_u16": "fa787b33f44893326ee0b2fd8234ae58105d74f45083446cd65b2c1548a8c10b",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.49,
+      "decode_ms": 358.08
+    },
+    {
+      "file": "P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "input_sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "75364595aba686a4a2b632d474901da3753edaa725e8c7cbe9db210efa977e06",
+      "reference_sensor_sha256_le_u16": "75364595aba686a4a2b632d474901da3753edaa725e8c7cbe9db210efa977e06",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.48,
+      "decode_ms": 344.36
+    },
+    {
+      "file": "P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "18bea12fb137bd589d5568d15eccc35ede891e783d8549800be74f3ffcca51c6",
+      "reference_sensor_sha256_le_u16": "18bea12fb137bd589d5568d15eccc35ede891e783d8549800be74f3ffcca51c6",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.46,
+      "decode_ms": 427.79
+    },
+    {
+      "file": "PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "936e78e3f1a40a885d5f800da241df3909785430f5856e8b41eaa7a5f75860f4",
+      "reference_sensor_sha256_le_u16": "936e78e3f1a40a885d5f800da241df3909785430f5856e8b41eaa7a5f75860f4",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.47,
+      "decode_ms": 493.93
+    },
+    {
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "sample_count": 81036800,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 10368, height: 7776 }",
+      "rust_sensor_sha256_le_u16": "bb675788173dece0e91091686745fee5a19fdde2206b94ee29d7d96d971057b1",
+      "reference_sensor_sha256_le_u16": "bb675788173dece0e91091686745fee5a19fdde2206b94ee29d7d96d971057b1",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.52,
+      "decode_ms": 2120.36
+    },
+    {
+      "file": "pixls-3573.ORF",
+      "input_sha256": "391f2f6ba712a517212cae53bfc9a313fc4d106d0b04d3b9af68a4ed2d5d944e",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "sample_count": 81036800,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 10368, height: 7776 }",
+      "rust_sensor_sha256_le_u16": "5a19cf3a01e13ae5fd7ef238d735cc89f8907fd620f106c1c3a82140a806def9",
+      "reference_sensor_sha256_le_u16": "5a19cf3a01e13ae5fd7ef238d735cc89f8907fd620f106c1c3a82140a806def9",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.76,
+      "decode_ms": 2157.57
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "sample_count": 20498880,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "09630ade7c0b48dccb11bfb4c092580eac4d9423c380b975129ef700dcadf419",
+      "reference_sensor_sha256_le_u16": "09630ade7c0b48dccb11bfb4c092580eac4d9423c380b975129ef700dcadf419",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.47,
+      "decode_ms": 1450.79
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "sensor": [
+        5200,
+        3904
+      ],
+      "sample_count": 20300800,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "71113597675b824f75f14285008ae2a3e249560b11cf9501e9547faf6e5e91bb",
+      "reference_sensor_sha256_le_u16": "71113597675b824f75f14285008ae2a3e249560b11cf9501e9547faf6e5e91bb",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 1.66,
+      "decode_ms": 519.85
+    },
+    {
+      "file": "pixls-1787.ORF",
+      "input_sha256": "11d90cbb564ad2c660c7a8d5d81d99c2c018aa27fdec45ed6c461fa5d24f942b",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "sample_count": 16110080,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 8, y: 8, width: 4608, height: 3456 }",
+      "rust_sensor_sha256_le_u16": "431e3081ea9bc354f93e809c413b6a0232ae8ffd13073fbb3235a787680f150a",
+      "reference_sensor_sha256_le_u16": "431e3081ea9bc354f93e809c413b6a0232ae8ffd13073fbb3235a787680f150a",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.42,
+      "decode_ms": 467.5
+    },
+    {
+      "file": "pixls-3041.ORF",
+      "input_sha256": "ab171cedfe3a65438dd47c2df704a7d3001f45f5ab43e67b7f96cfe30b6ebbcf",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "sample_count": 20498880,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "13f1340a2183bccd1a991042d07819c430b63b33d22da6274c5cc621f412d71a",
+      "reference_sensor_sha256_le_u16": "13f1340a2183bccd1a991042d07819c430b63b33d22da6274c5cc621f412d71a",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.49,
+      "decode_ms": 524.56
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "sensor": [
+        4040,
+        3016
+      ],
+      "sample_count": 12184640,
+      "bits": 12,
+      "cfa": "GRBG",
+      "active_area": "Rect { x: 8, y: 8, width: 4000, height: 3000 }",
+      "rust_sensor_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2",
+      "reference_sensor_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.92,
+      "decode_ms": 343.19
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "input_sha256": "d0fe58daf2f0bd749ecb18311e55408f0e7804de8e5e6580e815eae50d834cbd",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "sample_count": 20420640,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "c833242a92839771353e70a0f11620ce14f9b02f7c373f1217c2aa9c0845280c",
+      "reference_sensor_sha256_le_u16": "c833242a92839771353e70a0f11620ce14f9b02f7c373f1217c2aa9c0845280c",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.51,
+      "decode_ms": 527.94
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "input_sha256": "1cee7deb661e45101ab3ca6c4240d24ed949b167ed423703fca15c09dd8ec176",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "sample_count": 20420640,
+      "bits": 12,
+      "cfa": "RGGB",
+      "active_area": "Rect { x: 12, y: 12, width: 5184, height: 3888 }",
+      "rust_sensor_sha256_le_u16": "2cc34fdbc6d8ea292ba1bedbac534628edf43ed94d559c42ca4630ab56e3b9da",
+      "reference_sensor_sha256_le_u16": "2cc34fdbc6d8ea292ba1bedbac534628edf43ed94d559c42ca4630ab56e3b9da",
+      "complete_arrays_equal": true,
+      "excluded_sensor_margins": 0,
+      "probe_full_info_equal": true,
+      "probe_ms": 0.51,
+      "decode_ms": 540.84
+    }
+  ]
+}

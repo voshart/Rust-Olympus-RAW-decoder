@@ -1,8 +1,9 @@
 # Contributor instructions
 
 This is a clean-room ORF research/corpus project intended to support a permissive,
-pure-Rust decoder. It is currently a partial specification, not a finished
-compressed decoder. Keep the README honest about what is implemented and verified.
+pure-Rust decoder. Product compressed 12-bit code lives in LightCraft; this repository
+contains corpus, research and replay tools. Keep the README honest about scope and
+verification; other coding profiles and generalized 14-bit are not established.
 
 - Never read or copy GPL/LGPL/AGPL raw-decoder source or reconstruct it from memory.
   Do not read the rejected LightCraft PR #240 decoder or its compressed encoder.

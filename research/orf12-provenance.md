@@ -76,6 +76,8 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
 | X4 | Registered row/reset/topology families, exploratory predictor trace and prospective threshold tests | Per-row all-state reset and threshold-32 conditional predictor; sixteen/eight-row matches on ten additional originals | Locally uncommitted pre-prose snapshot; failed controls/models retained |
 | X5 | Unchanged E01/V02 applied to complete rasters before native full-array comparison | All 434,555,200 samples on seventeen files match, including two 81 MP originals and every stored margin | One binary reference family; finite camera/profile coverage |
 | X6 | Twenty-four final-byte bit mutations; procedural reservoir oracle and final-token byte cuts | Fourteen unused-bit mutations have no sample effect; thirty required-byte cuts reject | No universal padding rule, 14-bit specification or completed product fuzzing suite |
+| X7 | Follow-up raw-field inspection, motivated by user-supplied source-derived prose | Identical SHORT-valued fingerprint on all seventeen compressed originals; scalar coding fields zero on both packed controls; OM SYSTEM note framing recovered | Empirical fingerprint only; claimed field roles and generalized 14-bit rules are not adopted |
+| X8 | Separate specification/arithmetic review, then independently written safe Rust reader and literal vectors | Seventeen complete product/reference sensor hashes agree; header/full information agrees; bounded allocations, strict EOF, range and mutation checks | Same author performs separate review; no third-party maintainer approval or assurance about AI training is claimed |
 
 Published artifacts are in [research/results](results/): container observations,
 user and public packed comparisons, C-5050 comparisons and the original
@@ -109,8 +111,8 @@ optional historical drafts and do not hold up this work. Subsequent bit-level
 protocols, failed hypotheses and initial-codeword comparisons are recorded in
 [compressed findings](compressed-findings.md). The subsequent
 [complete measured profile](compressed-12bit-measured.md) has full-raster
-comparisons. It is ready for separate specification review, not approval to skip
-the product implementation and safety gates.
+comparisons. It has since received the separate review and product checks recorded
+below. Those measurements do not authorize skipping implementation/safety gates.
 
 1. Independently derive the bitstream description. For each non-obvious rule,
    record specimen hash, operation, competing hypotheses and discriminating
@@ -127,7 +129,11 @@ the product implementation and safety gates.
 
 This work satisfies the observed padded packed-layout gate on two E-M5 II files
 and numerical full-raster checks of the measured compressed 12-bit profile on
-seventeen files. Separate specification review, product implementation/safety
-checks, generalized 14-bit coverage and colour calibration remain. A rights-holder grant is an alternative to
+seventeen files. A separate specification/arithmetic review preceded product
+implementation. The user explicitly authorized that stage; this is not a claim of
+upstream maintainer approval or independent third-party certification. Product
+safety tests and CI are recorded in [the implementation account](rust-implementation.md).
+Generalized 14-bit coverage, other fingerprints and colour calibration remain.
+A rights-holder grant is an alternative to
 independent derivation only for exactly the implementation covered by that grant;
 the maintainers must decide whether it fits the project policy.

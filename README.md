@@ -2,9 +2,11 @@
 
 An openly licensed Olympus/OM System sample corpus and independently documented
 ORF research, working toward a pure-Rust decoder suitable for permissive projects.
-**This repository is currently a research and corpus project. Its measured 12-bit
-research candidate matches seventeen complete compressed rasters; a product
-Rust compressed decoder has not been implemented.**
+**The measured compressed 12-bit profile now has a safe pure-Rust implementation
+in LightCraft. It matches seventeen complete reference rasters: 434,555,200 samples,
+including both 81 MP files and every stored sensor margin.** This repository keeps
+the unchanged CC0 corpus, measurements, provenance and replay tools; product code
+lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
 
 The working path is independent measurements on original files, explicit
 competing hypotheses, review of the resulting format description, and a safe
@@ -59,7 +61,7 @@ python tools/inspect_orf.py corpus/voshart-olympus corpus/external --output .wor
   fields. The candidate matches all declared pixels in all five files. The
   reference exposes an additional row not represented by the declared strips;
   that row is explicitly excluded from the claim.
-- Ordinary modern compressed files remain research inputs. TIFF
+- The measured modern compressed 12-bit profile now decodes in LightCraft. TIFF
   `Compression=1` and `BitsPerSample=16` do not prove that their sensor pixels
   are uncompressed. A shared strip prefix is an observation, not a codec rule.
 
@@ -85,17 +87,22 @@ The [measured compressed 12-bit profile](research/compressed-12bit-measured.md)
 extends the independently fitted state and prediction rules to seventeen full
 rasters from nine models: **434,555,200 samples with zero differences and no
 excluded margins**. Both 81 MP E-M5 III originals are included. Final-byte
-influence and strict reader bounds are recorded. This specification is ready
-for separate review; generalized 14-bit parameters and a production-safe variant
-identification policy still need evidence. Product Rust implementation and its
-CI/safety gates are a subsequent stage.
+influence and strict reader bounds are recorded. A separate specification/arithmetic
+review preceded the Rust implementation. A follow-up raw-field inspection identifies
+the examined profile on all seventeen originals, including OM SYSTEM notes the early
+Python inspector missed. Field-role claims from the supplied prose are not adopted.
+The [implementation and validation account](research/rust-implementation.md) records
+the exact scope, rejection policy, safety tests, full-array replay and application checks.
 
 The related LightCraft changes are on local branch `orf/independent-evidence`,
 commits `6ccba8f` and `480985b`, based on upstream
 `629e39380e296f588c64cd9c0053a8edc3528f36`. They are not yet an upstream PR.
 That branch passed `cargo xtask ci`, including WASM, and the packed file was
 visually checked through LightCraft's headless and desktop control interfaces.
-This repository does not contain LightCraft's product implementation.
+The subsequent compressed implementation is on `orf/compressed-12bit`, commit
+[b0654b3](https://github.com/voshart/lightcraft/commit/b0654b36ae5e4c84c874faded78d5c31164e6f81). The fixes, specification and compressed implementation
+remain separate commits/branches for review. This is a contribution in voshart's
+fork, not a merged upstream release or maintainer approval of the provenance.
 
 ## Licences and provenance
 

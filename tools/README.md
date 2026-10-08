@@ -128,3 +128,31 @@ The pre-high-resolution row method was recovered exactly by reversing recorded
 budget changes and verifying its original SHA-256; no coding rule was altered.
 Historical local snapshot byte hashes may include Windows checkout line endings.
 Model identity is also checked with a canonical JSON hash for portability.
+
+## Raw profile observations and Rust replay
+
+`observe_profile.py` records raw types/counts/values in the ImageProcessing
+directory, including OM SYSTEM note framing. Its motivation came from supplied
+source-derived prose; it does not assign semantic roles or implement 14-bit rules.
+Use unchanged local ORFs and a fresh output filename.
+
+```sh
+python tools/observe_profile.py "corpus/voshart-olympus/P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF" --output .work/profile-fields.json
+```
+
+`validate_rust.py` runs LightCraft's developer-only `orf_audit` executable on every
+compressed original named in the pinned full-frame summary. It checks input hashes,
+dimensions, depth, CFA, sample count and complete sensor output hashes. The Rust
+example itself requires probe/full metadata equality. Generated sensor dumps need
+fresh filenames and stay ignored. Build the example in the linked product checkout
+first; the source hashes and numeric report make the exact tested code identifiable.
+
+```sh
+cargo build -p lightcraft-raw --example orf_audit
+# Run from this corpus checkout, with your local product checkout and binary paths:
+python tools/validate_rust.py --binary ../lightcraft/target/debug/examples/orf_audit --lightcraft ../lightcraft --creators corpus/voshart-olympus --external corpus/external --sensor-dir .work/rust-sensors --output .work/rust-comparison.json
+```
+
+No reference binary or network access is required for this recorded-hash replay.
+The reference identities originate in the original complete-array comparisons,
+not in a self-generated compressed encoder or an embedded-JPEG similarity test.

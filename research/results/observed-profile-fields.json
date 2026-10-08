@@ -1,0 +1,2440 @@
+{
+  "schema": 1,
+  "method": "tools/observe_profile.py",
+  "method_sha256": "978171608ca6966b9ebc9686927172a2dce9bf781e9f63ac0e7ada499d8605ab",
+  "motivation": "User-supplied source-derived prose; field roles are not adopted as coding rules.",
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "input_sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "input_sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        10400,
+        7792
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-3573.ORF",
+      "input_sha256": "391f2f6ba712a517212cae53bfc9a313fc4d106d0b04d3b9af68a4ed2d5d944e",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        10400,
+        7792
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5200,
+        3904
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-1787.ORF",
+      "input_sha256": "11d90cbb564ad2c660c7a8d5d81d99c2c018aa27fdec45ed6c461fa5d24f942b",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        4640,
+        3472
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-3041.ORF",
+      "input_sha256": "ab171cedfe3a65438dd47c2df704a7d3001f45f5ab43e67b7f96cfe30b6ebbcf",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        5240,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "maker_prefix_hex": "4f4d2053595354454d00000049490400",
+      "maker_ifd_offset": 16,
+      "sensor": [
+        4040,
+        3016
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "GRBG",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "input_sha256": "d0fe58daf2f0bd749ecb18311e55408f0e7804de8e5e6580e815eae50d834cbd",
+      "maker_prefix_hex": "4f4d2053595354454d00000049490400",
+      "maker_ifd_offset": 16,
+      "sensor": [
+        5220,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "input_sha256": "1cee7deb661e45101ab3ca6c4240d24ed949b167ed423703fca15c09dd8ec176",
+      "maker_prefix_hex": "4f4d2053595354454d00000049490400",
+      "maker_ifd_offset": 16,
+      "sensor": [
+        5220,
+        3912
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "RGGB",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            2
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            3
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            4
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            7
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            15
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            12
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "file": "PA280725_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "922ee554fa21f21f0598131dae1fc95adfcda61f090c3991e0f6a0997a55a2c2",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        9280,
+        6932
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "GRBG",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "pixls-2856.ORF",
+      "input_sha256": "5c42fa75d6b549514b722e2c50726c03e34fac4909ec3640e147ea7fa825fc8d",
+      "maker_prefix_hex": "4f4c594d505553004949030008000001",
+      "maker_ifd_offset": 12,
+      "sensor": [
+        9280,
+        6932
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "cfa": "GRBG",
+      "fields": {
+        "0611": {
+          "tiff_type": 3,
+          "count": 2,
+          "value": [
+            12,
+            0
+          ]
+        },
+        "0640": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0641": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0642": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0643": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0644": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0645": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0646": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0647": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0648": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0649": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "064a": null,
+        "064b": null,
+        "064c": null,
+        "064d": null,
+        "064e": null,
+        "064f": null,
+        "0650": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0651": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0652": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        },
+        "0653": {
+          "tiff_type": 3,
+          "count": 1,
+          "value": [
+            0
+          ]
+        }
+      }
+    }
+  ]
+}
