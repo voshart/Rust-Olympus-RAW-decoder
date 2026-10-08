@@ -76,3 +76,30 @@ Timing is recorded per file, under concurrent local CI load, using optimized dev
 builds. Those timings are not release benchmarks, slider latency measurements or
 evidence of colour parity. Generalized 14-bit, other fingerprints and additional
 camera models remain follow-up work.
+
+## Release decoding comparison
+
+A subsequent user question prompted a [release comparison](results/decoder-release-timings.json),
+using the [archived Rust timing method](methods/decode-timing-2026-10-08.rs).
+No product code changed. Input is loaded before measurement, followed by one
+untimed warmup and five timed sensor decodes. Report the median wall time; exclude
+file I/O, result cleanup, demosaicing, colour conversion and rendering. The standalone
+harness uses Cargo's release opt-level 3, debug=0 and no LTO, with
+`RAYON_NUM_THREADS=4`. Its path dependency is the pinned LightCraft raw crate.
+
+| Specimen | Stored MP | Median sensor decode |
+|---|---:|---:|
+| Compressed ORF, E-M5 II | 16.11 | 176.8 ms |
+| Compressed ORF, E-M5 III | 20.50 | 307.3 ms |
+| Compressed ORF, E-M5 III high resolution | 81.04 | 826.6 ms |
+| Packed ORF, E-M5 II high resolution | 64.33 | 48.7 ms |
+| Lossless NEF, D5100 | 16.37 | 107.4 ms |
+| CR2, Canon 6D | 20.65 | 220.2 ms |
+| Compressed ARW, A7 III | 24.34 | 16.6 ms |
+| PEF, Pentax K3 | 24.51 | 128.5 ms |
+| DNG, Pixel 2 XL | 12.23 | 19.3 ms |
+
+On these samples, compressed ORF throughput is comparable to CR2 and slower than
+NEF/PEF. Packed ORF and ARW2 are much quicker. Codec structure, scene and sample
+size differ; this is not a universal format ranking or a render/export benchmark.
+The report records full input hashes, all five times and the compiled method hash.

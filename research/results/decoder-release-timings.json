@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "product_commit": "b0654b36ae5e4c84c874faded78d5c31164e6f81",
+  "profile": "release, opt-level 3, no LTO, debug=0",
+  "measurement": "Sensor decode only, input already in memory, one untimed warmup and five timed decodes; cleanup/demosaic/colour/render excluded; median wall time",
+  "rayon_threads": 4,
+  "cpu_available_threads": 32,
+  "os": "Windows-11-10.0.26300-SP0",
+  "harness_sha256": "d2eb8cbc91952c096d0508998581ece9673d5df3d94853ebeef6762a664b65d3",
+  "cases": [
+    {
+      "width": 4640,
+      "height": 3472,
+      "bits": 12,
+      "megapixels": 16.11008,
+      "file_bytes": 15465431,
+      "median_ms": 176.8134,
+      "ms_per_mp": 10.975327248530112,
+      "sorted_ms": [
+        176.6388,
+        176.67430000000002,
+        176.8134,
+        176.95839999999998,
+        177.1918
+      ],
+      "label": "ORF compressed E-M5 II",
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34"
+    },
+    {
+      "width": 5240,
+      "height": 3912,
+      "bits": 12,
+      "megapixels": 20.49888,
+      "file_bytes": 22429952,
+      "median_ms": 307.30010000000004,
+      "ms_per_mp": 14.991067804680062,
+      "sorted_ms": [
+        288.73339999999996,
+        288.9914,
+        307.30010000000004,
+        308.6806,
+        309.0456
+      ],
+      "label": "ORF compressed E-M5 III",
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa"
+    },
+    {
+      "width": 10400,
+      "height": 7792,
+      "bits": 12,
+      "megapixels": 81.0368,
+      "file_bytes": 68859604,
+      "median_ms": 826.5702,
+      "ms_per_mp": 10.199936325225083,
+      "sorted_ms": [
+        820.1361,
+        821.6096,
+        826.5702,
+        830.4333,
+        835.1248
+      ],
+      "label": "ORF compressed E-M5 III high resolution",
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1"
+    },
+    {
+      "width": 9280,
+      "height": 6932,
+      "bits": 12,
+      "megapixels": 64.32896,
+      "file_bytes": 104427520,
+      "median_ms": 48.7422,
+      "ms_per_mp": 0.7577022852537955,
+      "sorted_ms": [
+        47.9999,
+        48.3703,
+        48.7422,
+        49.8398,
+        50.8246
+      ],
+      "label": "ORF packed E-M5 II high resolution",
+      "file": "PA280725_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "922ee554fa21f21f0598131dae1fc95adfcda61f090c3991e0f6a0997a55a2c2"
+    },
+    {
+      "width": 4992,
+      "height": 3280,
+      "bits": 14,
+      "megapixels": 16.37376,
+      "file_bytes": 20139376,
+      "median_ms": 107.4229,
+      "ms_per_mp": 6.560673907520325,
+      "sorted_ms": [
+        105.7756,
+        106.9466,
+        107.4229,
+        107.5647,
+        108.37729999999999
+      ],
+      "label": "NEF lossless D5100",
+      "file": "nef-nikon-d5100-lossless.nef",
+      "input_sha256": "3ce328830942381648be26b372a54b317fdb27b63c1aa9c2ee1fce076a2e1b4f"
+    },
+    {
+      "width": 5568,
+      "height": 3708,
+      "bits": 14,
+      "megapixels": 20.646144,
+      "file_bytes": 23207438,
+      "median_ms": 220.1651,
+      "ms_per_mp": 10.663739437252787,
+      "sorted_ms": [
+        218.136,
+        219.3067,
+        220.1651,
+        220.3303,
+        220.5391
+      ],
+      "label": "CR2 Canon 6D",
+      "file": "cr2-canon-6d.cr2",
+      "input_sha256": "360842779d08fe4805b4a2fe4979f06fdc6da982c85c3acb181f25bcf4c9f536"
+    },
+    {
+      "width": 6048,
+      "height": 4024,
+      "bits": 14,
+      "megapixels": 24.337152,
+      "file_bytes": 25639680,
+      "median_ms": 16.632399999999997,
+      "ms_per_mp": 0.6834160381625589,
+      "sorted_ms": [
+        16.445,
+        16.554,
+        16.632399999999997,
+        16.7939,
+        16.8176
+      ],
+      "label": "ARW compressed A7 III",
+      "file": "arw-sony-a7m3-compressed.arw",
+      "input_sha256": "250784580ea527442c09004417bb0eead484f2bf3ee8f9121a776ac65bb50d0f"
+    },
+    {
+      "width": 6080,
+      "height": 4032,
+      "bits": 14,
+      "megapixels": 24.51456,
+      "file_bytes": 31417805,
+      "median_ms": 128.4572,
+      "ms_per_mp": 5.240036941311613,
+      "sorted_ms": [
+        127.30559999999998,
+        128.4176,
+        128.4572,
+        128.6172,
+        130.1496
+      ],
+      "label": "PEF Pentax K3",
+      "file": "pef-pentax-k3.pef",
+      "input_sha256": "abfb3907b53734b5f353e8de0c6173470c7aad07f9cecc10f723d222a49dec9a"
+    },
+    {
+      "width": 4032,
+      "height": 3032,
+      "bits": 16,
+      "megapixels": 12.225024,
+      "file_bytes": 24479668,
+      "median_ms": 19.3003,
+      "ms_per_mp": 1.578753546823303,
+      "sorted_ms": [
+        18.2585,
+        19.227,
+        19.3003,
+        20.9513,
+        21.1489
+      ],
+      "label": "DNG Pixel 2 XL",
+      "file": "dng-google-pixel2xl.dng",
+      "input_sha256": "5541093a369f0487fef92bcd1f5fef1be6e4e3cec2aa4d52ad38d2211f3309d7"
+    }
+  ],
+  "method": "research/methods/decode-timing-2026-10-08.rs",
+  "limitations": "One specimen per listed camera/format, five timed decodes after warmup on one Windows machine. Compression and scene differ; comparisons are specimen results, not universal codec rankings. No product source changed."
+}
