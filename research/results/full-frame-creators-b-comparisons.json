@@ -1,0 +1,493 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "e8c00e5d47b7402991d5f9f14bf4fc452b7d6684484dd309db90099a3664257f",
+  "reference_worker_sha256": "0bf9b1ef9be013be38bdabd885b67c0d32c14f90279d0620caa1c66d3d498d21",
+  "model_manifest_sha256": "90a56ee574382af870a877ede9e61cb59f41d22efbd7e30e9db1c3843217362d",
+  "model_manifest": {
+    "schema": 1,
+    "protocol": "research/compressed-next-experiment.md",
+    "token_model": {
+      "id": "E01",
+      "bias": {
+        "a": 3,
+        "b": 1,
+        "shift": 5,
+        "rounding": 0
+      },
+      "width": {
+        "decay_shift": null,
+        "small_threshold_log2": 4,
+        "required_small_count": 3,
+        "stable_base": 2,
+        "stable_shift": 0,
+        "inclusive_small_threshold": true
+      },
+      "escape": {
+        "zero_limit": "fixed-12",
+        "payload_bits": "15-minus-k"
+      }
+    },
+    "models": [
+      {
+        "id": "V02",
+        "reset": "row_all",
+        "alignment_bits": 1,
+        "border": "above_two",
+        "predictor": "adaptive_median",
+        "row_distance": 2,
+        "threshold": 32,
+        "diagonal_between_inclusive": false
+      }
+    ]
+  },
+  "all_predictions_precede_reference": true,
+  "predictions_file": "full-frame-creators-b-predictions.json",
+  "cases": [
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914",
+        "sensor_shape": [
+          3912,
+          5240
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            5240,
+            3912
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            5240,
+            3912
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          656,
+          1521,
+          683,
+          1550,
+          679,
+          1595,
+          675,
+          1566,
+          688,
+          1557,
+          690,
+          1545,
+          668,
+          1528,
+          669,
+          1499
+        ],
+        "first_row_after": [
+          656,
+          1521,
+          683,
+          1550,
+          679,
+          1595,
+          675,
+          1566,
+          688,
+          1557,
+          690,
+          1545,
+          668,
+          1528,
+          669,
+          1499
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 20498880,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "input_sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "fa787b33f44893326ee0b2fd8234ae58105d74f45083446cd65b2c1548a8c10b",
+        "sensor_shape": [
+          3472,
+          4640
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            4640,
+            3472
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            4640,
+            3472
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          353,
+          416,
+          350,
+          417,
+          349,
+          409,
+          353,
+          412,
+          351,
+          422,
+          351,
+          411,
+          354,
+          414,
+          353,
+          415
+        ],
+        "first_row_after": [
+          353,
+          416,
+          350,
+          417,
+          349,
+          409,
+          353,
+          412,
+          351,
+          422,
+          351,
+          411,
+          354,
+          414,
+          353,
+          415
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 16110080,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "fa787b33f44893326ee0b2fd8234ae58105d74f45083446cd65b2c1548a8c10b"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "input_sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "75364595aba686a4a2b632d474901da3753edaa725e8c7cbe9db210efa977e06",
+        "sensor_shape": [
+          3472,
+          4640
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            4640,
+            3472
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            4640,
+            3472
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          255,
+          256,
+          254,
+          257,
+          256,
+          256,
+          256,
+          259,
+          254,
+          258,
+          255,
+          259,
+          255,
+          259,
+          255,
+          257
+        ],
+        "first_row_after": [
+          255,
+          256,
+          254,
+          257,
+          256,
+          256,
+          256,
+          259,
+          254,
+          258,
+          255,
+          259,
+          255,
+          259,
+          255,
+          257
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 16110080,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "75364595aba686a4a2b632d474901da3753edaa725e8c7cbe9db210efa977e06"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "18bea12fb137bd589d5568d15eccc35ede891e783d8549800be74f3ffcca51c6",
+        "sensor_shape": [
+          3472,
+          4640
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            4640,
+            3472
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            4640,
+            3472
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          318,
+          358,
+          335,
+          400,
+          400,
+          492,
+          319,
+          352,
+          299,
+          343,
+          364,
+          513,
+          445,
+          574,
+          387,
+          407
+        ],
+        "first_row_after": [
+          318,
+          358,
+          335,
+          400,
+          400,
+          492,
+          319,
+          352,
+          299,
+          343,
+          364,
+          513,
+          445,
+          574,
+          387,
+          407
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 16110080,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "18bea12fb137bd589d5568d15eccc35ede891e783d8549800be74f3ffcca51c6"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "936e78e3f1a40a885d5f800da241df3909785430f5856e8b41eaa7a5f75860f4",
+        "sensor_shape": [
+          3472,
+          4640
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            4640,
+            3472
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            4640,
+            3472
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          343,
+          389,
+          353,
+          386,
+          370,
+          417,
+          398,
+          472,
+          387,
+          450,
+          391,
+          486,
+          382,
+          453,
+          403,
+          501
+        ],
+        "first_row_after": [
+          343,
+          389,
+          353,
+          386,
+          370,
+          417,
+          398,
+          472,
+          387,
+          450,
+          391,
+          486,
+          382,
+          453,
+          403,
+          501
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 16110080,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "936e78e3f1a40a885d5f800da241df3909785430f5856e8b41eaa7a5f75860f4"
+        }
+      },
+      "hash_agrees": true
+    }
+  ]
+}

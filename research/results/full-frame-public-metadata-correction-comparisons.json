@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "606f9afddfe3e18e29dd91513082990527087e91390f2b6327d351deb2b58a76",
+  "reference_worker_sha256": "0bf9b1ef9be013be38bdabd885b67c0d32c14f90279d0620caa1c66d3d498d21",
+  "model_manifest_sha256": "90a56ee574382af870a877ede9e61cb59f41d22efbd7e30e9db1c3843217362d",
+  "model_manifest": {
+    "schema": 1,
+    "protocol": "research/compressed-next-experiment.md",
+    "token_model": {
+      "id": "E01",
+      "bias": {
+        "a": 3,
+        "b": 1,
+        "shift": 5,
+        "rounding": 0
+      },
+      "width": {
+        "decay_shift": null,
+        "small_threshold_log2": 4,
+        "required_small_count": 3,
+        "stable_base": 2,
+        "stable_shift": 0,
+        "inclusive_small_threshold": true
+      },
+      "escape": {
+        "zero_limit": "fixed-12",
+        "payload_bits": "15-minus-k"
+      }
+    },
+    "models": [
+      {
+        "id": "V02",
+        "reset": "row_all",
+        "alignment_bits": 1,
+        "border": "above_two",
+        "predictor": "adaptive_median",
+        "row_distance": 2,
+        "threshold": 32,
+        "diagonal_between_inclusive": false
+      }
+    ]
+  },
+  "all_predictions_precede_reference": true,
+  "predictions_file": "full-frame-public-metadata-correction-predictions.json",
+  "cases": [
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "sensor": [
+        4040,
+        3016
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2",
+        "sensor_shape": [
+          3016,
+          4040
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            4040,
+            3016
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            4014,
+            3016
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          738,
+          499,
+          839,
+          490,
+          691,
+          617,
+          804,
+          744,
+          1108,
+          832,
+          1558,
+          869,
+          1616,
+          802,
+          1747,
+          617
+        ],
+        "first_row_after": [
+          738,
+          499,
+          839,
+          490,
+          691,
+          617,
+          804,
+          744,
+          1108,
+          832,
+          1558,
+          869,
+          1616,
+          802,
+          1747,
+          617
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 12184640,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "input_sha256": "d0fe58daf2f0bd749ecb18311e55408f0e7804de8e5e6580e815eae50d834cbd",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "c833242a92839771353e70a0f11620ce14f9b02f7c373f1217c2aa9c0845280c",
+        "sensor_shape": [
+          3912,
+          5220
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            5220,
+            3912
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            5220,
+            3912
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          300,
+          410,
+          298,
+          380,
+          283,
+          318,
+          277,
+          318,
+          287,
+          324,
+          283,
+          332,
+          288,
+          336,
+          286,
+          329
+        ],
+        "first_row_after": [
+          300,
+          410,
+          298,
+          380,
+          283,
+          318,
+          277,
+          318,
+          287,
+          324,
+          283,
+          332,
+          288,
+          336,
+          286,
+          329
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 20420640,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "c833242a92839771353e70a0f11620ce14f9b02f7c373f1217c2aa9c0845280c"
+        }
+      },
+      "hash_agrees": true
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "input_sha256": "1cee7deb661e45101ab3ca6c4240d24ed949b167ed423703fca15c09dd8ec176",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "2cc34fdbc6d8ea292ba1bedbac534628edf43ed94d559c42ca4630ab56e3b9da",
+        "sensor_shape": [
+          3912,
+          5220
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            5220,
+            3912
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            5220,
+            3912
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          490,
+          997,
+          493,
+          1012,
+          492,
+          981,
+          493,
+          996,
+          493,
+          1008,
+          494,
+          997,
+          484,
+          996,
+          486,
+          983
+        ],
+        "first_row_after": [
+          490,
+          997,
+          493,
+          1012,
+          492,
+          981,
+          493,
+          996,
+          493,
+          1008,
+          494,
+          997,
+          484,
+          996,
+          486,
+          983
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 20420640,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "2cc34fdbc6d8ea292ba1bedbac534628edf43ed94d559c42ca4630ab56e3b9da"
+        }
+      },
+      "hash_agrees": true
+    }
+  ]
+}

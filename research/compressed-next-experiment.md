@@ -237,3 +237,179 @@ using inclusive threshold, no-decay magnitude and the simplest fitted bias.
 Rechecks on P5070002 are exploratory; prospective first-row checks on PEN-F and
 TG-7 must save candidates before reference acquisition. No escape condition
 is accepted from a baseline coincidence alone.
+
+## Registered follow-up: the first row boundary
+
+After first-row evidence commit `15e7a61`, investigate P5070002's predicted row
+end at bit 49412 (strip byte 6176, next bit index 3). Mutate all eight bits of
+byte 6176 to test whether subsequent bits first affect row 1, a separate row
+field, or padding. Preserve invisible cases and any non-causal influence.
+
+For numerical two-row comparisons, keep the measured E01 first-row token rules.
+Search row alignment to 1/8/16/32 bits; state reset choices none, every-row all,
+every-row width-only, every-row bias-only, and corresponding two-row resets;
+and border seeds zero, preceding-row same column, two-rows-above same column,
+or preceding-row last same-parity pixel. Use same-colour left prediction for
+columns after the first pair in these first two rows. Compute all candidates
+before acquiring the reference row-1 values. A match of row 0 alone does not
+support a row-boundary choice.
+
+Later-row neighbour topology is a separate next experiment. Neither an apparent
+byte alignment nor familiar predictor code from another format supplies an
+Olympus rule without a discriminating observation.
+
+### Registered third-row topology comparison
+
+The row-boundary bit mutations split precisely at bit 49412: preceding bits
+first affect row 0 column 5239, subsequent bits first affect row 1 column 0.
+The two-row numerical comparison requires no alignment padding and a per-row
+bias reset. It does not yet distinguish bias-only from all-state reset.
+
+A control implementation bug initially made `previous_row_end` use zero on
+row 1; its initial method/report are retained and the control is corrected.
+The apparent duplicate matches are not evidence for that border-seed choice.
+
+Before acquiring row-2 values, compare all/bias-only resets, zero/above-one/
+above-two/previous-row-end border seeds, and these elementary neighbour
+topologies at row distances one and two: left, above, left+above-diagonal,
+median(left,above,left+above-diagonal), their average, left plus half the
+above-diagonal difference, above plus half the left-diagonal difference, and
+Paeth's nearest neighbour to the gradient (ties left, then above, then diagonal).
+Half divisions use floor, an explicit hypothesis. First rows lacking an above
+neighbour use left. Retain the measured token rules and one-bit row alignment.
+Calculate and save all candidate three-row matrices before reference acquisition
+on P5070002 and the original E-M5 II P6190137. These are new later-row checks;
+the first rows and P5070002 row 1 were already inspected.
+
+### Registered exploratory predictor trace
+
+The third-row comparison yields no exact model. The nearest elementary model
+uses all-state row resets, above-two border seeds and a median predictor at
+two-row/two-column distance. It matches the first 26 third-row values before
+a four-unit discrepancy; 863 values in that row differ. Keep that failed model.
+
+Collect the first 256 third-row neighbour triples using actual reference samples
+and the independently fitted token/bias fields. Infer the required predictor as
+`reference_sample - raw_code`. Compare its equality to left, above, gradient,
+median, average and the elementary half-gradient options; record unmatched
+values. Examine ordering and signed neighbour differences to choose a bounded
+candidate decision family. This is exploratory fitting on P5070002. Any refined
+formula must be registered before prospective later-row tests on other originals.
+
+### Recorded predictor decision family
+
+All 256 reconstructed predictor values equal the elementary median or the
+floor average of left/above. The nineteen values not equal to the median have
+the diagonal strictly between left and above and small neighbour differences.
+Search a decision family: default median; choose floor average when
+`(left-diagonal)*(above-diagonal)` is negative (or non-positive as a control)
+and one of the following metrics is at most an integer threshold in 0-128:
+maximum absolute difference from the diagonal, minimum absolute difference,
+sum of absolute differences, absolute left/above difference, or absolute
+`left+above-2*diagonal`. Preserve every exact fit and failed family totals.
+This family is selected after viewing the exploratory triples. Validate any
+fitted choices on complete later rows of E-M5 II P6190137 and E-M1 II PIXLS.US
+1993, saving candidate matrices before their new reference row acquisition.
+
+The predictor-family fit retains exactly four choices: strict diagonal-between
+condition, maximum difference metric, and inclusive thresholds 30/31/32/33.
+Register these four complete four-row candidates with all-state row reset,
+above-two border seeds, two-row distance and no alignment. Compare all four on
+P5070002 as an extended refinement check, and prospectively on P6190137 and
+PIXLS.US 1993. Each candidate is computed and saved before those reference
+row-1/2/3 values are acquired for this experiment.
+
+### Registered sixteen-row coverage check
+
+Threshold 32 alone matches all four rows of P5070002 and P6190137; thresholds
+30/31/33 have preserved failures. All four match the lower-contrast E-M1 II
+rows, so that specimen does not discriminate the threshold. Freeze the 32-unit
+strict-between rule and all-state row resets before extending the check.
+
+Compute and save sixteen-row predictions on P5121636, P2153108, PEN-F 2978 and
+TG-7 6946 before acquiring those later reference rows. Separately check public
+E-M10 III 1787, E-M1X 3041, OM-1 II 7262 and OM-3 7796 as additional camera
+coverage, subject to the existing file/geometry budgets. Preserve failures;
+camera identity alone cannot establish shared coding rules.
+
+### Registered high-resolution coverage check
+
+The frozen candidate matches all sixteen tested rows of the eight additional
+ordinary specimens. Extend its first eight rows to the two E-M5 III
+high-resolution originals P5131023 and PIXLS.US 3573. The native unchanged
+control now has a declared-sample cap of 96 million, decodes only once and
+hashes/comparisons by rows; mutation experiments retain their 32-million cap.
+Prefix matrices remain capped at 131,072 values. No runtime/source code is
+inspected, and reference pixels are acquired after both candidate matrices.
+
+## Registered full-raster extension after the prose review
+
+Work resumed on 2026-10-08 after an immutable 96-file pre-prose snapshot was
+verified. Two user-supplied prose explanations and their reported source links
+have been read as text. Several new claims explicitly derive from RawSpeed or
+LibRaw implementations. Those source pages have not been opened. A prior prose
+documentation search incidentally exposed a generic container-recognition code
+excerpt; this is disclosed in the private review log. Make no further web visits.
+
+The measured E01 token rules and V02 spatial/reset hypothesis are unchanged.
+They were recorded before either prose explanation. Do not implement the new
+metadata-role or eight-byte-header claims, or describe them as independent
+findings. A failed full-raster check rejects the current hypothesis's extension.
+
+1. Build a bounded standard-library streaming verifier of E01/V02, with a
+   byte-backed bit reader rather than a string of all encoded bits. Retain the
+   measured bit-56 start and preserve logical bit positions. Read only inside
+   the declared strip and report an error when a required bit is unavailable.
+2. First compare that verifier's early rows with the frozen row hashes and bit
+   positions, without reacquiring a native reference. This validates the new
+   measurement implementation against the previous experiment, not the format.
+3. Compute and save complete candidate rasters before asking the pinned binary
+   instrument for their full numerical comparisons. Include all stored columns,
+   rows and margins. Use at most eight inputs per batch, 96 million samples per
+   image, 512 million per batch and 16,384 samples per row; retain sensor dumps
+   only in the ignored `.work/` directory. Keep failures in the reports.
+4. Check all nine creator-contributed compressed originals, then the additional
+   already-local 12-bit CC0 specimens from E-M1 II, PEN-F, TG-7, E-M10 III,
+   E-M1X, OM-1 II, OM-3 and the second E-M5 III high-resolution original.
+   Packed/multistrip specimens are outside this compressed experiment.
+5. Record method/model/input hashes, instrument versions, full stored and visible
+   geometry, exact sample difference counts, first mismatch, maximum difference,
+   candidate/reference full-sensor hashes, every row's final bit position, output
+   range and observed unused strip bits/bytes. Ending after the declared number
+   of samples is the hypothesis being tested; this does not prove the absence
+   of an unobserved terminal field or establish a universal padding rule.
+
+No compressed test encoder or product Rust decoder is introduced by this stage.
+Full-raster agreement remains finite specimen evidence rather than proof of all
+12-bit cameras or the generalized 14-bit format. Specification review is separate
+from eventual product implementation.
+
+### Recorded metadata-gate correction
+
+The initial full-raster tool required the inspector's `valid_bits=[12,0]`.
+That observation is not exposed by the current inspector on TG-7 6946,
+OM-1 II 7262 or OM-3 7796. These three inputs were excluded before prediction;
+their failed report entries and the initial method are retained. Their sixteen
+rows were already prospectively matched before prose exposure. Permit absent
+valid-bits observations for this research extension, record their absence and
+measure the entire resulting output range. Reject an exposed contradictory
+depth. This is a metadata-coverage correction, not a new 14-bit coding rule or
+a production format-identification policy. E01/V02 is unchanged.
+
+### Registered final-byte and truncation checks
+
+After complete candidates have been computed, use their recorded final token
+positions to select the last consumed byte and any unused final-byte bits on
+ordinary inputs P6190137, P5070002 and PIXLS.US 1993. The competing hypotheses
+are: unused byte-tail bits do not affect reconstruction; or they provide a
+terminal validation condition observed by the reference. Mutate every bit in
+the selected final byte in isolated, unchanged-geometry, 20-second native
+workers. Preserve errors, differences and invisible cases; do not assert that
+mutated samples outside the ADC range are valid camera data.
+
+Separately validate the research bit reader's strict bounds against a simple
+bit-string oracle on procedural bytes. For final-token truncation, extract the
+last token's start/end and test cuts before its required final byte. A cut must
+fail on a required read; removing only unused trailing bytes/bits has a different
+meaning. No missing bit is supplied as zero and no universal all-zero/all-one
+padding acceptance rule is inferred from a finite corpus or native tolerance.

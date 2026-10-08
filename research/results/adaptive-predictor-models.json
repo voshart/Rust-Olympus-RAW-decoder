@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "token_model": {
+    "id": "E01",
+    "bias": {
+      "a": 3,
+      "b": 1,
+      "shift": 5,
+      "rounding": 0
+    },
+    "width": {
+      "decay_shift": null,
+      "small_threshold_log2": 4,
+      "required_small_count": 3,
+      "stable_base": 2,
+      "stable_shift": 0,
+      "inclusive_small_threshold": true
+    },
+    "escape": {
+      "zero_limit": "fixed-12",
+      "payload_bits": "15-minus-k"
+    }
+  },
+  "models": [
+    {
+      "id": "V00",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "adaptive_median",
+      "row_distance": 2,
+      "threshold": 30,
+      "diagonal_between_inclusive": false
+    },
+    {
+      "id": "V01",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "adaptive_median",
+      "row_distance": 2,
+      "threshold": 31,
+      "diagonal_between_inclusive": false
+    },
+    {
+      "id": "V02",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "adaptive_median",
+      "row_distance": 2,
+      "threshold": 32,
+      "diagonal_between_inclusive": false
+    },
+    {
+      "id": "V03",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "adaptive_median",
+      "row_distance": 2,
+      "threshold": 33,
+      "diagonal_between_inclusive": false
+    }
+  ]
+}

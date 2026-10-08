@@ -3,7 +3,9 @@
 Task M11.3, 2026-10-08. This is a partial numerical description supported by
 independent specimen measurements. It is not a full compressed-stream
 specification or a product decoder. Later-row prediction, row/field resets,
-termination and other camera modes are still open.
+termination and other camera modes were still open at this stage. The subsequent
+[complete measured profile](compressed-12bit-measured.md) records the later-row
+derivation and full-raster checks; this document retains the first-row evidence.
 
 ## Evidence and derivation
 

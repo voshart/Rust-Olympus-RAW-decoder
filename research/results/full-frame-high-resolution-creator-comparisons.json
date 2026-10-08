@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "606f9afddfe3e18e29dd91513082990527087e91390f2b6327d351deb2b58a76",
+  "reference_worker_sha256": "0bf9b1ef9be013be38bdabd885b67c0d32c14f90279d0620caa1c66d3d498d21",
+  "model_manifest_sha256": "90a56ee574382af870a877ede9e61cb59f41d22efbd7e30e9db1c3843217362d",
+  "model_manifest": {
+    "schema": 1,
+    "protocol": "research/compressed-next-experiment.md",
+    "token_model": {
+      "id": "E01",
+      "bias": {
+        "a": 3,
+        "b": 1,
+        "shift": 5,
+        "rounding": 0
+      },
+      "width": {
+        "decay_shift": null,
+        "small_threshold_log2": 4,
+        "required_small_count": 3,
+        "stable_base": 2,
+        "stable_shift": 0,
+        "inclusive_small_threshold": true
+      },
+      "escape": {
+        "zero_limit": "fixed-12",
+        "payload_bits": "15-minus-k"
+      }
+    },
+    "models": [
+      {
+        "id": "V02",
+        "reset": "row_all",
+        "alignment_bits": 1,
+        "border": "above_two",
+        "predictor": "adaptive_median",
+        "row_distance": 2,
+        "threshold": 32,
+        "diagonal_between_inclusive": false
+      }
+    ]
+  },
+  "all_predictions_precede_reference": true,
+  "predictions_file": "full-frame-high-resolution-creator-predictions.json",
+  "cases": [
+    {
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "reference": {
+        "strip_byte": 7,
+        "bit_lsb_index": null,
+        "xor_mask": 0,
+        "rawpy": "0.27.1",
+        "libraw": [
+          0,
+          22,
+          1
+        ],
+        "numpy": "2.4.3",
+        "baseline_sensor_sha256_le_u16": "bb675788173dece0e91091686745fee5a19fdde2206b94ee29d7d96d971057b1",
+        "sensor_shape": [
+          7792,
+          10400
+        ],
+        "reference_geometry": {
+          "sensor_wh": [
+            10400,
+            7792
+          ],
+          "visible_origin_xy": [
+            0,
+            0
+          ],
+          "visible_wh": [
+            10388,
+            7792
+          ]
+        },
+        "changed_samples": 0,
+        "first_changed_index_row_major": null,
+        "first_changed_xy": null,
+        "first_changed_before": null,
+        "first_changed_after": null,
+        "bounds_xyxy_inclusive": null,
+        "first_row_before": [
+          261,
+          267,
+          261,
+          267,
+          262,
+          265,
+          262,
+          266,
+          264,
+          269,
+          262,
+          270,
+          265,
+          272,
+          266,
+          274
+        ],
+        "first_row_after": [
+          261,
+          267,
+          261,
+          267,
+          262,
+          265,
+          262,
+          266,
+          264,
+          269,
+          262,
+          270,
+          265,
+          272,
+          266,
+          274
+        ],
+        "full_sensor_comparison": {
+          "compared_samples": 81036800,
+          "different_samples": 0,
+          "max_abs_difference": 0,
+          "first_mismatch": null,
+          "candidate_sha256_le_u16": "bb675788173dece0e91091686745fee5a19fdde2206b94ee29d7d96d971057b1"
+        }
+      },
+      "hash_agrees": true
+    }
+  ]
+}

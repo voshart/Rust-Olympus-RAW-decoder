@@ -49,8 +49,10 @@ cargo run -p lightcraft-raw --example orf_audit -- --sensor-dir plan/orf-researc
 
 It checks header/full metadata agreement and optionally writes full-sensor
 little-endian u16 dumps. That Rust implementation is not duplicated here.
-This repository currently specifies container metadata and observed packed
-layouts; an independently established compressed specification is still needed.
+This repository specifies container metadata, observed packed layouts and the
+[measured compressed 12-bit profile](../research/compressed-12bit-measured.md).
+The product compressed Rust implementation still requires separate review and
+implementation/safety gates.
 
 For the preregistered bit-influence experiment, use the binary instrument above:
 
@@ -92,3 +94,34 @@ counts. `trace_first_row_model.py` reads a bounded window of a candidate trace
 without a reference. The original methods used before refinements are archived
 under `research/methods`; keep `tools` on `PYTHONPATH` when running an archived
 method directly. All remain numerical research tools, not product dependencies.
+
+## Full-raster measurements
+
+`measure_full_frame.py` extends only the unchanged pre-prose E01/V02 model.
+It uses a bounded byte reservoir, retains two previous rows, and writes candidate
+arrays into `.work/`. Complete predictions and hashes are saved before invoking
+the isolated native full-array comparator. It compares every declared sample,
+including margins, and records row bit positions and unused tail bits.
+
+```sh
+python tools/measure_full_frame.py "corpus/voshart-olympus/P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF" --models research/results/frozen-row-candidate.json --reference-runtime .work/runtime --sensor-dir .work/full-frames --predictions-output .work/full-predictions.json --output .work/full-comparisons.json
+python tools/validate_full_frame_bounds.py --predictions .work/full-predictions.json --external-dir corpus/external --output .work/reader-bounds.json
+```
+
+At most eight inputs, 96 million samples per image, 512 million per batch and
+16,384 columns are accepted. Mutation workers retain their 32-million-sample cap;
+unchanged full-array controls have a 96-million cap. Every native worker has a
+20-second timeout. These resource caps are research budgets, not format constants.
+
+`validate_full_frame_bounds.py` uses independent procedural bit-string checks and
+the recorded final token's fields. It tests missing required bytes without a
+native dependency or compressed test encoder. The published full-raster summary
+links all seventeen complete comparisons and the retained metadata-gate failures.
+Missing depth observations on three controls are recorded, not supplied from a
+camera-name lookup. This verifier's profile gate is not production identification.
+
+Archived methods preserve the original failed/refined experiment implementations.
+The pre-high-resolution row method was recovered exactly by reversing recorded
+budget changes and verifying its original SHA-256; no coding rule was altered.
+Historical local snapshot byte hashes may include Windows checkout line endings.
+Model identity is also checked with a canonical JSON hash for portability.

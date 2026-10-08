@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "reference_acquired": false,
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "strip_byte": 13980118,
+      "final_bit_exclusive": 111840945,
+      "predictions": [
+        {
+          "bit_lsb_index": 7,
+          "strip_bit": 111840944,
+          "expected_unused": false,
+          "token_xy": [
+            4639,
+            3471
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 6,
+          "strip_bit": 111840945,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 5,
+          "strip_bit": 111840946,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 4,
+          "strip_bit": 111840947,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 3,
+          "strip_bit": 111840948,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 2,
+          "strip_bit": 111840949,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 1,
+          "strip_bit": 111840950,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 0,
+          "strip_bit": 111840951,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        }
+      ]
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "strip_byte": 20906239,
+      "final_bit_exclusive": 167249920,
+      "predictions": [
+        {
+          "bit_lsb_index": 7,
+          "strip_bit": 167249912,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 6,
+          "strip_bit": 167249913,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 5,
+          "strip_bit": 167249914,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 4,
+          "strip_bit": 167249915,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 3,
+          "strip_bit": 167249916,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 2,
+          "strip_bit": 167249917,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 1,
+          "strip_bit": 167249918,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 0,
+          "strip_bit": 167249919,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        }
+      ]
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "strip_byte": 15760124,
+      "final_bit_exclusive": 126080993,
+      "predictions": [
+        {
+          "bit_lsb_index": 7,
+          "strip_bit": 126080992,
+          "expected_unused": false,
+          "token_xy": [
+            5239,
+            3911
+          ],
+          "prediction": "sample influence or stream error; not necessarily a valid camera mutation"
+        },
+        {
+          "bit_lsb_index": 6,
+          "strip_bit": 126080993,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 5,
+          "strip_bit": 126080994,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 4,
+          "strip_bit": 126080995,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 3,
+          "strip_bit": 126080996,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 2,
+          "strip_bit": 126080997,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 1,
+          "strip_bit": 126080998,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        },
+        {
+          "bit_lsb_index": 0,
+          "strip_bit": 126080999,
+          "expected_unused": true,
+          "token_xy": null,
+          "prediction": "no sample change"
+        }
+      ]
+    }
+  ]
+}

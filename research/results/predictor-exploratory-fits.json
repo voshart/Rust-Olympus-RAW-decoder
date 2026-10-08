@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "method_sha256": "a643a8226d03b7a3e4206d589b0226bdf9e262b931c028eeeb24493932ccf1a1",
+  "trace_sha256": "eb56c62004f2214419340c4f2dcc63112f51b9c961265bb5188015cd17606edc",
+  "observations": 256,
+  "family_counts": [
+    {
+      "inclusive": false,
+      "metric": "maximum",
+      "exact_fits": 4,
+      "tested": 129
+    },
+    {
+      "inclusive": false,
+      "metric": "minimum",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": false,
+      "metric": "sum",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": false,
+      "metric": "separation",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": false,
+      "metric": "curvature",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": true,
+      "metric": "maximum",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": true,
+      "metric": "minimum",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": true,
+      "metric": "sum",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": true,
+      "metric": "separation",
+      "exact_fits": 0,
+      "tested": 129
+    },
+    {
+      "inclusive": true,
+      "metric": "curvature",
+      "exact_fits": 0,
+      "tested": 129
+    }
+  ],
+  "fits": [
+    {
+      "diagonal_between_inclusive": false,
+      "metric": "maximum",
+      "threshold": 30
+    },
+    {
+      "diagonal_between_inclusive": false,
+      "metric": "maximum",
+      "threshold": 31
+    },
+    {
+      "diagonal_between_inclusive": false,
+      "metric": "maximum",
+      "threshold": 32
+    },
+    {
+      "diagonal_between_inclusive": false,
+      "metric": "maximum",
+      "threshold": 33
+    }
+  ]
+}

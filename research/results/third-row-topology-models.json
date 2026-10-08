@@ -1,0 +1,1051 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "token_model": {
+    "id": "E01",
+    "bias": {
+      "a": 3,
+      "b": 1,
+      "shift": 5,
+      "rounding": 0
+    },
+    "width": {
+      "decay_shift": null,
+      "small_threshold_log2": 4,
+      "required_small_count": 3,
+      "stable_base": 2,
+      "stable_shift": 0,
+      "inclusive_small_threshold": true
+    },
+    "escape": {
+      "zero_limit": "fixed-12",
+      "payload_bits": "15-minus-k"
+    }
+  },
+  "models": [
+    {
+      "id": "T000",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T001",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T002",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T003",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T004",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T005",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T006",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T007",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T008",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T009",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T010",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T011",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T012",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T013",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T014",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T015",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T016",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T017",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T018",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T019",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T020",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T021",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T022",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T023",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T024",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T025",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T026",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T027",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T028",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T029",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T030",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T031",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T032",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T033",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T034",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T035",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T036",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T037",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T038",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T039",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T040",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T041",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T042",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T043",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T044",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T045",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T046",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T047",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T048",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T049",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T050",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T051",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T052",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T053",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T054",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T055",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T056",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T057",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T058",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T059",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T060",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T061",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T062",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T063",
+      "reset": "row_all",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T064",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T065",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T066",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T067",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T068",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T069",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T070",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T071",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T072",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T073",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T074",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T075",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T076",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T077",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T078",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T079",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "zero",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T080",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T081",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T082",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T083",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T084",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T085",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T086",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T087",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T088",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T089",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T090",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T091",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T092",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T093",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T094",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T095",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_one",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T096",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T097",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T098",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T099",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T100",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T101",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T102",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T103",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T104",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T105",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T106",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T107",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T108",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T109",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T110",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T111",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "above_two",
+      "predictor": "paeth",
+      "row_distance": 2
+    },
+    {
+      "id": "T112",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left",
+      "row_distance": 1
+    },
+    {
+      "id": "T113",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above",
+      "row_distance": 1
+    },
+    {
+      "id": "T114",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T115",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "median",
+      "row_distance": 1
+    },
+    {
+      "id": "T116",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "average",
+      "row_distance": 1
+    },
+    {
+      "id": "T117",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T118",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above_half_gradient",
+      "row_distance": 1
+    },
+    {
+      "id": "T119",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "paeth",
+      "row_distance": 1
+    },
+    {
+      "id": "T120",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left",
+      "row_distance": 2
+    },
+    {
+      "id": "T121",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above",
+      "row_distance": 2
+    },
+    {
+      "id": "T122",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T123",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "median",
+      "row_distance": 2
+    },
+    {
+      "id": "T124",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "average",
+      "row_distance": 2
+    },
+    {
+      "id": "T125",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "left_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T126",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "above_half_gradient",
+      "row_distance": 2
+    },
+    {
+      "id": "T127",
+      "reset": "row_bias",
+      "alignment_bits": 1,
+      "border": "previous_row_end",
+      "predictor": "paeth",
+      "row_distance": 2
+    }
+  ]
+}

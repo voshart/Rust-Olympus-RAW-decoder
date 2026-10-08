@@ -1,0 +1,1139 @@
+{
+  "schema": 1,
+  "protocol": "research/compressed-next-experiment.md",
+  "verified_rasters": 17,
+  "verified_samples": 434555200,
+  "differing_samples": 0,
+  "unverified_sensor_margins": 0,
+  "valid_output_range": "All candidate values on the seventeen unchanged originals are within 0..4095; no u16 wrapping was needed.",
+  "original_metadata_gate_failures_retained": [
+    {
+      "file": "pixls-6946.ORF",
+      "report": "full-frame-public-a-comparisons.json",
+      "error": "outside observed single-strip 12-bit profile"
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "report": "full-frame-public-b-comparisons.json",
+      "error": "outside observed single-strip 12-bit profile"
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "report": "full-frame-public-b-comparisons.json",
+      "error": "outside observed single-strip 12-bit profile"
+    }
+  ],
+  "terminal_mutation_cases": 24,
+  "terminal_mutation_errors": 0,
+  "terminal_mutations_without_sample_changes": 14,
+  "required_final_token_byte_cuts_rejected": 30,
+  "procedural_reader_checks": {
+    "variable_width_reads": 260,
+    "exhaustive_two_byte_prefixes": 65536,
+    "short_final_byte_prefixes": 256,
+    "required_eof_rejected": true
+  },
+  "full_matches_are_finite_specimen_evidence": true,
+  "product_rust_decoder_implemented": false,
+  "fourteen_bit_variant_verified": false,
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          253,
+          253,
+          253,
+          253
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "e484b8fbb62752236cc155f516797c94bad05f54ec1b267059b789d8e2d7dbec",
+      "final_bit_exclusive": 111840945,
+      "trailer": {
+        "unused_bits": 7,
+        "partial_byte_unused_bits": 7,
+        "partial_byte_low_value": 127,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 7,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 998,
+      "maximum_k": 8,
+      "candidate_seconds": 37.38,
+      "predictions_report": "full-frame-creators-a-predictions.json",
+      "comparison_report": "full-frame-creators-a-comparisons.json"
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          254,
+          253,
+          253,
+          254
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "sample_count": 20498880,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "final_bit_exclusive": 167249920,
+      "trailer": {
+        "unused_bits": 0,
+        "partial_byte_unused_bits": 0,
+        "partial_byte_low_value": 0,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 0,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 905,
+      "maximum_k": 8,
+      "candidate_seconds": 49.992,
+      "predictions_report": "full-frame-creators-a-predictions.json",
+      "comparison_report": "full-frame-creators-a-comparisons.json"
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "sample_count": 20498880,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "0efe1a38586eda1162abd534b78ec3ed00a147cdcc9dacae76a43d4b9a238f9c",
+      "final_bit_exclusive": 123765913,
+      "trailer": {
+        "unused_bits": 7,
+        "partial_byte_unused_bits": 7,
+        "partial_byte_low_value": 127,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 7,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 193,
+      "maximum_k": 6,
+      "candidate_seconds": 47.774,
+      "predictions_report": "full-frame-creators-a-predictions.json",
+      "comparison_report": "full-frame-creators-a-comparisons.json"
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "sample_count": 20498880,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "5f460e0635d25d56a8ff5dacbb18849a836f4b97d126b07b65ddc280d1240914",
+      "final_bit_exclusive": 167166674,
+      "trailer": {
+        "unused_bits": 6,
+        "partial_byte_unused_bits": 6,
+        "partial_byte_low_value": 63,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 6,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 886,
+      "maximum_k": 8,
+      "candidate_seconds": 49.023,
+      "predictions_report": "full-frame-creators-b-predictions.json",
+      "comparison_report": "full-frame-creators-b-comparisons.json"
+    },
+    {
+      "file": "P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "input_sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          253,
+          253,
+          253,
+          253
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "fa787b33f44893326ee0b2fd8234ae58105d74f45083446cd65b2c1548a8c10b",
+      "final_bit_exclusive": 101901639,
+      "trailer": {
+        "unused_bits": 1,
+        "partial_byte_unused_bits": 1,
+        "partial_byte_low_value": 1,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 1,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 862,
+      "maximum_k": 8,
+      "candidate_seconds": 34.594,
+      "predictions_report": "full-frame-creators-b-predictions.json",
+      "comparison_report": "full-frame-creators-b-comparisons.json"
+    },
+    {
+      "file": "P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "input_sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          253,
+          253,
+          253,
+          253
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "75364595aba686a4a2b632d474901da3753edaa725e8c7cbe9db210efa977e06",
+      "final_bit_exclusive": 97319067,
+      "trailer": {
+        "unused_bits": 5,
+        "partial_byte_unused_bits": 5,
+        "partial_byte_low_value": 31,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 5,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 340,
+      "maximum_k": 7,
+      "candidate_seconds": 32.632,
+      "predictions_report": "full-frame-creators-b-predictions.json",
+      "comparison_report": "full-frame-creators-b-comparisons.json"
+    },
+    {
+      "file": "P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          253,
+          253,
+          253,
+          253
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "18bea12fb137bd589d5568d15eccc35ede891e783d8549800be74f3ffcca51c6",
+      "final_bit_exclusive": 109762614,
+      "trailer": {
+        "unused_bits": 2,
+        "partial_byte_unused_bits": 2,
+        "partial_byte_low_value": 3,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 2,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 970,
+      "maximum_k": 8,
+      "candidate_seconds": 25.052,
+      "predictions_report": "full-frame-creators-b-predictions.json",
+      "comparison_report": "full-frame-creators-b-comparisons.json"
+    },
+    {
+      "file": "PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          253,
+          253,
+          253,
+          253
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "936e78e3f1a40a885d5f800da241df3909785430f5856e8b41eaa7a5f75860f4",
+      "final_bit_exclusive": 117153653,
+      "trailer": {
+        "unused_bits": 3,
+        "partial_byte_unused_bits": 3,
+        "partial_byte_low_value": 7,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 3,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 685,
+      "maximum_k": 8,
+      "candidate_seconds": 25.372,
+      "predictions_report": "full-frame-creators-b-predictions.json",
+      "comparison_report": "full-frame-creators-b-comparisons.json"
+    },
+    {
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          10368
+        ],
+        "crop_height": [
+          7776
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          10400,
+          7792
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          10388,
+          7792
+        ]
+      },
+      "sample_count": 81036800,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "bb675788173dece0e91091686745fee5a19fdde2206b94ee29d7d96d971057b1",
+      "final_bit_exclusive": 538687136,
+      "trailer": {
+        "unused_bits": 0,
+        "partial_byte_unused_bits": 0,
+        "partial_byte_low_value": 0,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 0,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 1079,
+      "maximum_k": 9,
+      "candidate_seconds": 129.512,
+      "predictions_report": "full-frame-high-resolution-creator-predictions.json",
+      "comparison_report": "full-frame-high-resolution-creator-comparisons.json"
+    },
+    {
+      "file": "pixls-3573.ORF",
+      "input_sha256": "391f2f6ba712a517212cae53bfc9a313fc4d106d0b04d3b9af68a4ed2d5d944e",
+      "sensor": [
+        10400,
+        7792
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          10368
+        ],
+        "crop_height": [
+          7776
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          10400,
+          7792
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          10388,
+          7792
+        ]
+      },
+      "sample_count": 81036800,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "5a19cf3a01e13ae5fd7ef238d735cc89f8907fd620f106c1c3a82140a806def9",
+      "final_bit_exclusive": 525004645,
+      "trailer": {
+        "unused_bits": 3,
+        "partial_byte_unused_bits": 3,
+        "partial_byte_low_value": 7,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 3,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 751,
+      "maximum_k": 8,
+      "candidate_seconds": 130.957,
+      "predictions_report": "full-frame-high-resolution-public-predictions.json",
+      "comparison_report": "full-frame-high-resolution-public-comparisons.json"
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "sample_count": 20498880,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "09630ade7c0b48dccb11bfb4c092580eac4d9423c380b975129ef700dcadf419",
+      "final_bit_exclusive": 126080993,
+      "trailer": {
+        "unused_bits": 7,
+        "partial_byte_unused_bits": 7,
+        "partial_byte_low_value": 127,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 7,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 84,
+      "maximum_k": 5,
+      "candidate_seconds": 47.756,
+      "predictions_report": "full-frame-public-a-predictions.json",
+      "comparison_report": "full-frame-public-a-comparisons.json"
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "sensor": [
+        5200,
+        3904
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5200,
+          3904
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5200,
+          3904
+        ]
+      },
+      "sample_count": 20300800,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "71113597675b824f75f14285008ae2a3e249560b11cf9501e9547faf6e5e91bb",
+      "final_bit_exclusive": 137261741,
+      "trailer": {
+        "unused_bits": 3,
+        "partial_byte_unused_bits": 3,
+        "partial_byte_low_value": 7,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 3,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 636,
+      "maximum_k": 8,
+      "candidate_seconds": 47.901,
+      "predictions_report": "full-frame-public-a-predictions.json",
+      "comparison_report": "full-frame-public-a-comparisons.json"
+    },
+    {
+      "file": "pixls-1787.ORF",
+      "input_sha256": "11d90cbb564ad2c660c7a8d5d81d99c2c018aa27fdec45ed6c461fa5d24f942b",
+      "sensor": [
+        4640,
+        3472
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          254,
+          254,
+          254,
+          254
+        ],
+        "crop_left": [
+          8,
+          0
+        ],
+        "crop_top": [
+          8,
+          0
+        ],
+        "crop_width": [
+          4608
+        ],
+        "crop_height": [
+          3456
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          4640,
+          3472
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4640,
+          3472
+        ]
+      },
+      "sample_count": 16110080,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "431e3081ea9bc354f93e809c413b6a0232ae8ffd13073fbb3235a787680f150a",
+      "final_bit_exclusive": 134246152,
+      "trailer": {
+        "unused_bits": 0,
+        "partial_byte_unused_bits": 0,
+        "partial_byte_low_value": 0,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 0,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 743,
+      "maximum_k": 8,
+      "candidate_seconds": 39.29,
+      "predictions_report": "full-frame-public-a-predictions.json",
+      "comparison_report": "full-frame-public-a-comparisons.json"
+    },
+    {
+      "file": "pixls-3041.ORF",
+      "input_sha256": "ab171cedfe3a65438dd47c2df704a7d3001f45f5ab43e67b7f96cfe30b6ebbcf",
+      "sensor": [
+        5240,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": {
+        "valid_bits": [
+          12,
+          0
+        ],
+        "black_levels": [
+          252,
+          254,
+          254,
+          252
+        ],
+        "crop_left": [
+          12,
+          0
+        ],
+        "crop_top": [
+          12,
+          0
+        ],
+        "crop_width": [
+          5184
+        ],
+        "crop_height": [
+          3888
+        ]
+      },
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "sample_count": 20498880,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "13f1340a2183bccd1a991042d07819c430b63b33d22da6274c5cc621f412d71a",
+      "final_bit_exclusive": 147453519,
+      "trailer": {
+        "unused_bits": 1,
+        "partial_byte_unused_bits": 1,
+        "partial_byte_low_value": 1,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 1,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 350,
+      "maximum_k": 7,
+      "candidate_seconds": 48.787,
+      "predictions_report": "full-frame-public-b-predictions.json",
+      "comparison_report": "full-frame-public-b-comparisons.json"
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "sensor": [
+        4040,
+        3016
+      ],
+      "cfa": "GRBG",
+      "image_processing": null,
+      "reference_geometry": {
+        "sensor_wh": [
+          4040,
+          3016
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          4014,
+          3016
+        ]
+      },
+      "sample_count": 12184640,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "28a13068be6c25fb2116b52662f4d20b526d7ce6c53a2150dc280fbfe5a909a2",
+      "final_bit_exclusive": 98405597,
+      "trailer": {
+        "unused_bits": 3,
+        "partial_byte_unused_bits": 3,
+        "partial_byte_low_value": 7,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 3,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 880,
+      "maximum_k": 8,
+      "candidate_seconds": 20.094,
+      "predictions_report": "full-frame-public-metadata-correction-predictions.json",
+      "comparison_report": "full-frame-public-metadata-correction-comparisons.json"
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "input_sha256": "d0fe58daf2f0bd749ecb18311e55408f0e7804de8e5e6580e815eae50d834cbd",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": null,
+      "reference_geometry": {
+        "sensor_wh": [
+          5220,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5220,
+          3912
+        ]
+      },
+      "sample_count": 20420640,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "c833242a92839771353e70a0f11620ce14f9b02f7c373f1217c2aa9c0845280c",
+      "final_bit_exclusive": 164953535,
+      "trailer": {
+        "unused_bits": 1,
+        "partial_byte_unused_bits": 1,
+        "partial_byte_low_value": 1,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 1,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 917,
+      "maximum_k": 8,
+      "candidate_seconds": 33.865,
+      "predictions_report": "full-frame-public-metadata-correction-predictions.json",
+      "comparison_report": "full-frame-public-metadata-correction-comparisons.json"
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "input_sha256": "1cee7deb661e45101ab3ca6c4240d24ed949b167ed423703fca15c09dd8ec176",
+      "sensor": [
+        5220,
+        3912
+      ],
+      "cfa": "RGGB",
+      "image_processing": null,
+      "reference_geometry": {
+        "sensor_wh": [
+          5220,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5220,
+          3912
+        ]
+      },
+      "sample_count": 20420640,
+      "different_samples": 0,
+      "max_abs_difference": 0,
+      "sensor_sha256_le_u16": "2cc34fdbc6d8ea292ba1bedbac534628edf43ed94d559c42ca4630ab56e3b9da",
+      "final_bit_exclusive": 158550983,
+      "trailer": {
+        "unused_bits": 1,
+        "partial_byte_unused_bits": 1,
+        "partial_byte_low_value": 1,
+        "complete_unused_bytes": 0,
+        "complete_unused_zero_bytes": 0,
+        "unused_nonzero_bit_count": 1,
+        "first_32_complete_unused_bytes_hex": "",
+        "last_32_complete_unused_bytes_hex": ""
+      },
+      "maximum_q": 838,
+      "maximum_k": 8,
+      "candidate_seconds": 33.498,
+      "predictions_report": "full-frame-public-metadata-correction-predictions.json",
+      "comparison_report": "full-frame-public-metadata-correction-comparisons.json"
+    }
+  ]
+}

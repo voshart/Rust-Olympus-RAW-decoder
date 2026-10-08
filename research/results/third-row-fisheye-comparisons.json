@@ -1,0 +1,1384 @@
+{
+  "schema": 1,
+  "method_sha256": "7bcabbad0e556b0e8cd407a66459f8769c57569b97f02838e8503d9e23aa3088",
+  "protocol": "research/compressed-next-experiment.md",
+  "predictions_file": "third-row-fisheye-predictions.json",
+  "all_predictions_precede_reference": true,
+  "cases": [
+    {
+      "rawpy": "0.27.1",
+      "libraw": [
+        0,
+        22,
+        1
+      ],
+      "numpy": "2.4.3",
+      "sensor_shape": [
+        3912,
+        5240
+      ],
+      "reference_geometry": {
+        "sensor_wh": [
+          5240,
+          3912
+        ],
+        "visible_origin_xy": [
+          0,
+          0
+        ],
+        "visible_wh": [
+          5240,
+          3912
+        ]
+      },
+      "baseline_sensor_sha256_le_u16": "c4c4303146d203666e4e4efd41cd5f041eae8daab276c9590036dd2ac49c022c",
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "tested_rows": 3,
+      "sample_count": 15720,
+      "reference_row_sha256_le_u16": [
+        "3c71ee5d94e5d6df03e03394d39fc81ab00c7adc46a1733da32b90f72065b63f",
+        "27926eca0d73d673dc984fbfabd901efe6424d134dc7076aef6ad81b54252e56",
+        "1edf46c1369c9cd7b05377bd44f7c8ab008a32e784b902d85d796a149c4b486d"
+      ],
+      "reference_first_values_per_row": [
+        [
+          573,
+          995,
+          541,
+          1010,
+          518,
+          945,
+          566,
+          780,
+          699,
+          817,
+          729,
+          1248,
+          692,
+          1564,
+          736,
+          1170
+        ],
+        [
+          919,
+          761,
+          1019,
+          749,
+          833,
+          768,
+          781,
+          845,
+          882,
+          921,
+          1382,
+          1110,
+          1711,
+          970,
+          1093,
+          949
+        ],
+        [
+          562,
+          956,
+          522,
+          791,
+          576,
+          756,
+          719,
+          923,
+          786,
+          1467,
+          716,
+          1696,
+          681,
+          1070,
+          686,
+          1270
+        ]
+      ],
+      "comparisons": [
+        {
+          "model_id": "T000",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T001",
+          "different_samples": 10427,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 641,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T002",
+          "different_samples": 10473,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T003",
+          "different_samples": 10454,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T004",
+          "different_samples": 10390,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T005",
+          "different_samples": 10477,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 1003,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T006",
+          "different_samples": 10445,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 814,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T007",
+          "different_samples": 10422,
+          "first_mismatch_xy": [
+            11,
+            1
+          ],
+          "first_candidate_value": 1437,
+          "first_reference_value": 1110
+        },
+        {
+          "model_id": "T008",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T009",
+          "different_samples": 3492,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T010",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T011",
+          "different_samples": 898,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T012",
+          "different_samples": 5094,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T013",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T014",
+          "different_samples": 5129,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T015",
+          "different_samples": 3356,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T016",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T017",
+          "different_samples": 10429,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T018",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T019",
+          "different_samples": 10457,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T020",
+          "different_samples": 10393,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T021",
+          "different_samples": 10477,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T022",
+          "different_samples": 10447,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T023",
+          "different_samples": 10476,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T024",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T025",
+          "different_samples": 8732,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T026",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T027",
+          "different_samples": 6138,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T028",
+          "different_samples": 10333,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T029",
+          "different_samples": 10479,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T030",
+          "different_samples": 10369,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T031",
+          "different_samples": 8617,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T032",
+          "different_samples": 5238,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 543,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T033",
+          "different_samples": 10425,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 641,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T034",
+          "different_samples": 10471,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T035",
+          "different_samples": 10452,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T036",
+          "different_samples": 10388,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T037",
+          "different_samples": 10475,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 1003,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T038",
+          "different_samples": 10443,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 814,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T039",
+          "different_samples": 10420,
+          "first_mismatch_xy": [
+            11,
+            1
+          ],
+          "first_candidate_value": 1437,
+          "first_reference_value": 1110
+        },
+        {
+          "model_id": "T040",
+          "different_samples": 5238,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 543,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T041",
+          "different_samples": 3490,
+          "first_mismatch_xy": [
+            3,
+            2
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 791
+        },
+        {
+          "model_id": "T042",
+          "different_samples": 5237,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 511,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T043",
+          "different_samples": 863,
+          "first_mismatch_xy": [
+            26,
+            2
+          ],
+          "first_candidate_value": 614,
+          "first_reference_value": 618
+        },
+        {
+          "model_id": "T044",
+          "different_samples": 5091,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 532,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T045",
+          "different_samples": 5238,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 527,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T046",
+          "different_samples": 5126,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 516,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T047",
+          "different_samples": 3319,
+          "first_mismatch_xy": [
+            3,
+            2
+          ],
+          "first_candidate_value": 776,
+          "first_reference_value": 791
+        },
+        {
+          "model_id": "T048",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T049",
+          "different_samples": 10429,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T050",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T051",
+          "different_samples": 10457,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T052",
+          "different_samples": 10393,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T053",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T054",
+          "different_samples": 10447,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T055",
+          "different_samples": 10476,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T056",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T057",
+          "different_samples": 8732,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T058",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T059",
+          "different_samples": 6162,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T060",
+          "different_samples": 10334,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T061",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T062",
+          "different_samples": 10369,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T063",
+          "different_samples": 8667,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T064",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T065",
+          "different_samples": 10442,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 641,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T066",
+          "different_samples": 10473,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T067",
+          "different_samples": 10475,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T068",
+          "different_samples": 10448,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T069",
+          "different_samples": 10477,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 1003,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T070",
+          "different_samples": 10465,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 814,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T071",
+          "different_samples": 10424,
+          "first_mismatch_xy": [
+            11,
+            1
+          ],
+          "first_candidate_value": 1437,
+          "first_reference_value": 1110
+        },
+        {
+          "model_id": "T072",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T073",
+          "different_samples": 5203,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T074",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T075",
+          "different_samples": 5231,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T076",
+          "different_samples": 5202,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T077",
+          "different_samples": 5240,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T078",
+          "different_samples": 5209,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T079",
+          "different_samples": 5232,
+          "first_mismatch_xy": [
+            0,
+            2
+          ],
+          "first_candidate_value": 65525,
+          "first_reference_value": 562
+        },
+        {
+          "model_id": "T080",
+          "different_samples": 10478,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T081",
+          "different_samples": 10444,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T082",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T083",
+          "different_samples": 10472,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T084",
+          "different_samples": 10450,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T085",
+          "different_samples": 10477,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T086",
+          "different_samples": 10467,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T087",
+          "different_samples": 10478,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T088",
+          "different_samples": 10478,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T089",
+          "different_samples": 10443,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T090",
+          "different_samples": 10479,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T091",
+          "different_samples": 10454,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T092",
+          "different_samples": 10442,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T093",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T094",
+          "different_samples": 10449,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T095",
+          "different_samples": 10472,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1492,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T096",
+          "different_samples": 5237,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 543,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T097",
+          "different_samples": 10440,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 641,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T098",
+          "different_samples": 10470,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T099",
+          "different_samples": 10468,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 987,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T100",
+          "different_samples": 10446,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T101",
+          "different_samples": 10475,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 1003,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T102",
+          "different_samples": 10463,
+          "first_mismatch_xy": [
+            2,
+            1
+          ],
+          "first_candidate_value": 814,
+          "first_reference_value": 1019
+        },
+        {
+          "model_id": "T103",
+          "different_samples": 10422,
+          "first_mismatch_xy": [
+            11,
+            1
+          ],
+          "first_candidate_value": 1437,
+          "first_reference_value": 1110
+        },
+        {
+          "model_id": "T104",
+          "different_samples": 5237,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 543,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T105",
+          "different_samples": 5201,
+          "first_mismatch_xy": [
+            3,
+            2
+          ],
+          "first_candidate_value": 830,
+          "first_reference_value": 791
+        },
+        {
+          "model_id": "T106",
+          "different_samples": 5237,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 511,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T107",
+          "different_samples": 5209,
+          "first_mismatch_xy": [
+            4,
+            2
+          ],
+          "first_candidate_value": 528,
+          "first_reference_value": 576
+        },
+        {
+          "model_id": "T108",
+          "different_samples": 5200,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 532,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T109",
+          "different_samples": 5238,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 527,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T110",
+          "different_samples": 5207,
+          "first_mismatch_xy": [
+            2,
+            2
+          ],
+          "first_candidate_value": 516,
+          "first_reference_value": 522
+        },
+        {
+          "model_id": "T111",
+          "different_samples": 5229,
+          "first_mismatch_xy": [
+            3,
+            2
+          ],
+          "first_candidate_value": 776,
+          "first_reference_value": 791
+        },
+        {
+          "model_id": "T112",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T113",
+          "different_samples": 10444,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T114",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T115",
+          "different_samples": 10472,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T116",
+          "different_samples": 10450,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T117",
+          "different_samples": 10478,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T118",
+          "different_samples": 10467,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T119",
+          "different_samples": 10478,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T120",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T121",
+          "different_samples": 10443,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T122",
+          "different_samples": 10480,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T123",
+          "different_samples": 10455,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T124",
+          "different_samples": 10442,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T125",
+          "different_samples": 10476,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T126",
+          "different_samples": 10449,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        },
+        {
+          "model_id": "T127",
+          "different_samples": 10472,
+          "first_mismatch_xy": [
+            0,
+            1
+          ],
+          "first_candidate_value": 1688,
+          "first_reference_value": 919
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "schema": 1,
+  "method_sha256": "5f3ebdc011933add04f24d94535774aebe420f52d833256b24131f4c725f7df9",
+  "reader_method_sha256": "606f9afddfe3e18e29dd91513082990527087e91390f2b6327d351deb2b58a76",
+  "native_reference_acquired": false,
+  "procedural_checks": {
+    "variable_width_reads": 260,
+    "exhaustive_two_byte_prefixes": 65536,
+    "short_final_byte_prefixes": 256,
+    "required_eof_rejected": true
+  },
+  "cases": [
+    {
+      "file": "P6190137_EM5MarkII_Lumix G 20mmF1.7 II.ORF",
+      "input_sha256": "270052cf17913884cb0a1236c4e6a4851aa794f5fa854d821235fcfb3358fd34",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 111840939,
+        "end_bit_exclusive": 111840945,
+        "k": 2,
+        "flags": 2,
+        "q": 1,
+        "sample": 287
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 13980117,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 13980118,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P5070002_EM5MkIII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "7ca622dd28c860e1d7d68078b2bcb4123c2fc86fb8325a86e1ab5ed126b306fa",
+      "final_token": {
+        "x": 5239,
+        "y": 3911,
+        "start_bit": 167249911,
+        "end_bit_exclusive": 167249920,
+        "k": 4,
+        "flags": 0,
+        "q": 22,
+        "sample": 542
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 20906238,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 20906239,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P2153108_E-M5MarkIII_Olympus M17mm F1.2.ORF",
+      "input_sha256": "33085578908e11c691ba488d613a3e75368f39fde9ee15a0a2f3d6782a9d661f",
+      "final_token": {
+        "x": 5239,
+        "y": 3911,
+        "start_bit": 123765907,
+        "end_bit_exclusive": 123765913,
+        "k": 2,
+        "flags": 0,
+        "q": 1,
+        "sample": 256
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 15470738,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 15470739,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P5121636EM5MkIII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "1574efc88696ba6e9873b781f94dadb38ffe19667dc59fc8520331b3a7a72397",
+      "final_token": {
+        "x": 5239,
+        "y": 3911,
+        "start_bit": 167166666,
+        "end_bit_exclusive": 167166674,
+        "k": 4,
+        "flags": 6,
+        "q": 5,
+        "sample": 1081
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 20895833,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 20895834,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P5230135_EM5MkII_Olympus M 8mm F1.8.ORF",
+      "input_sha256": "9308e1e7d81da25682bfd30d6e4e5dafd54aa069b9444c66e774203a6e7e71bf",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 101901631,
+        "end_bit_exclusive": 101901639,
+        "k": 2,
+        "flags": 5,
+        "q": 9,
+        "sample": 2329
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 12737703,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 12737704,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P5230140_EM5MkII_Lumix G Vario 14-140mmF3.5-5.6.ORF",
+      "input_sha256": "d6317da1ec1ad0acd6473584771a852a33bbd7602c678fa7578badb3a1194025",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 97319061,
+        "end_bit_exclusive": 97319067,
+        "k": 2,
+        "flags": 3,
+        "q": 0,
+        "sample": 262
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 12164882,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 12164883,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P6150304_EM5MkII_Lumix G Fisheye 8mmF3.5.ORF",
+      "input_sha256": "1b24f76af6eb8266cf83adbf6b8655beee79141016e293593dfe75d9718fa633",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 109762608,
+        "end_bit_exclusive": 109762614,
+        "k": 2,
+        "flags": 3,
+        "q": 0,
+        "sample": 261
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 13720326,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "PC201904_EM5MkII_Olympus M60mm F2.8macro.ORF",
+      "input_sha256": "42851456852a74d71d581e466a82f3a8ee3f979a2b4ee528455c0ba762c03dbf",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 117153647,
+        "end_bit_exclusive": 117153653,
+        "k": 2,
+        "flags": 4,
+        "q": 0,
+        "sample": 764
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 14644205,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 14644206,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-1993.ORF",
+      "input_sha256": "0b433019e5fa61548d7eb0eb7bb90894251542c056da72355202382696d0ceb8",
+      "final_token": {
+        "x": 5239,
+        "y": 3911,
+        "start_bit": 126080987,
+        "end_bit_exclusive": 126080993,
+        "k": 2,
+        "flags": 2,
+        "q": 1,
+        "sample": 267
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 15760123,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 15760124,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-2978.ORF",
+      "input_sha256": "156bf12075c4f69a3e475518f67db9d4010972d8123bdd27ae8c9177b443c374",
+      "final_token": {
+        "x": 5199,
+        "y": 3903,
+        "start_bit": 137261735,
+        "end_bit_exclusive": 137261741,
+        "k": 2,
+        "flags": 3,
+        "q": 3,
+        "sample": 297
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 17157716,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 17157717,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-1787.ORF",
+      "input_sha256": "11d90cbb564ad2c660c7a8d5d81d99c2c018aa27fdec45ed6c461fa5d24f942b",
+      "final_token": {
+        "x": 4639,
+        "y": 3471,
+        "start_bit": 134246144,
+        "end_bit_exclusive": 134246152,
+        "k": 4,
+        "flags": 5,
+        "q": 15,
+        "sample": 495
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 16780768,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-3041.ORF",
+      "input_sha256": "ab171cedfe3a65438dd47c2df704a7d3001f45f5ab43e67b7f96cfe30b6ebbcf",
+      "final_token": {
+        "x": 5239,
+        "y": 3911,
+        "start_bit": 147453513,
+        "end_bit_exclusive": 147453519,
+        "k": 2,
+        "flags": 7,
+        "q": 2,
+        "sample": 252
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 18431689,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-6946.ORF",
+      "input_sha256": "4f7344c67bfcfcfec45f754195ba612fc2ad6312f5fab87812bf04b9e9e7d46a",
+      "final_token": {
+        "x": 4039,
+        "y": 3015,
+        "start_bit": 98405591,
+        "end_bit_exclusive": 98405597,
+        "k": 2,
+        "flags": 3,
+        "q": 0,
+        "sample": 197
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 12300698,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 12300699,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-7262.ORF",
+      "input_sha256": "d0fe58daf2f0bd749ecb18311e55408f0e7804de8e5e6580e815eae50d834cbd",
+      "final_token": {
+        "x": 5219,
+        "y": 3911,
+        "start_bit": 164953527,
+        "end_bit_exclusive": 164953535,
+        "k": 4,
+        "flags": 6,
+        "q": 3,
+        "sample": 435
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 20619190,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 20619191,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-7796.ORF",
+      "input_sha256": "1cee7deb661e45101ab3ca6c4240d24ed949b167ed423703fca15c09dd8ec176",
+      "final_token": {
+        "x": 5219,
+        "y": 3911,
+        "start_bit": 158550977,
+        "end_bit_exclusive": 158550983,
+        "k": 2,
+        "flags": 0,
+        "q": 2,
+        "sample": 277
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 19818872,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "P5131023EM5MkIII_Lumix G 20mm F1.7 II.ORF",
+      "input_sha256": "9b1f067f1742ce5173792cc521db87119ac7e6b503759e5b885b3a7dc727baf1",
+      "final_token": {
+        "x": 10399,
+        "y": 7791,
+        "start_bit": 538687120,
+        "end_bit_exclusive": 538687136,
+        "k": 6,
+        "flags": 0,
+        "q": 422,
+        "sample": 2471
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 67335890,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 67335891,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    },
+    {
+      "file": "pixls-3573.ORF",
+      "input_sha256": "391f2f6ba712a517212cae53bfc9a313fc4d106d0b04d3b9af68a4ed2d5d944e",
+      "final_token": {
+        "x": 10399,
+        "y": 7791,
+        "start_bit": 525004639,
+        "end_bit_exclusive": 525004645,
+        "k": 2,
+        "flags": 0,
+        "q": 1,
+        "sample": 4095
+      },
+      "intact_replay_agrees": true,
+      "truncations": [
+        {
+          "strip_bytes_retained": 65625579,
+          "missing_required_bits_rejected": true
+        },
+        {
+          "strip_bytes_retained": 65625580,
+          "missing_required_bits_rejected": true
+        }
+      ]
+    }
+  ]
+}

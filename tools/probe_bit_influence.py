@@ -12,13 +12,18 @@ from pathlib import Path
 from inspect_orf import MAX_FILE, inspect
 
 
-def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16):
+def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16, rows_prefix_count=1, candidate_sensor=None):
     record = inspect(path)
     strips = record['strips']
+    mutation = 1 << bit if xor_mask is None and 0<=bit<8 else xor_mask
+    if mutation is None or not 0<=mutation<=255 or candidate_sensor is not None and mutation!=0:
+        raise ValueError('mutation must fit a byte; full comparisons require an unchanged control')
+    sample_cap = 96_000_000 if mutation==0 else 32_000_000
     if (len(strips) != 1 or not 0 <= byte < strips[0]['size_bytes']
-            or not 0 <= bit < 8 or not 1 <= row_prefix_count <= 8192
-            or record['sensor'][0]*record['sensor'][1] > 32_000_000):
-        raise ValueError('requires one strip, an in-range bit, and at most 32 million samples')
+            or not 0 <= bit < 8 or not 1 <= row_prefix_count <= 16384
+            or not 1 <= rows_prefix_count <= 16 or row_prefix_count*rows_prefix_count>131072
+            or record['sensor'][0]*record['sensor'][1] > sample_cap):
+        raise ValueError('requires one strip, an in-range bit, and bounded sensor/prefix dimensions')
     sys.path.insert(0,str(runtime.resolve()))
     import numpy as np
     import rawpy
@@ -32,8 +37,46 @@ def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16):
         geometry = dict(sensor_wh=[sizes.raw_width,sizes.raw_height],
                         visible_origin_xy=[sizes.left_margin,sizes.top_margin],
                         visible_wh=[sizes.width,sizes.height])
+    if mutation==0:
+        digest = hashlib.sha256()
+        for row in original:
+            digest.update(row.astype('<u2',copy=False).tobytes())
+        result = dict(strip_byte=byte,bit_lsb_index=None,xor_mask=0,
+            rawpy=rawpy.__version__,libraw=list(rawpy.libraw_version),numpy=np.__version__,
+            baseline_sensor_sha256_le_u16=digest.hexdigest(),sensor_shape=list(original.shape),
+            reference_geometry=geometry,changed_samples=0,first_changed_index_row_major=None,
+            first_changed_xy=None,first_changed_before=None,first_changed_after=None,
+            bounds_xyxy_inclusive=None,first_row_before=original[0,:row_prefix_count].tolist(),
+            first_row_after=original[0,:row_prefix_count].tolist())
+        if rows_prefix_count>1:
+            result['prefix_rows_before'] = original[:rows_prefix_count,:row_prefix_count].tolist()
+        if candidate_sensor is not None:
+            height,width = original.shape
+            if [width,height]!=record['sensor'] or candidate_sensor.stat().st_size!=width*height*2:
+                raise ValueError('candidate/reference full sensor geometry differs')
+            different = maximum = 0
+            first = None
+            candidate_digest = hashlib.sha256()
+            with candidate_sensor.open('rb') as stream:
+                for y,reference_row in enumerate(original):
+                    block = stream.read(width*2)
+                    if len(block)!=width*2:
+                        raise ValueError('candidate changed during comparison')
+                    candidate_digest.update(block)
+                    candidate_row = np.frombuffer(block,dtype='<u2')
+                    mask = candidate_row!=reference_row
+                    count = int(np.count_nonzero(mask))
+                    different += count
+                    if count:
+                        difference = np.abs(candidate_row.astype(np.int32)-reference_row.astype(np.int32))
+                        maximum = max(maximum,int(difference.max()))
+                        if first is None:
+                            x = int(np.argmax(mask))
+                            first = dict(xy=[x,y],candidate=int(candidate_row[x]),reference=int(reference_row[x]))
+            result['full_sensor_comparison'] = dict(compared_samples=width*height,different_samples=different,
+                max_abs_difference=maximum,first_mismatch=first,candidate_sha256_le_u16=candidate_digest.hexdigest())
+        return result
     altered = bytearray(data)
-    mutation = 1 << bit if xor_mask is None else xor_mask
     if not 0 <= mutation <= 255:
         raise ValueError('mutation must fit one byte')
     altered[strips[0]['offset']+byte] ^= mutation
@@ -47,7 +90,7 @@ def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16):
         rows = np.flatnonzero(mask.any(axis=1))
         cols = np.flatnonzero(mask.any(axis=0))
         width = original.shape[1]
-        return dict(strip_byte=byte,bit_lsb_index=bit if xor_mask is None else None,xor_mask=mutation,
+        result = dict(strip_byte=byte,bit_lsb_index=bit if xor_mask is None else None,xor_mask=mutation,
             rawpy=rawpy.__version__,libraw=list(rawpy.libraw_version),numpy=np.__version__,
             baseline_sensor_sha256_le_u16=hashlib.sha256(original.astype('<u2',copy=False).tobytes()).hexdigest(),
             sensor_shape=list(original.shape),reference_geometry=geometry,changed_samples=count,
@@ -57,6 +100,9 @@ def worker(path, runtime, byte, bit, xor_mask=None, row_prefix_count=16):
             first_changed_after=int(changed.flat[first]) if first is not None else None,
             bounds_xyxy_inclusive=[int(cols[0]),int(rows[0]),int(cols[-1]),int(rows[-1])] if count else None,
             first_row_before=original[0,:row_prefix_count].tolist(),first_row_after=changed[0,:row_prefix_count].tolist())
+        if rows_prefix_count>1:
+            result['prefix_rows_before'] = original[:rows_prefix_count,:row_prefix_count].tolist()
+        return result
 
 
 def run_case(args, byte, bit):
@@ -102,9 +148,11 @@ def main():
     parser.add_argument('--worker',type=int,nargs=2,metavar=('BYTE','BIT'))
     parser.add_argument('--xor-mask',type=int,help=argparse.SUPPRESS)
     parser.add_argument('--row-prefix-count',type=int,default=16,help=argparse.SUPPRESS)
+    parser.add_argument('--rows-prefix-count',type=int,default=1,help=argparse.SUPPRESS)
+    parser.add_argument('--candidate-sensor',type=Path,help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args.worker is not None:
-        print(json.dumps(worker(args.input,args.reference_runtime,*args.worker,args.xor_mask,args.row_prefix_count)))
+        print(json.dumps(worker(args.input,args.reference_runtime,*args.worker,args.xor_mask,args.row_prefix_count,args.rows_prefix_count,args.candidate_sensor)))
         return 0
     if args.output is None or args.output.exists():
         raise ValueError('choose a new --output path')

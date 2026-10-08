@@ -2,8 +2,9 @@
 
 An openly licensed Olympus/OM System sample corpus and independently documented
 ORF research, working toward a pure-Rust decoder suitable for permissive projects.
-**This repository is currently a research and corpus project. Full compressed ORF
-decoding has not been implemented.**
+**This repository is currently a research and corpus project. Its measured 12-bit
+research candidate matches seventeen complete compressed rasters; a product
+Rust compressed decoder has not been implemented.**
 
 The working path is independent measurements on original files, explicit
 competing hypotheses, review of the resulting format description, and a safe
@@ -71,18 +72,26 @@ The [compressed-prefix findings](research/compressed-findings.md) now include
 256 single-bit cases, 24 first-pixel flag/control cases, and an initial-codeword
 hypothesis that matches the first two values on seven files across five camera
 models, including two previously unmeasured cameras and two additional E-M5 III
-originals. Later prediction, changing coding parameters and
-full-frame decoding remain unspecified; these results are not a finished decoder.
+originals. That initial stage did not specify later prediction, changing coding
+parameters or full-frame decoding; the subsequent measurements are described below.
 
 The independently measured [first-row hypothesis](research/compressed-first-row.md)
 now covers changing widths, a two-parity bias state, the inclusive small-code
 threshold and a discriminated escape grammar. It matches every first-row sample
 on seven originals across five camera models (34,840 values), including
-prospective PEN-F/TG-7 rows. Failed fits and refinements are preserved. Prediction
-across later rows, reset rules and termination remain open.
+prospective PEN-F/TG-7 rows. Failed fits and refinements are preserved.
+
+The [measured compressed 12-bit profile](research/compressed-12bit-measured.md)
+extends the independently fitted state and prediction rules to seventeen full
+rasters from nine models: **434,555,200 samples with zero differences and no
+excluded margins**. Both 81 MP E-M5 III originals are included. Final-byte
+influence and strict reader bounds are recorded. This specification is ready
+for separate review; generalized 14-bit parameters and a production-safe variant
+identification policy still need evidence. Product Rust implementation and its
+CI/safety gates are a subsequent stage.
 
 The related LightCraft changes are on local branch `orf/independent-evidence`,
-commit `6ccba8f`, based on upstream
+commits `6ccba8f` and `480985b`, based on upstream
 `629e39380e296f588c64cd9c0053a8edc3528f36`. They are not yet an upstream PR.
 That branch passed `cargo xtask ci`, including WASM, and the packed file was
 visually checked through LightCraft's headless and desktop control interfaces.
@@ -96,8 +105,11 @@ documentation are **MIT OR Apache-2.0**, except where a file explicitly says
 otherwise. External photographs retain their individually recorded licences;
 they are not relicensed by a software repository's licence.
 
-No Adobe assets, camera coefficient tables, rejected PR #240 decoder/encoder,
-or GPL/LGPL/AGPL decoder source were used. The optional reference is a separately
-installed binary measuring instrument and is not shipped here. AI authorship and
-the limits of assurances about training data are disclosed in the provenance note.
+No Adobe assets, camera coefficient tables or rejected PR #240 decoder/encoder
+were used. Olympus compressed-decoder source pages were not opened. Later
+source-derived prose and an incidental generic container-recognition code snippet
+are disclosed in the provenance note; the frozen coding hypothesis predates
+that exposure. The optional reference is a separately installed binary measuring
+instrument and is not shipped here. AI authorship and the limits of assurances
+about training data are disclosed in the provenance note.
 See [NOTICE](NOTICE) and [contributor instructions](AGENTS.md).

@@ -9,7 +9,7 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
   published metadata descriptions, PR #240's description and maintainer discussion.
   Later inputs include the individually verified CC0 corpus records and media
   listed in [external-sources.json](../corpus/external-sources.json), plus corpus
-  licence/readme metadata. Third-party decoder source was not read.
+  licence/readme metadata. Olympus compressed-decoder source pages were not opened.
 - After the initial compressed-prefix results at commit `6ac6d66`, LightCraft's
   documented clean-room NEF, PEF, Panasonic RW2, lossless-JPEG and unpacking
   implementations were read to assess reusable infrastructure. This exposure
@@ -17,6 +17,29 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
   subsequently tested prospectively on the two additional E-M5 III files.
 - Not used as inputs: PR #240's `orfc.rs`, its compressed encoder, other ORF
   decoder source, camera coefficient tables, Adobe profiles or lens profiles.
+- After the later-row hypothesis had been fitted and checked prospectively, the
+  user requested a freeze. Ninety-six research files were copied and hashed before
+  two user-supplied prose explanations were read. The first-row findings were
+  already published at `15e7a61`; the later-row work was still locally uncommitted.
+  [Checkpoint identities](results/pre-prose-checkpoint.json) preserve that state;
+  they are not an external timestamp or certification of training-data provenance.
+- The explanations were AI-generated/secondary prose, with claims attributed to
+  existing RawSpeed and LibRaw implementations. The first was identified by the
+  user as GPT-6 authored; separate authorship was not supplied for the follow-up.
+  Their exact private copies have SHA-256
+  `3cd72314488e765b0a142803e09cb0ed5e9a925b3684a241d97bfd26b0b81ba0` and
+  `2880b5391ca849ca36582683e740cedbcf24728b881382bd71bea213a09cc44e`.
+  Their reported decoder-source URLs were recorded as text, not opened. The
+  supplied prose is not republished or used as independent verification.
+- A prose documentation search during the first review incidentally returned a
+  generic libopenraw container-recognition C++ snippet and API declarations. The
+  source page was not opened, and no compressed Olympus rule was obtained from
+  that snippet. LibRaw's February 2025 release-note prose and libopenraw's ORF
+  format-note prose were read. No web visits were made after the user's subsequent
+  instruction. Do not describe this history as zero code-snippet exposure.
+- Work resumed from the unchanged E01/V02 model. The full-frame extension uses
+  those pre-prose rules; new header/metadata-role interpretations from the supplied
+  documents are external claims, not independently established 14-bit rules.
 - The research tools and initial notes were authored with Codex. No assertion is made that an AI model's training contains
   no decoder knowledge. Instead, every new packing rule is tied to measurements
   collected before reference comparison. No compressed rule is supplied from
@@ -50,6 +73,9 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
 | X1 | Isolated compressed-strip byte perturbations | Reproducible reference failures/difference extents | Does not establish compressed coding rules |
 | X2 | Prospectively apply the existing initial-pair hypothesis to two additional E-M5 III originals | All four candidate values match the binary reference; geometry, margins, differences and sensor hashes recorded | Only two coordinates per image tested; no full compressed decode |
 | X3 | Additional 384 single-bit cases, measured token boundaries, explicit finite state fitting and prospective first-row comparisons | Candidate matches 34,840 first-row values on seven originals; escape/counter alternatives rejected by discriminating observations | Later-row prediction, resets and termination remain unspecified; see compressed-first-row.md |
+| X4 | Registered row/reset/topology families, exploratory predictor trace and prospective threshold tests | Per-row all-state reset and threshold-32 conditional predictor; sixteen/eight-row matches on ten additional originals | Locally uncommitted pre-prose snapshot; failed controls/models retained |
+| X5 | Unchanged E01/V02 applied to complete rasters before native full-array comparison | All 434,555,200 samples on seventeen files match, including two 81 MP originals and every stored margin | One binary reference family; finite camera/profile coverage |
+| X6 | Twenty-four final-byte bit mutations; procedural reservoir oracle and final-token byte cuts | Fourteen unused-bit mutations have no sample effect; thirty required-byte cuts reject | No universal padding rule, 14-bit specification or completed product fuzzing suite |
 
 Published artifacts are in [research/results](results/): container observations,
 user and public packed comparisons, C-5050 comparisons and the original
@@ -81,8 +107,10 @@ The optional instrument is not needed to build, test or run LightCraft.
 The working path is independent measurement. Vendor/specification requests are
 optional historical drafts and do not hold up this work. Subsequent bit-level
 protocols, failed hypotheses and initial-codeword comparisons are recorded in
-[compressed findings](compressed-findings.md). The first-two-value hypothesis is
-a research measurement, not a complete specification or product implementation.
+[compressed findings](compressed-findings.md). The subsequent
+[complete measured profile](compressed-12bit-measured.md) has full-raster
+comparisons. It is ready for separate specification review, not approval to skip
+the product implementation and safety gates.
 
 1. Independently derive the bitstream description. For each non-obvious rule,
    record specimen hash, operation, competing hypotheses and discriminating
@@ -97,8 +125,9 @@ a research measurement, not a complete specification or product implementation.
 5. Keep camera colour and lens correction acceptance separate from unpacking.
    Accurate samples do not establish Lightroom rendering parity.
 
-This work satisfies the observed padded packed-layout gate on two E-M5 II files. It does **not**
-claim that the compressed specification, broader camera verification or colour
-calibration gates have been passed. A rights-holder grant is an alternative to
+This work satisfies the observed padded packed-layout gate on two E-M5 II files
+and numerical full-raster checks of the measured compressed 12-bit profile on
+seventeen files. Separate specification review, product implementation/safety
+checks, generalized 14-bit coverage and colour calibration remain. A rights-holder grant is an alternative to
 independent derivation only for exactly the implementation covered by that grant;
 the maintainers must decide whether it fits the project policy.
