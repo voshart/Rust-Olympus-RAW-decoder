@@ -5,6 +5,15 @@ Task: `LR-IMP-FORMATS` / M11.3. Started 2026-10-08. Baseline:
 
 ## Inputs and exposure disclosure
 
+**Upstream acceptance is disputed.** The [PR #360 review](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073438977)
+objects to implementation similarity, source-derived prose and LibRaw oracle use,
+while leaving the final decision to the maintainer. The [subsequent clarification](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073712543)
+asks whether the pre-prose experiments are an acceptable basis or black-box
+LibRaw-assisted inference itself is excluded. The record below describes the
+process and evidence; it is not independent certification. Repository MIT/Apache
+grants and third-party LGPL/CDDL terms are distinguished in
+[licensing scope and references](licensing-and-references.md).
+
 - Read: LightCraft's existing MIT/Apache code, the user-provided photographs,
   published metadata descriptions, PR #240's description and maintainer discussion.
   Later inputs include the individually verified CC0 corpus records and media

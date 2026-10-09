@@ -1,7 +1,9 @@
 # Contributor instructions
 
-This is a clean-room ORF research/corpus project intended to support a permissive,
-pure-Rust decoder. Product compressed 12-bit code lives in LightCraft; this repository
+This is an ORF research/corpus project aiming to support an independently derived,
+permissively licensed pure-Rust decoder. The compressed decoder's provenance is
+disputed upstream; do not describe it as certified clean-room or accepted.
+Product compressed 12-bit code lives in LightCraft; this repository
 contains corpus, research and replay tools. Keep the README honest about scope and
 verification; other coding profiles and generalized 14-bit are not established.
 
@@ -20,8 +22,11 @@ verification; other coding profiles and generalized 14-bit are not established.
 - Keep contributed photographs unchanged. New media needs a creator's explicit
   open licence, an identity in a manifest and Git LFS. External media stays in the
   ignored corpus/external directory and must pass recorded SHA-256 checks.
-- Photographs in corpus/voshart-olympus are CC0. Code/docs are MIT OR Apache-2.0.
-  Preserve notices when importing permissively licensed source.
+- Photographs in corpus/voshart-olympus are CC0. Original code/authored docs are
+  offered under MIT OR Apache-2.0; this does not relicense third-party material or
+  settle provenance. See research/licensing-and-references.md. Preserve notices
+  when importing permissively licensed source. Do not erase exposure history or
+  present a new AI session or a restored checkpoint as proof of independence.
 - Before committing research/tools, run `python tools/verify_corpus.py --require-media`
   and compile-check the Python tools. Do not claim a reference comparison without
   recording its geometry, margins, differences, versions and output hash.

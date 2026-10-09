@@ -8,8 +8,14 @@ including both 81 MP files and every stored sensor margin.** This repository kee
 the unchanged CC0 corpus, measurements, provenance and replay tools; product code
 lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
 
-**Upstream submission:** [LightCraft PR #360, ready for review](https://github.com/storytold/lightcraft/pull/360).
-It awaits maintainer acceptance of the disclosed provenance and implementation scope.
+**Upstream submission:** [LightCraft PR #360](https://github.com/storytold/lightcraft/pull/360).
+A [reviewer has objected to the compressed decoder's provenance](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073438977),
+citing implementation similarity, source-derived prose exposure and LibRaw oracle use;
+the comment leaves the final decision to the maintainer. The [license/process clarification](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073712543)
+asks which requirement the pre-summary experiments fail. Numerical agreement is
+not clean-room approval. **MIT/Apache labels describe the offered terms for original
+repository material, not a certification of the decoder's provenance.** See
+[licensing scope and references](research/licensing-and-references.md).
 The accepted CFA/probe work from #277 is retained, and the contribution now includes
 13 pinned CC0 PIXLS.US files with complete sensor checksums and a required CI replay.
 This repository is a reusable research and validation hub; it does
@@ -31,10 +37,11 @@ not drop-in standalone modules. A future standalone crate should have a stable
 public API and reuse the same validation corpus. Keeping one product implementation
 while upstream review is in progress avoids diverging copies.
 
-The working path is independent measurements on original files, explicit
-competing hypotheses, review of the resulting format description, and a safe
-pure-Rust implementation. Vendor replies or a licence grant are not dependencies
-of that plan. The [compressed research protocol](research/compressed-next-experiment.md)
+The recorded process uses measurements on original files, explicit competing
+hypotheses, a separately installed binary LibRaw reference, review of the resulting
+format description, and a safe pure-Rust implementation. The upstream reviewer
+disputes whether this process meets LightCraft's provenance requirement; the
+acceptable path remains to be clarified. The [compressed research protocol](research/compressed-next-experiment.md)
 preserves the earlier experiments; the implementation account above describes the
 current result.
 
@@ -145,9 +152,20 @@ colour calibration and lens correction remain separate follow-up work.
 
 The contributed photographs are **CC0-1.0**, under
 [their dataset licence](corpus/voshart-olympus/LICENSE-CC0.txt). Code and research
-documentation are **MIT OR Apache-2.0**, except where a file explicitly says
-otherwise. External photographs retain their individually recorded licences;
-they are not relicensed by a software repository's licence.
+documentation authored for this repository are offered under **MIT OR Apache-2.0**,
+except where a file explicitly says otherwise. Those grants apply to contributors'
+original material; they do not relicense referenced software or certify that every
+codec rule meets LightCraft's clean-room policy. External photographs retain their
+individually recorded licences.
+
+The binary measurement reference uses **LibRaw (LGPL 2.1 OR CDDL 1.0)**. Later
+source-derived explanations also referred to **RawSpeed (LGPL 2.1)**. Neither
+project is MIT/Apache licensed. Their source is not bundled, and their license
+terms are separate from this repository's grants. Running a binary reference and
+incorporating covered code are different activities; neither the license label
+nor numerical agreement settles independent authorship. See the official license
+links, exposure timeline and unresolved review in
+[licensing scope and references](research/licensing-and-references.md).
 
 No Adobe assets, camera coefficient tables or rejected PR #240 decoder/encoder
 were used. Olympus compressed-decoder source pages were not opened. Later

@@ -53,6 +53,12 @@ for every repeat. The audit also checks header/full metadata equality.
 
 ## Optional binary reference
 
+LibRaw offers LGPL 2.1 OR CDDL 1.0; it is not covered by this repository's
+MIT/Apache grants. Binary measurements do not certify independent authorship,
+and the upstream review disputes the compressed decoder's provenance. See
+[licensing scope and references](../research/licensing-and-references.md) before
+reusing the evidence or describing the decoder as clean-room accepted.
+
 Download binary wheels only into the ignored research area. Do not build or
 inspect decoder source. The established measuring instrument is rawpy 0.27.1 /
 LibRaw 0.22.1, with NumPy 2.4.3. Exact Windows/CPython 3.13 wheel hashes are in

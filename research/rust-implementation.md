@@ -1,5 +1,11 @@
 # Reviewed compressed 12-bit Rust implementation
 
+This title refers to the recorded pre-implementation specification/arithmetic
+review by the same AI-assisted author. It does not mean upstream approval.
+A [subsequent reviewer objects to the compressed decoder's provenance](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073438977);
+the final maintainer decision remains pending. See
+[licensing scope and references](licensing-and-references.md).
+
 2026-10-08, LightCraft M11.3. The user authorized implementation after the measured
 specification package. The specification and arithmetic were reviewed in a separate
 document before writing new product compressed code. [The separate review](compressed-12bit-review.md)

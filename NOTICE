@@ -9,7 +9,17 @@ investigation in LightCraft, commit 6ccba8f, and extended for this repository.
 LightCraft: https://github.com/storytold/lightcraft
 Copyright (c) 2026 ArtCraft Team and the LightCraft contributors.
 Copyright (c) 2026 Rust-Olympus-RAW-decoder contributors.
-Code and research documentation: MIT OR Apache-2.0.
+Original code and authored research documentation are offered under MIT OR Apache-2.0.
+These grants do not relicense referenced third-party material or certify the
+compressed decoder's provenance. Product code lives in the linked LightCraft fork;
+its clean-room acceptance is disputed in PR #360 and awaits a maintainer decision.
+
+The optional binary measurement instrument uses LibRaw 0.22.1, whose published
+library licenses are LGPL 2.1 OR CDDL 1.0. Source-derived prose also referred to
+RawSpeed, whose repository identifies LGPL 2.1. Neither library is relicensed
+under this repository's MIT/Apache grants. Reference binaries and source-derived
+prose are not bundled. See research/licensing-and-references.md for official
+license links, the exposure record and the upstream discussion.
 
 External specimen sources and individual licences are in
 corpus/external-sources.json. The manifest contains identities and metadata;
