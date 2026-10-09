@@ -9,8 +9,10 @@ the unchanged CC0 corpus, measurements, provenance and replay tools; product cod
 lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
 
 **Upstream submission:** [LightCraft PR #360, ready for review](https://github.com/storytold/lightcraft/pull/360).
-It awaits provenance/scope review and reconciliation with the overlapping CFA/probe
-work in #277. This repository is a reusable research and validation hub; it does
+It awaits maintainer acceptance of the disclosed provenance and implementation scope.
+The accepted CFA/probe work from #277 is retained, and the contribution now includes
+13 pinned CC0 PIXLS.US files with complete sensor checksums and a required CI replay.
+This repository is a reusable research and validation hub; it does
 not currently publish a standalone Cargo crate or end-user RAW converter.
 
 ## Start here
@@ -18,7 +20,7 @@ not currently publish a standalone Cargo crate or end-user RAW converter.
 | Goal | Entry point |
 |---|---|
 | Understand the supported compressed format | [Measured 12-bit specification](research/compressed-12bit-measured.md) and [pre-implementation review](research/compressed-12bit-review.md) |
-| Read or integrate the Rust decoder | [Pinned codec source](https://github.com/voshart/lightcraft/blob/b0654b36ae5e4c84c874faded78d5c31164e6f81/crates/raw/src/vendor/olympus12.rs), [ORF container integration](https://github.com/voshart/lightcraft/blob/b0654b36ae5e4c84c874faded78d5c31164e6f81/crates/raw/src/vendor/orf.rs), and [implementation scope](research/rust-implementation.md) |
+| Read or integrate the Rust decoder | [Pinned codec source](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/olympus12.rs), [ORF container integration](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/orf.rs), and [implementation scope](research/rust-implementation.md) |
 | Reproduce the 17 complete sensor comparisons | [Build and replay instructions](tools/README.md#reproduce-the-published-rust-validation) and [recorded results](research/results/rust-compressed-full-frame.json) |
 | Reuse openly licensed photographs | [Download instructions below](#get-and-verify-the-photographs), [creator manifest](corpus/user-images.json), and [external manifest](corpus/external-sources.json) |
 | Review origin and performance evidence | [Exposure/provenance history](research/orf12-provenance.md) and [release timings/method](research/rust-implementation.md#release-decoding-comparison) |
