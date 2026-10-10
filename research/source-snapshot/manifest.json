@@ -1,0 +1,17 @@
+{
+  "source_repository": "https://github.com/voshart/lightcraft",
+  "commit": "b350683bd9a8194ed626c38bb1dfda3b9d3a4ef6",
+  "files": [
+    {
+      "original_path": "crates/raw/src/vendor/olympus12.rs",
+      "snapshot_path": "research/source-snapshot/olympus12.rs",
+      "sha256": "f4f6733b421029e5f7015049d229b13b9ce98e41ccf93f3f34393b18f500a16f"
+    },
+    {
+      "original_path": "crates/raw/src/vendor/orf.rs",
+      "snapshot_path": "research/source-snapshot/orf.rs",
+      "sha256": "e0bb9f6ae48cb076893f5747415820d757afa94caeec6ccde62e396e1084c549"
+    }
+  ],
+  "hash_scope": "Exact original committed Git source bytes (LF); not platform-specific worktree line endings."
+}

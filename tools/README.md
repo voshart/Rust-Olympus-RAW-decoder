@@ -18,7 +18,15 @@ excludes GPS, serials, embedded names and timestamps, but contains filenames and
 raw strip prefixes. The published corpus contains the unchanged camera originals,
 including their own metadata.
 
+## Reproduce with this repository
+
+Use the [standalone Rust build and full-sensor replay](../research/standalone-rust.md#build-and-reproduce).
+It builds the decoder and tests stored here, without a LightCraft checkout.
+
 ## Reproduce the published Rust validation
+
+The instructions below preserve the original LightCraft-based validation method
+and pinned historical source. They are optional historical reproduction steps.
 
 Prerequisites: Python 3.10+, Git LFS for the creator photographs, Rust/Cargo
 1.90+ and a native linker. Start in this corpus checkout after the README's
@@ -87,7 +95,8 @@ cargo run -p lightcraft-raw --example orf_audit -- --sensor-dir plan/orf-researc
 ```
 
 It checks header/full metadata agreement and optionally writes full-sensor
-little-endian u16 dumps. That Rust implementation is not duplicated here.
+little-endian u16 dumps. The original integration remains documented here; the standalone decoder is now
+stored in this repository.
 This repository specifies container metadata, observed packed layouts and the
 [measured compressed 12-bit profile](../research/compressed-12bit-measured.md).
 The [product implementation account](../research/rust-implementation.md) records

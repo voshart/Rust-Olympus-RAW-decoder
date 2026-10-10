@@ -39,9 +39,9 @@ are disclosed in the [provenance timeline](orf12-provenance.md). Decoder source
 pages were not opened according to that record. This does not certify an AI
 model's training data or resolve [the upstream provenance objection](licensing-and-references.md).
 
-[Replay instructions](../tools/README.md#reproduce-the-published-rust-validation)
-build the pinned Rust audit example from the LightCraft fork and compare output
-with published hashes, without installing LibRaw. Fresh oracle measurements need
-the separately installed reference runtime. The decoder and product tests live
-in LightCraft; full sensor dumps, private prose inputs and runtime binaries are
-not tracked here. Preserve the linked source alongside this research archive.
+[Standalone replay instructions](standalone-rust.md#build-and-reproduce) build the
+Rust decoder stored here and compare output with published hashes, without
+LightCraft or LibRaw installed. Fresh oracle measurements need the separately
+installed reference runtime. Full sensor dumps, private prose inputs and runtime
+binaries are not tracked here. The original LightCraft integration is also
+preserved in [the source snapshot](source-snapshot/manifest.json).

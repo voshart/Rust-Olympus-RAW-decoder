@@ -10,9 +10,9 @@ An openly licensed Olympus/OM System sample corpus, measured format specificatio
 and reproducible validation package for a safe pure-Rust ORF decoder.
 **The measured compressed 12-bit profile now has a safe pure-Rust implementation
 in LightCraft. It matches seventeen complete reference rasters: 434,555,200 samples,
-including both 81 MP files and every stored sensor margin.** This repository keeps
-the unchanged CC0 corpus, measurements, provenance and replay tools; product code
-lives in the linked LightCraft branch. Generalized 14-bit decoding remains unverified.
+including both 81 MP files and every stored sensor margin.** This repository contains the standalone `olympus-raw` Rust crate, its local TIFF
+support, the unchanged CC0 corpus, measurements, provenance and replay tools.
+No LightCraft checkout is required. Generalized 14-bit decoding remains unverified.
 
 **Upstream submission:** [LightCraft PR #360](https://github.com/storytold/lightcraft/pull/360).
 A [reviewer has objected to the compressed decoder's provenance](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073438977),
@@ -24,24 +24,34 @@ repository material, not a certification of the decoder's provenance.** See
 [licensing scope and references](research/licensing-and-references.md).
 The accepted CFA/probe work from #277 is retained, and the contribution now includes
 13 pinned CC0 PIXLS.US files with complete sensor checksums and a required CI replay.
-This repository is a reusable research and validation hub; it does
-not currently publish a standalone Cargo crate or end-user RAW converter.
+The standalone crate returns uncorrected sensor data for other Rust applications;
+its [build, API and replay guide](research/standalone-rust.md) describes the measured
+scope and limits. It is not a complete photo editor or colour-rendering pipeline.
 
 ## Start here
 
 | Goal | Entry point |
 |---|---|
 | Understand the supported compressed format | [Measured 12-bit specification](research/compressed-12bit-measured.md) and [pre-implementation review](research/compressed-12bit-review.md) |
-| Read or integrate the Rust decoder | [Pinned codec source](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/olympus12.rs), [ORF container integration](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/orf.rs), and [implementation scope](research/rust-implementation.md) |
-| Reproduce the 17 complete sensor comparisons | [Build and replay instructions](tools/README.md#reproduce-the-published-rust-validation) and [recorded results](research/results/rust-compressed-full-frame.json) |
+| Read the original LightCraft implementation | [Pinned codec source](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/olympus12.rs), [ORF container integration](https://github.com/voshart/lightcraft/blob/be241c9ac73beab2d82a3368c4248f956df71965/crates/raw/src/vendor/orf.rs), and [implementation scope](research/rust-implementation.md) |
+| Reproduce the 17 complete sensor comparisons | [Standalone build and replay instructions](research/standalone-rust.md#build-and-reproduce) and [recorded results](research/results/rust-compressed-full-frame.json) |
 | Reuse openly licensed photographs | [Download instructions below](#get-and-verify-the-photographs), [creator manifest](corpus/user-images.json), and [external manifest](corpus/external-sources.json) |
 | Review origin and performance evidence | [Exposure/provenance history](research/orf12-provenance.md) and [release timings/method](research/rust-implementation.md#release-decoding-comparison) |
 
-The decoder currently lives inside `lightcraft-raw` and uses that crate's error,
-metadata and image types. The source links above are implementation references,
-not drop-in standalone modules. A future standalone crate should have a stable
-public API and reuse the same validation corpus. Keeping one product implementation
-while upstream review is in progress avoids diverging copies.
+## Use the Rust decoder
+
+```sh
+cargo test --workspace
+cargo run --release --example decode -- input.orf output.u16le
+```
+
+Other Rust applications can depend on this checkout as `olympus-raw` and call
+`decode_orf(&bytes)`. See [standalone Rust usage and reproduction](research/standalone-rust.md).
+The [compressed reader](src/compressed.rs), [container API](src/lib.rs),
+[padded unpacker](src/packed.rs) and [full-sensor replay tests](tests/corpus.rs)
+are stored here. The original LightCraft sources are preserved in
+[the historical source snapshot](research/source-snapshot/manifest.json).
+The existing LightCraft PR remains a separate integration contribution.
 
 The recorded process uses measurements on original files, explicit competing
 hypotheses, a separately installed binary LibRaw reference, review of the resulting

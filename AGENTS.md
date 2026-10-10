@@ -3,8 +3,9 @@
 This is an ORF research/corpus project aiming to support an independently derived,
 permissively licensed pure-Rust decoder. The compressed decoder's provenance is
 disputed upstream; do not describe it as certified clean-room or accepted.
-Product compressed 12-bit code lives in LightCraft; this repository
-contains corpus, research and replay tools. Keep the README honest about scope and
+This repository contains the standalone Rust decoder, local TIFF support,
+corpus, research and replay tools. Preserve the original LightCraft submission
+and worktrees; the standalone crate does not require that checkout. Keep the README honest about scope and
 verification; other coding profiles and generalized 14-bit are not established.
 
 - Never read or copy GPL/LGPL/AGPL raw-decoder source or reconstruct it from memory.
@@ -31,6 +32,9 @@ verification; other coding profiles and generalized 14-bit are not established.
   and compile-check the Python tools. Do not claim a reference comparison without
   recording its geometry, margins, differences, versions and output hash.
 - LightCraft has its own worktree, never-commit-media rule, CI and parity tracker.
-  Keep product changes there; a corpus contribution does not land a product PR.
+  Keep LightCraft integration changes there; the standalone decoder lives here.
+  Run cargo fmt --all --check, cargo clippy --workspace --all-targets -- -D warnings
+  and cargo test --workspace before committing Rust changes. Run the explicit
+  full-sensor corpus tests when changing decoding or container selection.
 
 End commit messages with `Generated with Codex.` when applicable.

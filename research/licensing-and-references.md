@@ -15,7 +15,7 @@ relicensed merely by appearing in a reference or a repository manifest.
 | External photographs | Individually recorded licenses | See [external-sources.json](../corpus/external-sources.json); the software license does not replace those terms. |
 | LibRaw, used through an optional separately installed binary instrument | LGPL 2.1 OR CDDL 1.0 | LibRaw's library licenses; the user may choose either. The library and reference arrays are not bundled. |
 | RawSpeed, referenced by later source-derived prose | LGPL 2.1 | The upstream library's terms. It is not a repository dependency or bundled source. |
-| Product Rust decoder | Offered in the linked LightCraft fork | Its implementation and provenance are under upstream review; this research repository does not publish a standalone Cargo decoder. |
+| Rust decoder and local TIFF support | MIT OR Apache-2.0, with preserved contributor notices | Standalone source is included here; see [extraction history](standalone-rust.md). Its provenance remains under upstream review. |
 
 ## Official third-party license references
 

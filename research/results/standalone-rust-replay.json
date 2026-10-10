@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "method": "cargo test --release --offline --test corpus -- --ignored --nocapture",
+  "reference": "Historical LibRaw/rawpy complete-sensor hashes in compressed-full-frame-summary.json, user-packed12-reference.json and public-packed12-reference.json; no fresh oracle run.",
+  "compressed": {
+    "rasters": 17,
+    "samples": 434555200,
+    "all_complete_sensor_hashes_match": true
+  },
+  "padded": {
+    "rasters": 2,
+    "samples": 128657920,
+    "all_complete_sensor_hashes_match": true
+  },
+  "geometry_and_cfa_match": true,
+  "recorded_active_crops_match": true,
+  "ordinary_workspace_tests": 31,
+  "strict_clippy_passed": true,
+  "source_sha256": {
+    "src/lib.rs": "1324def27ff8e05138b231e9fa22877e7d77699032e9375493fef30658fc717e",
+    "src/compressed.rs": "f2263d52e179dad501e1770a62e6833d16f51d48feb1d04827ded1fcab29ae57",
+    "src/packed.rs": "430c2650bf5b9586017ffe1f8c1e754302ce2a19746642dd8e07af57638dedfe",
+    "tests/corpus.rs": "3220916d5a3874d7122390c9d5fdc83c23da741e1eb15bee391bfe27fbdc31a3",
+    "Cargo.lock": "3baa96a971953253f87954a7acc4a7b3b7cdbb426170a5b8fdd0d7ce16960ff9"
+  },
+  "limits": "Finite recorded specimen coverage. No colour-calibration, performance or clean-room acceptance claim."
+}

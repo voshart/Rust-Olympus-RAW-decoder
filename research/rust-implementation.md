@@ -1,5 +1,9 @@
 # Reviewed compressed 12-bit Rust implementation
 
+**Historical implementation account.** The standalone extraction now lives in
+this repository; see [its API, source history and replay guide](standalone-rust.md).
+The LightCraft commits, timings and validation below describe the original work.
+
 This title refers to the recorded pre-implementation specification/arithmetic
 review by the same AI-assisted author. It does not mean upstream approval.
 A [subsequent reviewer objects to the compressed decoder's provenance](https://github.com/storytold/lightcraft/pull/360#issuecomment-6073438977);

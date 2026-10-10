@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/voshart/lightcraft",
+  "commit": "b350683bd9a8194ed626c38bb1dfda3b9d3a4ef6",
+  "license": "MIT OR Apache-2.0",
+  "copyright": "2026 ArtCraft Team and LightCraft contributors",
+  "changes": "Local package manifest/name, test imports and formatting; algorithm unchanged.",
+  "original_sha256": {
+    "src/image.rs": "6455350cb89f1fb0cae443804fb39b60b3806614b7b61e3eed6f63a3d8ba209b",
+    "src/lib.rs": "c12832bb82299a5ea96963a46196a67ce7ffe2de91381cb3b89de6e4d32e7f1e",
+    "src/makernote.rs": "183bd46f151f0b0163263e22cb7caca4706dc7a7e0a906e2c40462baa62572b5",
+    "src/reader.rs": "1a05189578f2b2977360152d4ff26dca521366b4ead173de652db7169bd860c0",
+    "src/tags.rs": "79b422269a69dcb857e41985db909f4c11bce8b3932e1001b10946063ef57890",
+    "src/writer.rs": "76f33c0325df37eeb061919bab433c71ca3f7d02fc8c2f7f0c9cd9857027143d",
+    "tests/roundtrip.rs": "4892e78fa6d782e268184ed26ecdd9767f694e5a9de58d01eeb168ae037626b3"
+  },
+  "hash_scope": "Original committed Git source bytes (LF)."
+}

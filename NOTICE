@@ -11,8 +11,13 @@ Copyright (c) 2026 ArtCraft Team and the LightCraft contributors.
 Copyright (c) 2026 Rust-Olympus-RAW-decoder contributors.
 Original code and authored research documentation are offered under MIT OR Apache-2.0.
 These grants do not relicense referenced third-party material or certify the
-compressed decoder's provenance. Product code lives in the linked LightCraft fork;
-its clean-room acceptance is disputed in PR #360 and awaits a maintainer decision.
+compressed decoder's provenance. The standalone decoder and vendored TIFF support
+were extracted from LightCraft contribution commit
+b350683bd9a8194ed626c38bb1dfda3b9d3a4ef6. Original integration source identities are
+in research/source-snapshot/manifest.json; extraction changes are described in
+research/standalone-rust.md. Vendored TIFF support retains its MIT/Apache licence
+texts. The source originated in LightCraft, but building this repository does not
+require LightCraft. Its clean-room acceptance remains disputed in PR #360.
 
 The optional binary measurement instrument uses LibRaw 0.22.1, whose published
 library licenses are LGPL 2.1 OR CDDL 1.0. Source-derived prose also referred to

@@ -1,0 +1,26 @@
+[package]
+name = "olympus-raw"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+license = "MIT OR Apache-2.0"
+description = "Measured Olympus ORF sensor decoding and reproducible research"
+repository = "https://github.com/voshart/Rust-Olympus-RAW-decoder"
+
+[workspace]
+members = ["vendor/olympus-tiff"]
+resolver = "3"
+
+[dependencies]
+olympus-tiff = { path = "vendor/olympus-tiff", version = "0.1.0" }
+
+[dev-dependencies]
+proptest = "1"
+serde_json = "1"
+sha2 = "0.10"
+
+[profile.dev]
+debug = 0
+
+[profile.test]
+debug = 0

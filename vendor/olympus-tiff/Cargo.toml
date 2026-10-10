@@ -1,0 +1,14 @@
+[package]
+name = "olympus-tiff"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+license = "MIT OR Apache-2.0"
+description = "Locally preserved TIFF support for Olympus RAW research"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
+
+[dev-dependencies]
+proptest = "1"
