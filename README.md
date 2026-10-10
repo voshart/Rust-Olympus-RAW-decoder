@@ -1,5 +1,11 @@
 # Rust Olympus RAW decoder
 
+**How was it done?** Start with [the investigation guide](research/how-it-was-done.md):
+LibRaw used as a binary oracle, creator-owned and individually verified CC0
+photographs, competing hypotheses and failed experiments, the exposure timeline,
+and complete-sensor validation. No Adobe code is recorded as an input. The guide
+also identifies the non-CC0 sample lead that was rejected and never used.
+
 An openly licensed Olympus/OM System sample corpus, measured format specification,
 and reproducible validation package for a safe pure-Rust ORF decoder.
 **The measured compressed 12-bit profile now has a safe pure-Rust implementation
